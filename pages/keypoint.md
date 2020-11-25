@@ -2,6 +2,7 @@
 title: keypoint
 published: true
 permalink: keypoint
+public: true
 ---
 
 ## [[D2-Net]]
