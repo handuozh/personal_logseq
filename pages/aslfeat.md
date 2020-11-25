@@ -55,8 +55,7 @@ with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
 
 ### WIth additional estimate of shearing, as a learnable problem by [AffNet](AffNet.md):
 #### ^^(4)^^              $$  \begin{aligned} \mathbf{A} = & \mathbf{S}A^{\prime}=\lambda R(\theta)A^{\prime} \\= & \lambda \left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array} \right) \left( \begin{array}{cc}a_{11}^{\prime} & 0 \\ a_{21}^{\prime} & a_{22}^\prime   \end{array} \right)\end{aligned} $$
-where $$ det(A^{\prime})=1 $$. The network predict one scalar for scaling, two for rotation and other three for shearing ($$ A^{\prime} $$).
-
+where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for rotation and other three for shearing ($A^{\prime}$).
 ### Homography-constrained DCN
 #### TODO To read this part  
 
