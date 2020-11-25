@@ -58,8 +58,7 @@ permalink: gcnv2
 #### [[Triplet loss]] for binarized feature
 ##### (2)   $$L_{feat}=\sum\limits_i \max\left(0,d(\mathbf{x}_i^{cur},\mathbf{x}_{i,+}^{tar})-d(\mathbf{x}_i^{cur},\mathbf{x}_{i,-}^{tar})+m\right)$$
         $$d(\mathbf{x}^{cur},\mathbf{x}^{tar})=||\mathbf{b}^{cur}(\mathbf{x}^{cur})-\mathbf{b}^{tar}(\mathbf{x}^{tar})||_2$$
-where $$m$$ is the distance margin for truncation, $$d(\cdot,\cdot)$$ is the squared [[Hamming Distance]] for binarized features, which is faster and better convergence.
-
+where $m$ is the distance margin for truncation, $d(\cdot,\cdot)$ is the squared [[Hamming Distance]] for binarized features, which is faster and better convergence.
 ##### $$(\mathbf{x}_i^{cur},\mathbf{x}_{i,+}^{tar})$$ is a matching pair with GT camera poses from the training data:
 ###### $$\mathbf{x}_{i,+}^{tar}=\mathbf{\pi}^{-1}\left(\mathbf{R}_{gt}\mathbf{\pi}(\mathbf{x}_i^{cur},z_i)+\mathbf{t}_{gt}\right)$$
 where $$\mathbf{\pi}$$ unproject a pixel from image plane to 3D place using the given 2D coordinates $$\mathbf{x}_i^{cur}$$ and depth $$z_i$$.
