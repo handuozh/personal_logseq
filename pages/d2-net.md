@@ -1,7 +1,7 @@
 ---
 title: D2-Net
 public: true
-published: false
+published: true
 permalink: d2-net
 ---
 
