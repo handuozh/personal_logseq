@@ -28,8 +28,7 @@ permalink: d2-net
 ## 1. Feature Description
 ### Interpretatioin of feature 3D tensor $F$ is a dense set $\mathbf{d}$:
 #### (1)    $$ \mathbf{d}_{ij} = F_{ij}, \mathbf{d} \in {\mathbb{R}^n}$$
-where $$ n $$ is channel size, $$ i=1,\cdots, h $$, $$ j=1,\cdots,w $$  
-
+where $n$ is channel size, $i=1,\cdots, h$, $j=1,\cdots,w$
 ### Compare using [[L2-norm]]
 
 ## 2. Feature Detection
