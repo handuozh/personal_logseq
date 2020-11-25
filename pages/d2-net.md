@@ -35,8 +35,7 @@ where $n$ is channel size, $i=1,\cdots, h$, $j=1,\cdots,w$
 ### Collection of 2D responses $D$ from 3D tensor $F$ :
 #### (2)   $$D^k=F_{: :k},   \; D^k \in{\mathbb{R}^{h\times w}}$$
 
-#### where $$ n $$ is channel size, $$ k==1,\cdots,n $$  
-
+#### where $n$ is channel size, $k==1,\cdots,n$
 ### 2.1 Hard Feature Detection
 #### For a point $$ (i,j) $$ to be detected, we need:$$$$
 ##### (3)      $$ (i,j) $$ is a detection $$ \Longleftrightarrow D_{ij}^k $$ is a local max in $$ D^k $$
