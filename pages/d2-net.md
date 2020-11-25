@@ -1,6 +1,8 @@
 ---
 title: D2-Net
 public: true
+published: true
+permalink: d2-net
 ---
 
 ## Meta Data
