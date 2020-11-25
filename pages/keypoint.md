@@ -1,5 +1,7 @@
 ---
 title: keypoint
+published: true
+permalink: keypoint
 ---
 
 ## [[D2-Net]]
