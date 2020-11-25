@@ -19,8 +19,7 @@ title: D2-Net
 
 ## [[Detection-and-describe]]  paradigm
 ### Compare two paradigms
-![https://remnote-user-data.s3.amazonaws.com/9fLcaaEHF93T7XMf6h9zTACHMAqDIGaPhZ4_giEAAXE9_ddPlTjg--DrL21MB6i9jvK3bJ9hP0nJ06MwOsoINiQMsnhGzy16uUtaLDVJFHfYYNE5xp-6C9oqOYbnMwdH](https://remnote-user-data.s3.amazonaws.com/9fLcaaEHF93T7XMf6h9zTACHMAqDIGaPhZ4_giEAAXE9_ddPlTjg--DrL21MB6i9jvK3bJ9hP0nJ06MwOsoINiQMsnhGzy16uUtaLDVJFHfYYNE5xp-6C9oqOYbnMwdH)  
-
+[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_25_compair_two_paradigms.png?Expires=4759878442&Signature=PiQEPrEH67zjnYttENAuUb73AMKxr5T7y2T8b8taVom1xm85nxQ76L3qGpW1an6YWcMzZIUaOcIjgOW0DTbSuTTnm-UxmM0Sif2tC7XQ4K8NzZz3ZbxbTBFv6J22knQanPOt3P96h9tRlVqLfeRZrQiWnm~l03FFftV9pavgu5kx7BC8MYPS-woBXYccqdBI4jkBaF4RfOS6igUGSWbN0QWw4Kk5zCxhHa1rMYoqeS3N8bSJZBQeUMy54MvSoknSIRPOfwll4e7FFYeoi~a900U7PHVRcIEzJ5MDG~Fc38K2Y7k8gawqNTDdVfCR0sNmp9tLJpuGUoWjiP1l0pXWOg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_25_compair_two_paradigms.png]]
 ## In the paper both detector and descriptor share the underlying representation, as shown below: 
 ![https://remnote-user-data.s3.amazonaws.com/seSpWmYsDTI-0ZXFmMri4soNBrZ6fyVocu2YGf9kqyjFAKHKCrg56WBNzky9ss8f-X680dHJSnyamzf_lK5EzkJBylMqw3rQl9fzs-GBNShbC8RMscMu6N3i-XwkZan5](https://remnote-user-data.s3.amazonaws.com/seSpWmYsDTI-0ZXFmMri4soNBrZ6fyVocu2YGf9kqyjFAKHKCrg56WBNzky9ss8f-X680dHJSnyamzf_lK5EzkJBylMqw3rQl9fzs-GBNShbC8RMscMu6N3i-XwkZan5)  
 
