@@ -2,6 +2,7 @@
 title: ASLFeat
 published: true
 permalink: aslfeat
+public: true
 ---
 
 ## Meta Data
