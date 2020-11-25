@@ -1,6 +1,8 @@
 ---
 title: GCNv2
 public: true
+published: true
+permalink: gcnv2
 ---
 
 ## {DONE}} Note not finished!
