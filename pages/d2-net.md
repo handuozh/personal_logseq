@@ -1,5 +1,6 @@
 ---
 title: D2-Net
+public: true
 ---
 
 ## Meta Data

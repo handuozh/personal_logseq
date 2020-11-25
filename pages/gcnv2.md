@@ -1,5 +1,6 @@
 ---
 title: GCNv2
+public: true
 ---
 
 ## {DONE}} Note not finished!
