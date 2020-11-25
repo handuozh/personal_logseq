@@ -38,9 +38,8 @@ where $n$ is channel size, $i=1,\cdots, h$, $j=1,\cdots,w$
 #### where $n$ is channel size, $k==1,\cdots,n$
 ### 2.1 Hard Feature Detection
 #### For a point $(i,j)$ to be detected, we need:
-##### (3)      $$ (i,j) $$ is a detection $$ \Longleftrightarrow D_{ij}^k $$ is a local max in $$ D^k $$
- with $$ k=\argmax\limits_t D_{ij}^t $$  
-
+##### (3)      $(i,j) is a detection $\Longleftrightarrow D_{ij}^k$ is a local max in $D^k$
+ with $k=\argmax\limits_t D_{ij}^t$
 ### 2.2 Soft Feature Detection
 #### Amenable for back propagation.
 
