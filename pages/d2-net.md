@@ -32,7 +32,7 @@ where $n$ is channel size, $i=1,\cdots, h$, $j=1,\cdots,w$
 ### Compare using [[L2-norm]]
 
 ## 2. Feature Detection
-### Collection of 2D responses $$ D $$ from 3D tensor $$ F $$ :
+### Collection of 2D responses $D$ from 3D tensor $F$ :
 #### (2)   $$D^k=F_{: :k},   \; D^k \in{\mathbb{R}^{h\times w}}$$
 
 #### where $$ n $$ is channel size, $$ k==1,\cdots,n $$  
