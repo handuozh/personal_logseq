@@ -44,7 +44,7 @@ permalink: aslfeat
 ## 1. Prerequisites
 ### Output features $\mathbf{y}$ of a standard convolution for each spatial position $\mathbf{p}$ is:
 #### ^^(1)^^                 $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in\mathcal{R}} w(\mathbf{p}_n)\cdot\mathbf{x(p+p_n)} $$, 
-given regular grid $\mathcal{R}$ sampling over input feature map $ \mathbf{x}.$
+given regular grid $\mathcal{R}$ sampling over input feature map $\mathbf{x}.$
 ### DCN augments the regular convolution by additionally learning both sampling offsets $\{\Delta\mathbf{p}_n|n=1,\cdots,N\}$ and feature amplitudes $\{\Delta\mathbf{m}_n|n=1,\cdots,N\}$, where $ N=|\mathcal{R}|$, and rewrite Eq. (1) as:
 #### ^^(2)^^                   $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in{\mathcal{R}}}w(\mathbf{p}_n)\cdot \mathbf{x(p+p_n}+\Delta\mathbf{p_n})\cdot\Delta\mathbf{m}_n $$  
 with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
