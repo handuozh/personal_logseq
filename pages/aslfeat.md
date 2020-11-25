@@ -70,7 +70,7 @@ where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $ (i,j)$.
 ##### Define a soft channel selection to compute a [Ratio-to-max](Ratio-to-max.md) per descriptor that emulates channel-wise non-maximum suppression:
 ###### (5)            $$ \beta_{ij}^k = D_{ij}^k/\max\limits_t D_{ij}^t $$  
 
-##### Together we maximize the product of both scores across all feature maps $$ k $$ to obtain single score map:
+##### Together we maximize the product of both scores across all feature maps $k$ to obtain single score map:
 ###### (6)            $$ \gamma_{ij}=\max\limits_k (\alpha_{ij}^k \beta_{ij}^k $$)
 
 ##### Image-level normalization:
