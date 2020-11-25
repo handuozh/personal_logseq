@@ -42,7 +42,7 @@ permalink: aslfeat
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FaeNGx2iSyq.png?alt=media&token=5b050b88-2111-4dc9-81c0-d892ca64f1f8)
 
 ## 1. Prerequisites
-### Output features $$ \mathbf{y} $$ of a standard convolution for each spatial position $$ \mathbf{p} $$ is:
+### Output features $\mathbf{y}$ of a standard convolution for each spatial position $\mathbf{p}$ is:
 #### ^^(1)^^                 $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in\mathcal{R}} w(\mathbf{p}_n)\cdot\mathbf{x(p+p_n)} $$, 
 given regular grid $$ \mathcal{R} $$ sampling over input feature map $$ \mathbf{x}. $$  
 
