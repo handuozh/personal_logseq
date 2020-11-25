@@ -63,7 +63,7 @@ where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for r
 
 ## 3. Selective and Accurate Keypoint Detection
 ### Refer to original [[D2-Net]]:
-#### Section ((9fc5ca2a-b8c8-454c-93ca-c1bce415bb72))
+#### Section
 ##### Amenable for back propagation.
 
 ##### Define a soft local-max score
