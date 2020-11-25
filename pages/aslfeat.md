@@ -68,7 +68,7 @@ where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for r
 
 ##### Define a soft local-max score
 ###### (4)            $$ \alpha_{ij}^k=\exp(D_{ij}^k)/\sum_{(i^{\prime},j^{\prime})\in\mathcal{N}(i,j)} \exp(D_{i'j'}^k) $$
-where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $ (i,j)$.
+where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $(i,j)$.
 ##### Define a soft channel selection to compute a [Ratio-to-max](Ratio-to-max.md) per descriptor that emulates channel-wise non-maximum suppression:
 ###### (5)            $$ \beta_{ij}^k = D_{ij}^k/\max\limits_t D_{ij}^t $$  
 
