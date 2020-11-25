@@ -1,5 +1,7 @@
 ---
 title: ASLFeat
+published: true
+permalink: aslfeat
 ---
 
 ## Meta Data
@@ -85,4 +87,4 @@ where softplus activates the peakiness to a positive value.
 
 #### Similarly, for Eq. (4) we rewrite:
 
-#### ^^(6)^^             $$ \alpha_{ij}^c=\text{softplus}\left(\mathbf{y}_{ij}^c-\frac{1}{|\mathcal{N}(i,j)|}\sum\limits_{(i',j')\in\mathcal{N}(i,j)}\mathbf{y}_{i'j'}^c \right) $$  
+#### ^^(6)^^             $$ \alpha_{ij}^c=\text{softplus}\left(\mathbf{y}_{ij}^c-\frac{1}{|\mathcal{N}(i,j)|}\sum\limits_{(i',j')\in\mathcal{N}(i,j)}\mathbf{y}_{i'j'}^c \right) $$
