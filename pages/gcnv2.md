@@ -5,9 +5,9 @@ published: true
 permalink: gcnv2
 ---
 
-## LATER Note not finished!
+## DONE Note not finished!
 :PROPERTIES:
-:done: 1606375363456
+:done: 1606375371048
 :later: 1606375366177
 :END:
 ## Meta Data
@@ -15,7 +15,7 @@ permalink: gcnv2
 ### #topic #Keypoint [[Detect-then-describe]] #Efficient #[[Binary Descriptors]]
 
 ## Abstract
-### GCNv2 predicts both keypoints (probability map) and descriptors (dense feature map $\mathbf{f}).
+### GCNv2 predicts both keypoints (probability map) and descriptors (dense feature map $\mathbf{f}$).
 ### Inspired by GCN and [[Superpoint]] [[Superpoint]]
 #### Perform predictions at low resolution
 
