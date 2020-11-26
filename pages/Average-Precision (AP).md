@@ -16,7 +16,9 @@
 ### 2) [[Descriptor Extraction]]
 ### 3) [[Descriptor-Matching]]::
 #### Compute pairwise distance matrix with $$ M^2 $$ entries.
-
+:PROPERTIES:
+:id: 5fbf59b6-8148-4ff9-8d56-d9916c2c9189
+:END:
 #### For each feature in $$ I_1 $$ looks for nearest neighbor in $$ I_2 $$ and ^^vice versa^^.
 
 #### Feature pairs that are mutual nearest neighbors are candidate matches.
