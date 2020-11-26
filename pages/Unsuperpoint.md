@@ -72,9 +72,8 @@ title: Unsuperpoint
 
 #### Only predicting a single point for each $$ 8\times 8 $$ area adds functionality similar to [[NMS]]. On top of [[NMS]], it removes closely clustered points and interest points are more ^^homogeneously distributed^^.  
 
-### For small input of image $$ 24\times 24 $$:![](https://remnote-user-data.s3.amazonaws.com/s2JMQz5x4BbtZgDszuKM32ePBhWfm5X-N297zDen_5XNrTll-b8OZ5AaT13AnQA25VcQpARCP5YHpa4FIDO68I0HvsTQNYJu_vmpEKIEJhmkofh6xJ73-v9z1lTVR4wm)  
-			
-
+### For small input of image $$ 24\times 24 $$:
+[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_grid.png?Expires=4759984417&Signature=ItXmeb6PpWwESsbdV8iLAq4vJq-I17pIcZYWI4PRnEac4ZAqdqvNjCVTh3obbhoC2rGKQ3bbxP22xj6~IEVThb1g0wDfVhKi5WjOQ9cJbPVgqbp3hSuNchf~PjHWPJrgrXJmkBGMKOL~F-IqVmbujzHzcgWCMueDIxDElTvql8yNjBB-h1jlbFWtjBhmiyi~zzOA0PrquHCVbG8AIjElu4zg4Mw9X0OdhNnwD8CXaZRfP2zIL8qfPe1z11Azn46VIKETKkYkVB2lG7ftT1lY3MnikmAKxgLOHlIMYwCcWzxMq4G4K8IjuUsG4PkoV~h7T83kN4wJ-4zHKuMXj5A9fA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_grid.png]]
 ### Then $$ \mathbf{P}_{relative} $$ is transformed to image pixel coordinate $$ \mathbf{P}_{map} $$ by multiplying with downsampling factor $$ f_{down}=8 $$.  
 		
 
