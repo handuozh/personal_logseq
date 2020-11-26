@@ -54,8 +54,7 @@ permalink: gcnv2
 #### Add a hard sign function non-linearity as a binary activation layer on top of final output
 
 #### Make it ^^differentiable^^
-##### Straight-through estimator:: Indicator of the hard sign function for backpropagating the gradients. It approximates binarization during backpropagation and avoids over-penalization to feature responses already passed the decision boundary by 1.
-
+##### **Straight-through estimator**:: Indicator of the hard sign function for backpropagating the gradients. It approximates binarization during backpropagation and avoids over-penalization to feature responses already passed the decision boundary by 1.
 ##### 
 
 ### Nested [[metric-learning]]
