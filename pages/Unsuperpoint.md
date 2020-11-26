@@ -100,6 +100,9 @@ public: true
 #### Branch A (blue) is a non-wrapped version of the input image
 
 #### Whereas branch B (red) is a wrapped version of the input image.
+:PROPERTIES:
+:id: 5fbf7cce-8da7-48ce-880f-5565d06351ba
+:END:
 ##### The image in branch B is spatially transformed by a random homography $$ T $$ (^^rotation, scale, skew and perspective transforms^^). 
 
 ### The image for each branch is transformed by independent random non-spatial image augmentations such as ^^brightness and noise^^.
