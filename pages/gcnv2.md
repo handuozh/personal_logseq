@@ -50,8 +50,7 @@ permalink: gcnv2
 
 #### [[pixel-shuffle]] keypoint probability map $$\mathbf{o}$$ at original resolution
 ### Binarized Descriptor
-#### To accelerate, and to match [[ORB]]: feature vector $$\mathbf{b}$$ set to 256
-
+#### To accelerate, and to match [[ORB]]: feature vector $\mathbf{b}$ set to 256
 #### Add a hard sign function non-linearity as a binary activation layer on top of final output
 
 #### Make it ^^differentiable^^
