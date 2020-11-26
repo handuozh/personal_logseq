@@ -73,6 +73,9 @@ where $$\mathbf{\pi}$$ unproject a pixel from image plane to 3D place using the 
 ####### Relaxed criteria:: Increase the tolerance to potentially noisy data.
 
 ## 3. Distributed Keypoint Detector
+:PROPERTIES:
+:heading: true
+:END:
 ### Treat keypoint detection as a binary classification problem.
 
 ### The target of the probability map $$o$$ is a mask with 1 and 0
