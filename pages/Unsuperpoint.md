@@ -226,7 +226,6 @@ $\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 
 ##### Only point-pairs with distances below $$ \rho $$are included in the calculation. Like [[Repeatability Score]], the localization error is the average error of corresponding points calculated in both camera views.
 #### **Homography Estimation Procedure**		
-##### ![](https://remnote-user-data.s3.amazonaws.com/6JNFpcozQYjcUzhqPkSvxxHU9vpWx_qY6sCVge3qRG1BNfEyOF22g6JmCrVm4r6NFzDa-dyQQQ6zqmB5tUnd6bynWcj08WH0_A4mUl3BeO2OknhkEkEBvUKTHUAnh0VA)
-
+##### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_homograph.png?Expires=4759984802&Signature=ej8OifEVkaAMQSpawkLRMdqkA~ZdgxYMFh67GhhD2SAl8JMZ~LZ69-IANjZRnKJgse2KCsNiq5Dfk~n2N93wII9hFm2iipaE43zydScDIkG130a~JLYuLtLv8aJ2AhpipSnRL6gmBa91U25ljlDzYMG8lQXUfzCQ5azMZBR1Q0Zq7XK-gcYQBjAPrDM4OWyuBuS1jy7Q4r-GC2rFpkep0jG6-H8o0WO63ADOK2rDwslA-qPc2Oq~TOJrfJMlcxJ6pRDm7pRP2p4YdfymhEyGHtFqq2Ch8~icneRl7U5a7ge9q8HNyJ1UjnyGQkn6KlEgI95VjFCpKmuW14Q6MJxOYA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_homograph.png]]
 #### **Matching score**
 ##### [[M-score]]: Matching score. The average ratio between GT correspondences recovered and total number of estimated features within the shared viewpoint region when matching back and forth.
