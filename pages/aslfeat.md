@@ -42,6 +42,9 @@ public: true
 ### Peakiness measurement for more selective keypoint detection.
 
 ## Network Architecture
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FaeNGx2iSyq.png?alt=media&token=5b050b88-2111-4dc9-81c0-d892ca64f1f8)
 
 ## 1. Prerequisites
