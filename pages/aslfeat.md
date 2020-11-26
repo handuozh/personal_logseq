@@ -6,6 +6,9 @@ public: true
 ---
 
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### [luoASLFeatLearningLocal2020a]([[ASLFeat: Learning Local Features of Accurate Shape and Localization]])
 
 ### [[[[Luo, Zixin]], [[Zhou, Lei]], [[Bai, Xuyang]], [[Chen, Hongkai]], [[Zhang, Jiahui]], [[Yao, Yao]], et al.]] #authors
