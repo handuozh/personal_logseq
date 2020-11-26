@@ -150,8 +150,7 @@ where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance betw
 
 ###### $$ \bar{d} $$ denotes the average distance between all point-pairs: (9)    $$ \bar{d}=\frac{1}{K}\sum\limits_{k=1}^K d_k $$.
 
-###### The core concept of $$ l_k^{usp} $$ is that the network should define a good interest point as a point with a low point-pair correspondence distance $$ d_k $$. Oppositely, for a bad interest point, $$ d_k $$ is large, because the network is unable to predict point positions consistently.
-
+###### The core concept of $l_k^{usp}$ is that the network should define a good interest point as a point with a low point-pair correspondence distance $$ d_k $$. Oppositely, for a bad interest point, $$ d_k $$ is large, because the network is unable to predict point positions consistently.
 ### **3.3 Uniform point predictions** $\mathcal{L}^{uni\_xy}$
 #### Optimally, the relative$$ x- $$and$$ y- $$coordinate predictions should be uniformly distributed within the $$ 8\times 8 $$area. But there are a large number of points near the boundaries.
 ##### A model is encouraged, especially for hardly repeatable points, to place the point as closely to points outside its own region in order to minimize $$ d_k $$.
