@@ -93,6 +93,9 @@ where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $(i,j)$.
 ###### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
 
 ## Keypoint peakiness measurement
+:PROPERTIES:
+:heading: true
+:END:
 ### The [[Ratio-to-max]] (Eq. (5)) has the limitation that it only weakly relates to the actual distribution of all responses along the channel.
 
 ### We modify it with ^^Peakiness^^ as keypoint measurement:
