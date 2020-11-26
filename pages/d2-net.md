@@ -13,8 +13,6 @@ permalink: d2-net
 ### [[2019]] #issued
 
 ### #title D2-Net: A Trainable CNN for Joint Description and Detection of Local Features, 2019, CVPR
-### #publisher [[IEEE]] [[CVPR]]
-
 ### #[[topic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
 
 ## [[Detect-then-describe]]:: Classical interest point detection and description method where separated handcrafted methods are used to first identify repeatable keypoints and then represent them with a local descriptor. #definition
