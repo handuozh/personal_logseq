@@ -2,12 +2,6 @@
 
 ## Meta Data
 ### A standard ranking metric in paper _Local descriptors optimized for average precision. In CVPR, 2018. The paper focuses on [Descriptor Matching](Descriptor-Matching.md) stage.
-### [[He, Kun]], [[Lu, Yan]], & [[Sclaroff, Stan]] #authors
-
-### [[2018]] #issued
-
-### #title [[Local Descriptors Optimized for Average Precision]]
-
 ### #topic #Keypoint #[[Descriptor-Matching]]  #Ranking #metric-learning #[[nearest-neighbour]] 
 
 ## metric-learning:: 
