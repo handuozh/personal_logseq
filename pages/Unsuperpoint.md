@@ -70,6 +70,9 @@ public: true
 ### **Sigmoid activation** to bound in interval $$ [0,1] $$  
 
 ### For a network with 3 poolings layers (a subsampling factor of 8), a relative position is predicted for each $$ 8\times 8 $$ region in the input image.			
+:PROPERTIES:
+:id: 5fbf7cce-e8c2-4f6f-b73f-4f00fa094e09
+:END:
 #### For [[Superpoint]] and [[Lf-net]], top interest point locations are selected from a heat map of the ^^same size ^^as an input image.
 
 #### Regression is differentiable and enables fully unsupervised training.
