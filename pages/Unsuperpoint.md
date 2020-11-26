@@ -131,7 +131,7 @@ where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance betw
 ### **3.2 Unsupervised point loss **$$\mathcal{L}^{usp}$$$$  $$
 #### The goal is to improve [[repeatability]] of the detector (regardless of camera viewpoint)
 
-#### UnSupervised Point loss:: #definition
+#### UnSupervised Point loss
 ##### Uses [[point-pair]]s to train a  detector using an [[Unsupervised-learning]] loss function.	
 
 ##### Three terms and accumulated over all $$ K $$corresponding [[point-pair]]s.
