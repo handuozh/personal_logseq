@@ -6,8 +6,6 @@
 
 ## metric-learning::
 ### {{{embed ((5fbf5a26-4912-470d-b02b-594f29bcf4f7)) }}}
-### {{{embed ((93485c24-2b00-4689-a7e2-761109cab5cc))}}}
-
 ## Formulate descriptor extraction as [[nearest-neighbour]] retrieval performance metric: Average Precision.  
 
 ## **Estimating fudamental matrix from matching images**
