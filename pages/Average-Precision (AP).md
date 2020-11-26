@@ -72,13 +72,14 @@ ap = (prec * rec).sum(dim=-1)
 
 #### The optimization uses quantization based approximation.
 
-#### ```python
+####
+```python
 quantizer = q = nn.Conv1d(1, 2 * nq, kernel_size=1, bias=True)
   # quantize all predictions
 q = self.quantizer(x.unsqueeze(1))
   # N x Q x M
-q = torch.min(q[:, :self.nq], q[:, self.nq:]).clamp(min=0)  ```
-
+q = torch.min(q[:, :self.nq], q[:, self.nq:]).clamp(min=0)
+ ```
 ### 1.2 [[Binary Descriptors]]
 #### compact storage and fast matching (in applications with speed or storage restrictions) #definition
 
