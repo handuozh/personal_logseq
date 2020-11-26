@@ -23,6 +23,9 @@ public: true
 ### KeyPointNet a keypoint-netowrk architecture that is especially amenable to robust keypoint detection and description.
 
 ## [[Self-supervised]] Keypoint Learning
+:PROPERTIES:
+:heading: true
+:END:
 ### Notation
 #### Input image $$I\in{\mathbb{R}^{3\times H \times W}}$$
 
