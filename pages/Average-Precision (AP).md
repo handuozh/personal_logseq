@@ -1,7 +1,3 @@
----
-title: Average-Precision (AP)
----
-
 ## TODO To keep on reading!
 
 ## Meta Data
