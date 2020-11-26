@@ -2,8 +2,6 @@
 title: Average-precision (AP)
 public: true
 ---
-
-ata
 ### A standard ranking metric in paper _Local descriptors optimized for average precision. In CVPR, 2018. The paper focuses on [Descriptor Matching](Descriptor-Matching.md) stage.
 ### #topic #Keypoint #[[Descriptor-Matching]]  #Ranking #metric-learning #[[nearest-neighbour]] 
 
