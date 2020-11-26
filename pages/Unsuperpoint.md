@@ -210,7 +210,7 @@ where $$ \mathbf{v}_i^b $$is a $$ M^b\times 1 $$ sized vector and is the $$ i\te
 $\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 ## **4. Experiments**
 ### **4.1 Metrics**	
-#### Repeatability Score:: #definition
+#### Repeatability Score:
 ##### Measures the quality of interest points and is the ratio between the number of points observed by both viewpoints and the total number of points.	
 
 ##### For a planar scene, the point correspondences between two camera views can be established by simply mapping points from one view to the other using a homography. 
