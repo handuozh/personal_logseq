@@ -103,6 +103,9 @@ title: Unsuperpoint
 ### Point psitions of branch A are transformed by $$ T $$ to spatially align points from branch A to branch B. If they are spatially close after alignment, we define points to correspond.
 
 ## **3. Loss functions**  
+:PROPERTIES:
+:heading: true
+:END:
 ### The total loss $$ \mathcal{L}_{total} $$ consists of 4 loss terms
 
 ### (1)     $$ \mathcal{L}_{total} = \alpha_{usp}\mathcal{L}^{usp}+\alpha_{uni\_xy}\mathcal{L}^{uni\_xy}+\alpha_{desc}\mathcal{L}^{desc}+\alpha_{decorr}\mathcal{L}^{decorr} $$
