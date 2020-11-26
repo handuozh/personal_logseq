@@ -66,9 +66,7 @@ public: true
 ### **  Detector Learning**
 #### Same points as [[Unsuperpoint]] ((86d644eb-eefc-40c6-8dcc-8c88f818a9b5))
 ##### Define distance $$ d_k $$ as
- (1)    $$L_{loc}= d_k=||T\hat{\mathbf{p}}_k^A - \hat{\mathbf{p}}_k^B|| =$$$$||T\hat{\mathbf{p}}_k^{A\rightarrow B} - \hat{\mathbf{p}}_k^B||$$$$  $$ 
-	
-
+ (1)    $$L_{loc}= d_k=||T\hat{\mathbf{p}}_k^A - \hat{\mathbf{p}}_k^B|| =$$$$||T\hat{\mathbf{p}}_k^{A\rightarrow B} - \hat{\mathbf{p}}_k^B||$$
 #### Effectively aggregate keypoints across cell boundaries, by mapping the relative cell coordinates $$[u_s^{'},v_s^{'}]$$ to input image:
 ##### (2)    $$[v_i,u_i]=[\text{row}_i^{center},\text{col}_i^{center}]+[v_i^{'},u_i^{'}]\frac{\sigma_1(\sigma_2 -1)}{2}$$
 
