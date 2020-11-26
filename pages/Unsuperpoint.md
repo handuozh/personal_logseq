@@ -12,6 +12,9 @@ title: Unsuperpoint
 ### #code https://github.com/791136190/UnsuperPoint_PyTorch 
 
 ## **Abstract**: 
+:PROPERTIES:
+:heading: true
+:END:
 ### Inspired by [[Superpoint]] without pseudo-gt generated from [[Synthetic Image Pairs]] but [[Siamese Learning]] ([[Self-supervised]]). Interesting/salient points emerge naturally after training.
 
 ### 相同点
