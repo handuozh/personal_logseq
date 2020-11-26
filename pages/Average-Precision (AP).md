@@ -12,8 +12,7 @@
 :PROPERTIES:
 :heading: true
 :END:
-### [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
-
+### 1) [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
 ### [[Descriptor Extraction]]
 
 ### [[Descriptor-Matching]]::
