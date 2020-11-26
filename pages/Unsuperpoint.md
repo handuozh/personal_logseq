@@ -119,8 +119,7 @@ where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance betw
 
 #### Not all points in branch A are merged into [[point-pair]]s (might not have a nearby neighbour in B)
 
-#### Criterian of being point pair: the distance $$ g_{ij} $$ less than a ^^minimum distance^^^^$$\epsilon_{corr} $$^^^^.^^  
-
+#### Criterian of being point pair: the distance $$ g_{ij} $$ less than a ^^minimum distance^^$\epsilon_{corr}$.
 #### Redefine output tensors to the new set of tensors defined as ^^**corresponding tensors**^^^^ ^^with $$ K $$ entries so that each entry$$ k $$in the ^^**corresponding tensors**^^ maps to the same point in the input image. 
 ##### For each entry $$ k $$ in branch $$ b $$, [[point-pair]] score $$ \hat{s}^b_k $$, position $$ \hat{\mathbf{p}}_k^b $$ and descriptor $$ \hat{\mathbf{f}}_k^b $$.  	
 
