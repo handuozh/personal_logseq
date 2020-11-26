@@ -229,4 +229,4 @@ $\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 ##### ![](https://remnote-user-data.s3.amazonaws.com/6JNFpcozQYjcUzhqPkSvxxHU9vpWx_qY6sCVge3qRG1BNfEyOF22g6JmCrVm4r6NFzDa-dyQQQ6zqmB5tUnd6bynWcj08WH0_A4mUl3BeO2OknhkEkEBvUKTHUAnh0VA)
 
 #### **Matching score**
-##### [[M-score]]:: Matching score. The average ratio between GT correspondences recovered and total number of estimated features within the shared viewpoint region when matching back and forth.
+##### [[M-score]]: Matching score. The average ratio between GT correspondences recovered and total number of estimated features within the shared viewpoint region when matching back and forth.
