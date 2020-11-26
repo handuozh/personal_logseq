@@ -26,6 +26,9 @@ permalink: gcnv2
 ### 
 
 ## 1. Network Structure
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FeWPtCLCfIH.png?alt=media&token=c85b5710-08e4-45e8-b70f-8a18bfd89ec1)
 
 ### The orange blocks are conv layers with [[ELU]] non-linearity after each set of blocks
