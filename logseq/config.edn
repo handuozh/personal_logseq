@@ -3,7 +3,7 @@
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
-           :name "handuo"
+           :name ""
            :alias ""
            ;; your twitter handle
            :twitter ""
@@ -31,8 +31,7 @@
  :default-templates
  {:journals ""}
    
- :default-home {:page "keypoint"
-  		:sidebar "Contents" }
+ ;; :default-home {:page "keypoint" sidebar "Contents" }
  
  :all-pages-public? true
 
