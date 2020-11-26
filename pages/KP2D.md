@@ -39,7 +39,7 @@ public: true
 ##### $$N$$ total number of keypoints extracted (varies based on input resolution)
 
 ### Based on [[Unsuperpoint]] with source image $$I_s$$ and target image $$I_t$$ related via a known homography transformation $$\mathbf{H}$$.
-####
+#### ((5fbf7cce-8da7-48ce-880f-5565d06351ba))
 ##### ((4c4c3cea-4d91-4f60-9f56-e302bbcb8eaf))
 
 ##### Define $$\mathbf{p}_t^*=\{[u_i^*,v_i^*]\}=\mathbf{H}(\mathbf{p}_s)$$ with $$i\in I$$ the corresponding locations of source keypoints after **warping**.
