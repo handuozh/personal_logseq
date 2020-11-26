@@ -1,7 +1,6 @@
 ---
 title: GCNv2
 public: true
-old_permalink: gcnv2
 ---
 ## DONE Note not finished!
 :PROPERTIES:
