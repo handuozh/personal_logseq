@@ -26,7 +26,7 @@ public: true
 :PROPERTIES:
 :heading: true
 :END:
-### Notation
+### **Notation**
 #### Input image $$I\in{\mathbb{R}^{3\times H \times W}}$$
 
 #### Define $$K:I\rightarrow {\{\mathbf{p,f,s}\}}$$
