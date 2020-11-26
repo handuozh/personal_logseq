@@ -1,10 +1,8 @@
 ---
 title: GCNv2
 public: true
-published: true
-permalink: gcnv2
+old_permalink: gcnv2
 ---
-
 ## DONE Note not finished!
 :PROPERTIES:
 :done: 1606375371048
