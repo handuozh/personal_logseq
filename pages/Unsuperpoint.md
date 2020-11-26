@@ -30,7 +30,7 @@ title: Unsuperpoint
 
 ### Using a self-supervised approach, we use [[Siamese Network]] and a novel loss function that enables interest point scores and positions to be learned automatically.
 
-## **1. Network Architecture**	
+## 1. Network Architecture
 :PROPERTIES:
 :heading: true
 :END:
