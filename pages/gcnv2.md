@@ -55,8 +55,6 @@ permalink: gcnv2
 
 #### Make it ^^differentiable^^
 ##### **Straight-through estimator**:: Indicator of the hard sign function for backpropagating the gradients. It approximates binarization during backpropagation and avoids over-penalization to feature responses already passed the decision boundary by 1.
-##### 
-
 ### Nested [[metric-learning]]
 #### Pixel-wise [[metric-learning]] is used in a [[nearest-neighbour]] manner.
 
