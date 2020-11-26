@@ -1,5 +1,6 @@
 ---
 title: metric-learning
+public: true
 ---
 
 ## It is a general family of methods that learn distance functions from data. While much previous effort focused on learning **Mahalanobis distances**, recently the metric learning community has focused on learning [[Vector Embeddings]] to be used with standard (e.g. Euclidean) distance metrics.

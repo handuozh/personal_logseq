@@ -1,5 +1,6 @@
 ---
 title: Hashing As Tie-aware Learning To Rank
+public: true
 ---
 
 ## Meta Data
