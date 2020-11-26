@@ -148,7 +148,7 @@ class APLoss (nn.Module):
     return self.compute_AP(x, label)
 ```
 ## **2. Comparison with Other Ranking Approaches**
-###
+### Some recent methods learn feature descriptors by optimizing losses defined on [[Triplets]] in the form of $(a,p^+,p^-)$ where $a$ is an anchor patch.
 ### Triplet loss:: Long history in [[metric-learning]]
 #### Long history in [[metric-learning]], better suited for ranking tasks than pair-based losses used in [[Siamese Network]].
 
