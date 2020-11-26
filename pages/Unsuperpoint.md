@@ -192,7 +192,8 @@ where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance betw
 ###### (14)   $$ c_{ij}=\begin{cases} 1 \; & \; \text{if} \; g_{ij}\leq{8} \\ 0 \; & \; otherwise \end{cases}$$  
 
 #### Hinge loss (positive margin $$ m_p $$ and negative margin $$ m_n $$)	
-##### (15)    $$ \mathcal{L}^{desc} = \sum\limits_{i=1}^{M^A}\sum\limits_{j=1}^{M^B} l_{ij}^{desc} $$ 
+##### (15)    $$ \mathcal{L}^{desc} = \sum\limits_{i=1}^{M^A}\sum\limits_{j=1}^{M^B} l_{ij}^{desc} $$
+ 
 $$ \begin{aligned} l_{ij}^{desc} & = \lambda_d \cdot c_{ij} \cdot \max\left(0,m_p - {\mathbf{f}_i^A}^\top\mathbf{f}_j^B\right) \\ 
 & + (1-c_{ij})\cdot \max\left( 0, {\mathbf{f}_i^A}^\top\mathbf{f}_j^B-m_n \right) 
 \end{aligned}$$
