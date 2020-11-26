@@ -59,6 +59,9 @@ given regular grid $\mathcal{R}$ sampling over input feature map $\mathbf{x}.$
 with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
 
 ## 2. DCN with Geometric Constraints
+:PROPERTIES:
+:heading: true
+:END:
 ### Original free-form DCN predicts local transformation of DOF like $9\times 2$ offsets for a $3\times 3$ kernel. It can model complex deformation but takes a risk of over-paramertizing local shape.
 ### Affine-constrained DCN. Decompsed as
 #### ^^(3) ^^             $$ \mathbf{S}=\lambda R(\theta)=\lambda\left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array}\right) $$  
@@ -70,6 +73,9 @@ where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for r
 #### TODO To read this part  
 
 ## 3. Selective and Accurate Keypoint Detection
+:PROPERTIES:
+:heading: true
+:END:
 ### Refer to original [[D2-Net]]:
 #### Section
 ##### Amenable for back propagation.
