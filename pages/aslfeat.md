@@ -9,12 +9,6 @@ public: true
 :PROPERTIES:
 :heading: true
 :END:
-### [luoASLFeatLearningLocal2020a]([[ASLFeat: Learning Local Features of Accurate Shape and Localization]])
-
-### [[[[Luo, Zixin]], [[Zhou, Lei]], [[Bai, Xuyang]], [[Chen, Hongkai]], [[Zhang, Jiahui]], [[Yao, Yao]], et al.]] #authors
-
-### [[2020]] #issued
-
 ### #title ASLFeat: Learning Local Features of Accurate Shape and Localization, 2020
 ### #topic  #Keypoint #[[Descriptor Matching]] [[D2-Net]] [[R2D2]]
 
