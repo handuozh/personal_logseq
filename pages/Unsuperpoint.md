@@ -40,7 +40,6 @@ title: Unsuperpoint
 
 ### Submodules are designed to produce an aligned output where each entry represents a point $$ m $$ with a position $$ \mathbf{p}_m $$, score $$ \mathbf{s}_m $$ and descriptor $$ \mathbf{f}_m $$.
 ### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_unsuper.png?Expires=4759984377&Signature=gJcw1ErBjg9XqdkWPzESTVSn4UFUAFbryL1a5JM1Zqh52t3ABXt39hJYRbzym9rjMfsOauvRWjVGfxiKLbZDiSwjEvPpDM5-oWCHzIWaHhzZdgG9dy-hgc8Qfr9qTzqoM4D1bemLlM47TPL~nEPSttcZIKN2uv-LrhdgFAOXIAKxoIxM8HFed52M5dzkJ7DS66SmgtN3EwCcyjqOKFgQqhEHrzhMAwlomPuvtYfMoyuXGPzWmPkFaF7J0s2IlHWu9Gd4eMJ3prPdbLiTFe206cFQ0BwITHK9Jjm0YckybzJeYlzB7DdSGxHOWzXMr3sqiTfiWOUhH6Dqm2CMMu5eEg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_unsuper.png]]
-### ![](https://remnote-user-data.s3.amazonaws.com/cYHNsMuPSGHWFQFrx2zVsMtmG9K0YkqPC2TNl-tUIZcZQ6sWU_tpbeV7m8azJkfN0IzfXnEMsMnx4PC2Ew2gazZ-mfZHFDkwHtal2Hr9eRF6xt_O919nyNoG2rJgcQ6S)
 ## **1.1 Overview and notation**  	
 ### Each point position expressed by its relative position $$ \mathbf{P}_{relative} $$ and can be transformed to image pixel coordinate $$ \mathbf{P}_{map} $$.		
 
