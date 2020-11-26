@@ -11,6 +11,9 @@ permalink: gcnv2
 :later: 1606375366177
 :END:
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### #title GCNv2: Efficient Correspondence Prediction for Real-Time SLAM, 2019
 ### #topic #Keypoint [[Detect-then-describe]] #Efficient #[[Binary Descriptors]]
 
@@ -45,8 +48,7 @@ permalink: gcnv2
 ### Notation
 #### Dense feature map $$\mathbf{f}$$ at low resolution
 
-#### [[pixel-shuffle]]d keypoint probability map $$\mathbf{o}$$ at original resolution
-
+#### [[pixel-shuffle]] keypoint probability map $$\mathbf{o}$$ at original resolution
 ### Binarized Descriptor
 #### To accelerate, and to match [[ORB]]: feature vector $$\mathbf{b}$$ set to 256
 
