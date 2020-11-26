@@ -39,9 +39,7 @@ title: Unsuperpoint
 ### Backbone provides a downsampled feature map.
 
 ### Submodules are designed to produce an aligned output where each entry represents a point $$ m $$ with a position $$ \mathbf{p}_m $$, score $$ \mathbf{s}_m $$ and descriptor $$ \mathbf{f}_m $$.
-		![](https://remnote-user-data.s3.amazonaws.com/cYHNsMuPSGHWFQFrx2zVsMtmG9K0YkqPC2TNl-tUIZcZQ6sWU_tpbeV7m8azJkfN0IzfXnEMsMnx4PC2Ew2gazZ-mfZHFDkwHtal2Hr9eRF6xt_O919nyNoG2rJgcQ6S)  
-		
-
+### ![](https://remnote-user-data.s3.amazonaws.com/cYHNsMuPSGHWFQFrx2zVsMtmG9K0YkqPC2TNl-tUIZcZQ6sWU_tpbeV7m8azJkfN0IzfXnEMsMnx4PC2Ew2gazZ-mfZHFDkwHtal2Hr9eRF6xt_O919nyNoG2rJgcQ6S)
 ## **1.1 Overview and notation**  	
 ### Each point position expressed by its relative position $$ \mathbf{P}_{relative} $$ and can be transformed to image pixel coordinate $$ \mathbf{P}_{map} $$.		
 
