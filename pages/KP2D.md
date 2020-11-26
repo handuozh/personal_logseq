@@ -4,6 +4,9 @@ public: true
 ---
 
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### #title NEURAL OUTLIER REJECTION FOR SELF-SUPERVISED KEYPOINT LEARNING, 2020, ICLR
 ### #[[topic]]: [[Keypoint]] [[Descriptor-Matching]] [[Keypoint-Extraction-and-Description]] [[Unsuperpoint]] [[Self-supervised]] [[Encoder-decoder]] [[Siamese Network]]
 
