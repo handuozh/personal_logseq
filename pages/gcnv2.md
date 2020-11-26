@@ -36,6 +36,9 @@ permalink: gcnv2
 ### $$I$$ divided by some number is the resolution of the current feature map
 
 ## 2. Feature Extractor
+:PROPERTIES:
+:heading: true
+:END:
 ### Notation
 #### Dense feature map $$\mathbf{f}$$ at low resolution
 
