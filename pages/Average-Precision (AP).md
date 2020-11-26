@@ -44,14 +44,15 @@
 #### Given ranking, AP is the average of precision values $$ P(K) $$ evaluated at different positions:
 ##### (1)     $$ P(K)=\frac{1}{K}\sum\limits_{i=1}^{K}\mathbf{1} \left[  x_i\in S_q^+  \right] $$ ,
 
-##### ```python
+#####
+```python
  # number of samples  N x Q = c
 nbs = q.sum(dim=-1)
  # nb of correct samples = c+ N x Q
 rec = (q * label.view(N, 1, M).float()).sum(dim=-1)
  # precision
-prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1)) ```
-
+prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1))
+```
 ##### (2)      $$ AP=\frac{1}{|S_q^+|}\sum\limits_{K=1}^n \mathbf{1} \left[ x_K \in S_q^+   \right] P(K) $$ 
 where $$ \mathbf{1}\left[ \cdot \right] $$ is the binary indicator.
 
