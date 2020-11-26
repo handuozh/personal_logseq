@@ -6,12 +6,6 @@ title: Unsuperpoint
 :PROPERTIES:
 :heading: true
 :END:
-### [christiansenUnsuperPointEndtoendUnsupervised2019]([[UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor]])
-
-### [[Christiansen, Peter Hviid]], [[Kragh, Mikkel Fly]], [[Brodskiy, Yury]], & [[Karstoft, Henrik]] #authors
-
-### [[2019]] #issued
-
 ### #title [[UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor]]
 
 ### #topic  #Superpoint #Keypoint #[[Descriptor Extraction]] #Unsupervised-learning #[[Siamese Network]] #[[Self-supervised]]
