@@ -18,6 +18,9 @@ public: true
 ### Localization accuracy
 
 ## Literature Review:
+:PROPERTIES:
+:heading: true
+:END:
 ### [[Lf-net]] and [[D2-Net]] empirically yield low precision in two-view matching or introduce large reprojection error in SfM tasks. As the detections are from low-resolution feature maps ($$ 1/4 $$ times original size).
 
 ### [[Superpoint]] learns to upsample the feature maps with pixel-wise supervision from artificial points.
