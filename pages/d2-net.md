@@ -50,3 +50,6 @@ where $$ \mathcal{N}(i,j) $$ is the set of 9 neighbours of pixel $$ (i,j) $$.
 ### 2.3 Multiscale Detection
 
 ## 3. Jointly Optimizing detection and description
+:PROPERTIES:
+:heading: true
+:END:
