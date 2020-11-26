@@ -180,11 +180,8 @@ where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance betw
 
 ##### (12)  $$ \mathcal{L}^{uni\_x}=\sum\limits_{i=1}^M \left(x_i^{sorted}-\frac{i-1}{M-1}  \right)$$  
 
-##### (13)  $$\mathcal{L}^{uni\_y}=\sum\limits_{i=1}^M \left(y_i^{sorted}-\frac{i-1}{M-1}  \right)$$ 
-
-#### ![](https://remnote-user-data.s3.amazonaws.com/j387aejnMy-WMa9_fcumqPoXLGBTY017wHeC7YFMbdaO3UKoUxOISfJTtSQ7uOk_z6rlBFv3IX630xDo-5m3zBBsjnboDfmGFLFK8o_uosClkSbBN0248l8mgua0rTEE)  
-	
-
+##### (13)  $$\mathcal{L}^{uni\_y}=\sum\limits_{i=1}^M \left(y_i^{sorted}-\frac{i-1}{M-1}  \right)$$
+##### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_histogram.png?Expires=4759984648&Signature=XZk280RkRv~FwTPGMM0O3a5yl47CwfrHGz~kCnlLJ4Nr~Ef8hT7l9SkscouvHhi~tFfZWU2BaYiWHePd984jkSnL73c8dF6Jw7mjXdiaVMsqgHLBnbYoq3O-2xtIxTP0SWEbvIOLv4oh4J-l48dUNs2NFe8Sap2mjs9s~oAXZcJHVxcCOB2Hx~L7kI1lQhLKbxScksfv2Ykfg8eGA-EzkgnyyHW6WdFdYCepznJwNftcdS-r2N6~udd6r21o6jE7D7EKkszmexszvY0CiVsL3zrtDj7vp9orkAX0VjOv1jskYd1bjPxPIhuNGK4zisKGDjPtgqFU24Mq4RrNTUpkrw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_histogram.png]]
 ### **3.4 Descriptor** $$ \mathcal{L}^{desc}$$
 #### Determined using a [Hinge Loss](link_generated_on_download) with a positive and negative margin as described in [Superpoint](link_generated_on_download).
 
