@@ -221,7 +221,7 @@ $\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 
 ##### The repeatability is therefore the average re- peatability calculated in the view of each camera.
 
-#### Localization Error:: #definition
+#### Localization Error:
 ##### The average pixel distance between corresponding points. (LE)			
 
 ##### Only point-pairs with distances below $$ \rho $$are included in the calculation. Like [Repeatability Score](link_generated_on_download), the localization error is the average error of corresponding points calculated in both camera views.
