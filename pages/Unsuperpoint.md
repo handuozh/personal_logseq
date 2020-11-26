@@ -207,8 +207,7 @@ $$ \begin{aligned} l_{ij}^{desc} & = \lambda_d \cdot c_{ij} \cdot \max\left(0,m_
 
 ##### (17)  $$ r_{ij}^b=\frac{(\mathbf{v}_j^b-\bar{v}_j^b)^\top(\mathbf{v}_i^b-\bar{v}_j^b)}{\sqrt{(\mathbf{v}_j^b-\bar{v}_j^b)^\top(\mathbf{v}_i^b-\bar{v}_j^b)}\sqrt{(\mathbf{v}_j^b-\bar{v}_j^b)^\top(\mathbf{v}_i^b-\bar{v}_j^b)}} $$,
 where $$ \mathbf{v}_i^b $$is a $$ M^b\times 1 $$ sized vector and is the $$ i\text{th} $$ column of $$ \mathbf{F}^b$$,
-$$ \bar{v}_i^b $$ is the mean of $$ \mathbf{v}_i^b $$.  
-
+$\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 ## **4. Experiments**
 ### **4.1 Metrics**	
 #### Repeatability Score:: #definition
