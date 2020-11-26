@@ -12,8 +12,7 @@ permalink: d2-net
 
 ### [[2019]] #issued
 
-### #title [[D2-Net: A Trainable CNN for Joint Description and Detection of Local Features]]
-
+### #title D2-Net: A Trainable CNN for Joint Description and Detection of Local Features
 ### #publisher [[IEEE]] [[CVPR]]
 
 ### #[[topic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
