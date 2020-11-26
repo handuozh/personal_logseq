@@ -6,12 +6,6 @@ permalink: d2-net
 ---
 
 ## Meta Data
-### [dusmanuD2NetTrainableCNN2019]([[D2-Net: A Trainable CNN for Joint Description and Detection of Local Features]])
-
-### [[Dusmanu, Mihai]], [[Rocco, Ignacio]], [[Pajdla, Tomas]], [[Pollefeys, Marc]], [[Sivic, Josef]], [[Torii, Akihiko]], & [[Sattler, Torsten]] #authors
-
-### [[2019]] #issued
-
 ### #title D2-Net: A Trainable CNN for Joint Description and Detection of Local Features, 2019, CVPR
 ### #[[topic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
 
