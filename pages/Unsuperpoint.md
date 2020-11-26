@@ -6,8 +6,7 @@ title: Unsuperpoint
 :PROPERTIES:
 :heading: true
 :END:
-### #title [[UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor]]
-
+### #title UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor, 2019
 ### #topic  #Superpoint #Keypoint #[[Descriptor Extraction]] #Unsupervised-learning #[[Siamese Network]] #[[Self-supervised]]
 
 ### #code https://github.com/791136190/UnsuperPoint_PyTorch 
