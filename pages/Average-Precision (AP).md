@@ -156,8 +156,7 @@ class APLoss (nn.Module):
 ### **Listwise ranking**:: defined on a ranked list.
 #### ((c4be573c-0fff-421e-bd0b-1372ccf7ab7b))
 
-### ![https://remnote-user-data.s3.amazonaws.com/U60fZGMsIQ8SRWoHdX8lLBfuGWaqiCOfPsLy-htVGs8DV89Jj8tyQVnL7i11arDZmpLzLnUfO7X6v9NOiE-9_DxyJNkRHvPmh3wQMUTje_CN3SNjlW5VOao7RbnWd_U_](https://remnote-user-data.s3.amazonaws.com/U60fZGMsIQ8SRWoHdX8lLBfuGWaqiCOfPsLy-htVGs8DV89Jj8tyQVnL7i11arDZmpLzLnUfO7X6v9NOiE-9_DxyJNkRHvPmh3wQMUTje_CN3SNjlW5VOao7RbnWd_U_)  
-
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_listwise.png?Expires=4759976476&Signature=MXEq4HWkrEbHWdFjNOpxNinuLyGBhXs28LvxKUEdYWhw4Jln~jikH4cPxMaE2jzn8ojfAijHsPQPEpQSTe-nFAwhqBObJQ~q~RlHRb3QVetkz7GOnTB92bTGcm-EDR24s5zvkogTtldvhkkVcFjLerryyoOhCOjHlL0spqEEMQbgsD-6P3TU8cPA8O637e6d8QK5-iPS7XCAm1WLkqmXr7X6Q3rbW53nFeJpH4bvJXlC9sPKRGV~u4~t05T6v9NkuCvh9GIHtTT96ZYhE3Eav4LVkp5o2unxuqtq-1FDYrPDMDcWiMkHavM21bBVsSqa2Q7CtuW6Y8T50tgTL-MG0g__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_listwise.png]]
 ### The listwise optimization also implicitly encodes [[Hard Negative Mining]]: it requires matching patches to be ranked above all non-matching patches, which automatically enforces correct classification of the hardest triplet in the batch without explicitly finding it.
 
 ## 3. Geometric Noise Handling
