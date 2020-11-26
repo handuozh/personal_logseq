@@ -14,5 +14,8 @@ title: Hashing As Tie-aware Learning To Rank
 ### 文章介绍AP([[Average-Precision (AP)]]) 和[[MAP]]: https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/
 ### 对于[[Pointwise]]，[[Pairwise]]，[[Listwise]] ，在论文的intrduction部分我第一次看到了Listwise这个词，之后查阅资料发现相当于信息检索的样本不同，[[Pointwise]]是完全从单文档的角度考虑，没有考虑多个文档间的顺序，[[Pairwise]]是将一个文档对作为训练样本，任何两个不同label的文档，都可以得到一个训练实例（di,dj），如果di>dj则赋值+1，反之-1，于是我们就得到了二元分类器训练所需的训练样本了，但这个只考虑了两两之间样本的相对顺序，没有整体性的考率
 ### [[Listwise]]是将每个查询所有的搜索结果看成一个训练样本经行训练，[[Listwise]]根据训练样例训练得到最优评分函数F，对应新的查询，评分F对每个文档打分，然后根据得分由高到低排序，即为最终的排序结果
+:PROPERTIES:
+:id: 5fbf5c9c-c6b0-4c2f-ad73-31f65deb8b64
+:END:
 ### Architecture
 #### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F4WkYUA-eQ1.png?alt=media&token=95ee5bdd-6091-418b-82e6-c5033cb870af)
