@@ -107,7 +107,9 @@ public: true
 :id: 5fbf7cce-8da7-48ce-880f-5565d06351ba
 :END:
 ##### The image in branch B is spatially transformed by a random homography $$ T $$ (^^rotation, scale, skew and perspective transforms^^). 
-
+:PROPERTIES:
+:id: 5fbf7cce-b19e-44b2-bfd9-5fb23fdf8e43
+:END:
 ### The image for each branch is transformed by independent random non-spatial image augmentations such as ^^brightness and noise^^.
 
 ### Point psitions of branch A are transformed by $$ T $$ to spatially align points from branch A to branch B. If they are spatially close after alignment, we define points to correspond.
