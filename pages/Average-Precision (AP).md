@@ -101,7 +101,8 @@ q = torch.min(q[:, :self.nq], q[:, self.nq:]).clamp(min=0)
 ### $$ L_2 $$ normalization applied to get Euclidean distance $$ D(x, x^{\prime})=\sqrt{2-2F(x)^{\top}F(x^{\prime})} $$ with $$ ||F(x)||=1 $$  
 
 ### Python Code:
-#### ```python
+####
+```python
 class APLoss (nn.Module):
   def __init__(self, nq=25, min=0, max=1, euc=False):
     nn.Module.__init__(self)
@@ -139,8 +140,8 @@ class APLoss (nn.Module):
     return ap
   def forward(self, x, label):
     assert x.shape == label.shape # N x M
-    return self.compute_AP(x, label)```
-
+    return self.compute_AP(x, label)
+```
 ## **2. Comparison with Other Ranking Approaches**
 ### Some recent methods learn feature descriptors by optimizing losses defined on [Triplets](Triplets.md) in the form of $$ (a,p^+,p^-) $$ where $$ a $$ is an anchor patch.
 
