@@ -15,8 +15,7 @@ public: true
 
 ### [[2020]] #issued
 
-### #title [[ASLFeat: Learning Local Features of Accurate Shape and Localization]]
-
+### #title ASLFeat: Learning Local Features of Accurate Shape and Localization, 2020
 ### #topic  #Keypoint #[[Descriptor Matching]] [[D2-Net]] [[R2D2]]
 
 ## Limitations of local feature detection and descriptions
