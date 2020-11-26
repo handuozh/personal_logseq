@@ -5,9 +5,10 @@ published: true
 permalink: gcnv2
 ---
 
-## DONE Note not finished!
+## LATER Note not finished!
 :PROPERTIES:
 :done: 1606375363456
+:later: 1606375366177
 :END:
 ## Meta Data
 ### #title GCNv2: Efficient Correspondence Prediction for Real-Time SLAM, 2019
