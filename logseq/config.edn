@@ -3,7 +3,7 @@
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
-           :name ""
+           :name "handuo"
            :alias ""
            ;; your twitter handle
            :twitter ""
