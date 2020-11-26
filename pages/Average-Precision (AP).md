@@ -90,8 +90,7 @@ q = torch.min(q[:, :self.nq], q[:, self.nq:]).clamp(min=0)  ```
 
 #### Approximation of [[Histogram Binning]]:
 
-#### ![https://remnote-user-data.s3.amazonaws.com/Wh1I4y3eDOFaLwWn8Uv8xYgUAyLYEqc-kQL5czbrEgAIbbqMVddpOziOGhUZmhhWUsVIPY87Z2VzkwC_jlVJdLwZCokLW48SiW5jyh33D14rcGgg7XFoW-URQhFwsbI7](https://remnote-user-data.s3.amazonaws.com/Wh1I4y3eDOFaLwWn8Uv8xYgUAyLYEqc-kQL5czbrEgAIbbqMVddpOziOGhUZmhhWUsVIPY87Z2VzkwC_jlVJdLwZCokLW48SiW5jyh33D14rcGgg7XFoW-URQhFwsbI7)  
-
+#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap1.png?Expires=4759976336&Signature=oEvDuE11U0Xgq-AilHDKBeMp0MaX9ega9xE1l7qnyv7Q7SRX1rIw15N1eRr~a7gcHnWZiAsmD7nAoj8uzXFWIzy-JpgPgsZBXXbu~ww2b~2WR3QwuoCgJ1gWBCtrElNCE4QA9TRcwE-WCIFClDutpAzJgdvBuQU0i4gXBJU01IgEgAz2l4KPpbobnF52M5sXnAFrIkCnFlTLgY8h6Yw1QVn~eamslfCYywf~R0o8Az-V7CRd6oOj8PuYHJxfZR20~phs1A6DG3tpaWw7T5NlwwoMaHu0vOIZUuR0-cYAxPr8kSnvc5k4YIsMA-9fSznVhV7bbt~frJQbdublA2i~LQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap1.png]]
 ### 1.3   [Real-Valued Descriptors](Real-Valued-Descriptors.md)
 
 ### Preferred in high-precision scenarios.
