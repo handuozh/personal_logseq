@@ -8,12 +8,6 @@ permalink: gcnv2
 ## {DONE}} Note not finished!
 
 ## Meta Data
-### [tangGCNv2EfficientCorrespondence2019]([[GCNv2: Efficient Correspondence Prediction for Real-Time SLAM]])
-
-### [[Tang, Jiexiong]], [[Ericson, Ludvig]], [[Folkesson, John]], & [[Jensfelt, Patric]] #authors
-
-### [[2019]] #issued
-
 ### #title GCNv2: Efficient Correspondence Prediction for Real-Time SLAM, 2019
 ### #topic #Keypoint [[Detect-then-describe]] #Efficient #[[Binary Descriptors]]
 
