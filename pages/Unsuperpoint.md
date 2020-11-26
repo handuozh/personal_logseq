@@ -3,6 +3,9 @@ title: Unsuperpoint
 ---
 
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### [christiansenUnsuperPointEndtoendUnsupervised2019]([[UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor]])
 
 ### [[Christiansen, Peter Hviid]], [[Kragh, Mikkel Fly]], [[Brodskiy, Yury]], & [[Karstoft, Henrik]] #authors
