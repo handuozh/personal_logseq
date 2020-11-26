@@ -6,6 +6,9 @@ permalink: d2-net
 ---
 
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### #title D2-Net: A Trainable CNN for Joint Description and Detection of Local Features, 2019, CVPR
 ### #[[topic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
 
