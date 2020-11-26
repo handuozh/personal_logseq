@@ -62,7 +62,7 @@ with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
 :PROPERTIES:
 :heading: true
 :END:
-### Original free-form DCN predicts local transformation of DOF like $9\times 2$ offsets for a $3\times 3$ kernel. It can model complex deformation but takes a risk of over-parameterizing local shape.
+### Original free-form DCN predicts local transformation of DOF like $9\times 2$ offsets for a $3\times 3$ kernel. It can model complex deformation but takes a risk of over-paramertizing local shape.
 ### Affine-constrained DCN. Decompsed as
 #### ^^(3) ^^             $$ \mathbf{S}=\lambda R(\theta)=\lambda\left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array}\right) $$  
 
@@ -93,9 +93,6 @@ where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $(i,j)$.
 ###### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
 
 ## Keypoint peakiness measurement
-:PROPERTIES:
-:heading: true
-:END:
 ### The [[Ratio-to-max]] (Eq. (5)) has the limitation that it only weakly relates to the actual distribution of all responses along the channel.
 
 ### We modify it with ^^Peakiness^^ as keypoint measurement:
