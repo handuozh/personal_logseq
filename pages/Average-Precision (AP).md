@@ -56,12 +56,13 @@ prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1))
 ##### (2)      $$ AP=\frac{1}{|S_q^+|}\sum\limits_{K=1}^n \mathbf{1} \left[ x_K \in S_q^+   \right] P(K) $$ 
 where $$ \mathbf{1}\left[ \cdot \right] $$ is the binary indicator.
 
-##### ```python
+#####
+```python
   # norm in [0,1]
 rec /= rec.sum(dim=-1).unsqueeze(1)
   # per-image AP
-ap = (prec * rec).sum(dim=-1)```
-
+ap = (prec * rec).sum(dim=-1)
+```
 #### [AP](AP.md) achieves its optimal value ^^if and only if^^ every patch from $$ S_q^+ $$ is ranked above all patches from $$ S_q^- $$.
 
 #### [AP](AP.md) optimization is a [[metric-learning]] problem with ^^goal^^ to learn a distance metric$$ D $$ that give optimal [[AP]] when used fro retrieval.
