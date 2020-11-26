@@ -25,7 +25,7 @@
 
 ### Robust Estimation
 
-## ![](https://remnote-user-data.s3.amazonaws.com/E_UDrzn463Z2TAoZhOpGUlHtvQAL-1Ncx3Lg6HszpLdyd0nnS973T9KTvWo58OqgqgIbi0ZZEAC9NL10DZx5yd1lEsoG2Nk9JD0ptlCdtlY0bcCEFQVDwIO5mCSSlTqN)
+## /link
 ## In this paper the ^^contribution^^ is to assess [[nearest-neighbour]] matching performance by adopting Average Precision ([[AP]]) as the evaluation metric, based on:
 ### Binary relevance assumption:: retrievals are either "relevant" or "irrelevant" to the query.
 
