@@ -128,7 +128,7 @@ where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance betw
 (3)    $$ d_k=||T\hat{\mathbf{p}}_k^A - \hat{\mathbf{p}}_k^B|| =$$$$||T\hat{\mathbf{p}}_k^{A\rightarrow B} - \hat{\mathbf{p}}_k^B||$$$$  $$ 
 	
 
-### **3.2 Unsupervised point loss **$$\mathcal{L}^{usp}$$$$  $$
+### **3.2 Unsupervised point loss **$$\mathcal{L}^{usp}$$
 #### The goal is to improve [[repeatability]] of the detector (regardless of camera viewpoint)
 
 #### UnSupervised Point loss
