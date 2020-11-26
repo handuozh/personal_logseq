@@ -14,15 +14,14 @@
 :END:
 ### 1) [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
 ### 2) [[Descriptor Extraction]]
-### [[Descriptor-Matching]]::
+### 3) [[Descriptor-Matching]]::
 #### Compute pairwise distance matrix with $$ M^2 $$ entries.
 
 #### For each feature in $$ I_1 $$ looks for nearest neighbor in $$ I_2 $$ and ^^vice versa^^.
 
 #### Feature pairs that are mutual nearest neighbors are candidate matches.
 
-### Robust Estimation
-
+### 4) Robust Estimation
 ## [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap.png?Expires=4759976180&Signature=Vlk86f11suQTus8Hzbe1r84KbQtm4oegdQTL1mvcaB30ZxRLetg~W9PikLxP34LIYJfUdDaSWzOpaaRxrXptr5anqjOuMfQI~kciXVri39~K7Qc3SWn79uNQa7fGeK93q1gfVkoH3Cmh5j1Tt8xkae1bmDOY~3PwFzXczySOy6f4ies9xcM8wLykZpbSWLw0h840wEG6H9utNIGLD0ilBvbmw1A5qWs-lnSEf0OdCo9l63e6bo9p4ZLxeeQO08~kboiPzgrt~pW67mmSgTqPbo2KRlrwhLlh7xC3Zib9KJJWx1OXJR38MOD8gsmq07GgRAhV90OJ-xLN8cyRMxCJjg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap.png]]
 ## In this paper the ^^contribution^^ is to assess [[nearest-neighbour]] matching performance by adopting Average Precision ([[AP]]) as the evaluation metric, based on:
 ### Binary relevance assumption:: retrievals are either "relevant" or "irrelevant" to the query.
