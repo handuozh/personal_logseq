@@ -4,7 +4,8 @@
 ### A standard ranking metric in paper _Local descriptors optimized for average precision. In CVPR, 2018. The paper focuses on [Descriptor Matching](Descriptor-Matching.md) stage.
 ### #topic #Keypoint #[[Descriptor-Matching]]  #Ranking #metric-learning #[[nearest-neighbour]] 
 
-## metric-learning:: 
+## metric-learning::
+### {{{embed ((5fbf5a26-4912-470d-b02b-594f29bcf4f7)) }}}
 ### {{{embed ((93485c24-2b00-4689-a7e2-761109cab5cc))}}}
 
 ## Formulate descriptor extraction as [[nearest-neighbour]] retrieval performance metric: Average Precision.  
