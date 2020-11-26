@@ -31,6 +31,9 @@ public: true
 ### Detections from ^^deepest^^ layer might not be able to identify low-level structures (corners, edges, etc) where keypoints are often located.
 
 ## Contributions:
+:PROPERTIES:
+:heading: true
+:END:
 ### [[Deformable Convolution Network(DCN)]] in dense prediction framework. 
 
 ### Allow pixel-wise estimation of lcoal transformation as well as progressive shape modelling by stacking multiple DCNs.
