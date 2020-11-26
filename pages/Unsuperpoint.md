@@ -224,8 +224,7 @@ $\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 #### Localization Error:
 ##### The average pixel distance between corresponding points. (LE)			
 
-##### Only point-pairs with distances below $$ \rho $$are included in the calculation. Like [Repeatability Score](link_generated_on_download), the localization error is the average error of corresponding points calculated in both camera views.
-
+##### Only point-pairs with distances below $$ \rho $$are included in the calculation. Like [[Repeatability Score]], the localization error is the average error of corresponding points calculated in both camera views.
 #### **Homography Estimation Procedure**		
 ##### ![](https://remnote-user-data.s3.amazonaws.com/6JNFpcozQYjcUzhqPkSvxxHU9vpWx_qY6sCVge3qRG1BNfEyOF22g6JmCrVm4r6NFzDa-dyQQQ6zqmB5tUnd6bynWcj08WH0_A4mUl3BeO2OknhkEkEBvUKTHUAnh0VA)
 
