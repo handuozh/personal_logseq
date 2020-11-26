@@ -63,8 +63,7 @@ rec /= rec.sum(dim=-1).unsqueeze(1)
   # per-image AP
 ap = (prec * rec).sum(dim=-1)
 ```
-#### [AP](AP.md) achieves its optimal value ^^if and only if^^ every patch from $$ S_q^+ $$ is ranked above all patches from $$ S_q^- $$.
-
+#### [[AP]] achieves its optimal value ^^if and only if^^ every patch from $$ S_q^+ $$ is ranked above all patches from $$ S_q^- $$.
 #### [[AP]] optimization is a [[metric-learning]] problem with ^^goal^^ to learn a distance metric $D$ that give optimal [[AP]] when used fro retrieval.
 #### ^^Challenge^^ is that: sorting operation is [[Non-differentiable]], and continues changes in the input distances -> discontinuous "jumps" in [AP](AP.md) value.
 
