@@ -65,8 +65,7 @@ ap = (prec * rec).sum(dim=-1)
 ```
 #### [AP](AP.md) achieves its optimal value ^^if and only if^^ every patch from $$ S_q^+ $$ is ranked above all patches from $$ S_q^- $$.
 
-#### [AP](AP.md) optimization is a [[metric-learning]] problem with ^^goal^^ to learn a distance metric$$ D $$ that give optimal [[AP]] when used fro retrieval.
-
+#### [[AP]] optimization is a [[metric-learning]] problem with ^^goal^^ to learn a distance metric $D$ that give optimal [[AP]] when used fro retrieval.
 #### ^^Challenge^^ is that: sorting operation is [[Non-differentiable]], and continues changes in the input distances -> discontinuous "jumps" in [AP](AP.md) value.
 
 #### We thus need [[Smoothing]], based on [[Hashing As Tie-aware Learning To Rank]] paper, we employ a differentiable approximation to [[Histogram Binning]] to optimize ranking-based objectives with gradient descent.
