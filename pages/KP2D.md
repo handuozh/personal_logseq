@@ -1,18 +1,10 @@
 ---
 title: KP2D
+public: true
 ---
 
 ## Meta Data
-### [tangNEURALOUTLIERREJECTION2020]([[NEURAL OUTLIER REJECTION FOR SELF-SUPERVISED KEYPOINT LEARNING]])
-
-### [[Tang, Jiexiong]], [[Kim, Hanme]], [[Guizilini, Vitor]], & [[Pillai, Sudeep]] #authors
-
-### [[2020]] #issued
-
-### [[ICLR]] #publisher
-
-### #title [[NEURAL OUTLIER REJECTION FOR SELF-SUPERVISED KEYPOINT LEARNING]]
-
+### #title NEURAL OUTLIER REJECTION FOR SELF-SUPERVISED KEYPOINT LEARNING, 2020, ICLR
 ### #[[topic]]: [[Keypoint]] [[Descriptor-Matching]] [[Keypoint-Extraction-and-Description]] [[Unsuperpoint]] [[Self-supervised]] [[Encoder-decoder]] [[Siamese Network]]
 
 ### #code https://github.com/TRI-ML/KP2D
