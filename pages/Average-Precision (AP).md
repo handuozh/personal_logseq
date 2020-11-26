@@ -9,6 +9,9 @@
 ## Formulate descriptor extraction as [[nearest-neighbour]] retrieval performance metric: Average Precision.  
 
 ## **Estimating fudamental matrix from matching images**
+:PROPERTIES:
+:heading: true
+:END:
 ### [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
 
 ### [[Descriptor Extraction]]
