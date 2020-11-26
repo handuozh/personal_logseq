@@ -14,8 +14,7 @@ permalink: gcnv2
 
 ### [[2019]] #issued
 
-### #title [[GCNv2: Efficient Correspondence Prediction for Real-Time SLAM]]
-
+### #title GCNv2: Efficient Correspondence Prediction for Real-Time SLAM, 2019
 ### #topic #Keypoint [[Detect-then-describe]] #Efficient #[[Binary Descriptors]]
 
 ## Abstract
