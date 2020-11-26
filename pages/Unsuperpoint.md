@@ -1,5 +1,6 @@
 ---
 title: Unsuperpoint
+public: true
 ---
 
 ## Meta Data
