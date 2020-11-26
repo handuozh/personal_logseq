@@ -88,9 +88,7 @@ title: Unsuperpoint
 
 ## **2. Self-supervised Framework**
 ### Three tasks are leaned simultaneously, in a siamese network to predict interest points for two augmentations of the same input image
-	![](https://remnote-user-data.s3.amazonaws.com/usy375CivfxdYkqm-lhodts5Cl3aoAs_ZSRIj823vV_Ujyt9s_nZP4QAN4OP4HjD9I4ig7ntlGxEDBSD0-n8H_9DlXfuqRH8HKj49VdOk0YwVoWxO71liFpWe5rBmqan)
-	
-
+[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_permutation.png?Expires=4759984455&Signature=dMzSXRzEOdVyqYJhz9syA5b7g2rGe5q~I-BZkTNTX214g29jbEmXYnuZxQ03WI1ziPXjkdgM7wnNki8H6r9Yr4GfNru8sUOYAg7~paAfkwPwI3P6RL3Mp4glbahvwmT7mVQOsua2OXbf~tguSNYVBxSaBDDicfLxztq8YdU0P9YnDd-4nWhlMH24n4mH884c-F2WH3MjxfOvxcIaofOxDxAcYVvQm6aX~tLMcYYrUGEatyPqj0mEec-6~dsFDXaU94EyErvS6~5mqt~~WjFAOCndsGOmAIfbUZZXllD~wQWjYx6qlJrsz0HjoTHlpFl3SJfKvhooKnEGvvZ8Fk390Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_permutation.png]]
 ### The two augmentations and their predictions are separated into individual branches.
 #### Branch A (blue) is a non-wrapped version of the input image
 
