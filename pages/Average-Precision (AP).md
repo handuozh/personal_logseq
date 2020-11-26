@@ -13,8 +13,7 @@
 :heading: true
 :END:
 ### 1) [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
-### [[Descriptor Extraction]]
-
+### 2) [[Descriptor Extraction]]
 ### [[Descriptor-Matching]]::
 #### Compute pairwise distance matrix with $$ M^2 $$ entries.
 
