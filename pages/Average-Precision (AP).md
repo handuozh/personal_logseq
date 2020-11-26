@@ -29,6 +29,9 @@
 ### So given a reference feature, features in a target image are either **true match** or **false match**.
 
 ## 1. **Optimizing Average Precision**
+:PROPERTIES:
+:heading: true
+:END:
 ### 1.1 Math notation
 #### Let $$ \mathcal{X} $$ be the space of image patches and $$ S \sub \mathcal{X} $$ be a database.
 
