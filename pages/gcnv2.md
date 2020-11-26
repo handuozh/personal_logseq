@@ -45,11 +45,11 @@ permalink: gcnv2
 :PROPERTIES:
 :heading: true
 :END:
-### Notation
+### 2.1 Notation
 #### Dense feature map $$\mathbf{f}$$ at low resolution
 
 #### [[pixel-shuffle]] keypoint probability map $$\mathbf{o}$$ at original resolution
-### Binarized Descriptor
+### 2.2 Binarized Descriptor
 #### To accelerate, and to match [[ORB]]: feature vector $\mathbf{b}$ set to 256
 #### Add a hard sign function non-linearity as a binary activation layer on top of final output
 
