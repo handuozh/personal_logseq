@@ -13,6 +13,9 @@ public: true
 ### #code https://github.com/TRI-ML/KP2D
 
 ## Abstract
+:PROPERTIES:
+:heading: true
+:END:
 ### The learning framework is based on [[Unsuperpoint]] in a [[Self-supervised]] fashion by receiving source image $$ I_s $$ ($$ K(I_s)=\{p_s,f_s,s_s\} $$ ) and target image $$ I_t $$ ($$K(I_t)=\{p_t,f_t,s_t\} $$). 
 
 ### We define [[IO-Net]]::InlierOutlierNet
