@@ -109,7 +109,7 @@ title: Unsuperpoint
 
 #### $$ \mathcal{L}^{desc} $$ is descriptor loss  and $$\mathcal{L}^{decoor}$$ is regularization to reduce overfitting by decorrelating descriptors.
 
-### 3.1 [[Point-pair]] correspoindences
+### **3.1 [[Point-pair]] correspoindences**
 #### Each branch $$ b\in \{A, B\} $$ outputs three tensors $$ \mathbf{s}^b $$, $$ \mathbf{P}^b $$ and $$ \mathbf{F}^b $$.  We need to establish point correspondeces.
 
 #### Determine an $$ M^A\times M^B $$ distance matrix $$ \mathbf{G} $$ by computing pairwise distances between all $$ M^A $$ transformed points from branch A and all $$ M^B $$ points from branch B.
