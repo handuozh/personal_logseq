@@ -218,6 +218,9 @@ $$ \begin{aligned} l_{ij}^{desc} & = \lambda_d \cdot c_{ij} \cdot \max\left(0,m_
 where $$ \mathbf{v}_i^b $$is a $$ M^b\times 1 $$ sized vector and is the $$ i\text{th} $$ column of $$ \mathbf{F}^b$$,
 $\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
 ## **4. Experiments**
+:PROPERTIES:
+:heading: true
+:END:
 ### **4.1 Metrics**	
 #### Repeatability Score:
 ##### Measures the quality of interest points and is the ratio between the number of points observed by both viewpoints and the total number of points.	
