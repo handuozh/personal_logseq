@@ -31,7 +31,7 @@
  :default-templates
  {:journals ""}
    
- :default-home {:page "topic"
+ :default-home {:page "Topic"
                 :sidebar "Contents" }
  
  ;; :all-pages-public? true
