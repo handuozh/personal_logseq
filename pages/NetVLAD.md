@@ -3,15 +3,7 @@ title: NetVLAD
 ---
 
 ## Meta Data
-### arandjelovicNetVLADCNNArchitecture2016
-
-### [[Arandjelović, Relja]], [[Gronat, Petr]], [[Torii, Akihiko]], [[Pajdla, Tomas]], & [[Sivic, Josef]] #authors
-
-### [[2016]] #issued
-
 ### #title NetVLAD: CNN architecture for weakly supervised place recognition, 2016, CVPR
-### #publisher #IEEE #CVPR
-
 ### #topic #[[Image Retrieval]]
 
 ## Abstract
