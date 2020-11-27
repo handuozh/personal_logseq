@@ -3,10 +3,16 @@ title: NetVLAD
 ---
 
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### #title NetVLAD: CNN architecture for weakly supervised place recognition, 2016, CVPR
 ### #topic #[[Image Retrieval]]
 
 ## Abstract
+:PROPERTIES:
+:heading: true
+:END:
 ### 直接在可训练的CNN架构中嵌入VLAD层是不可行的，因为VLAD中的$$\alpha_k(x_i)$$是不连续的，因此论文作者对 $$\alpha_k(x_i)$$做了修改，提出了NetVLAD.
 
 ### 训练一个模型，对于每一张输入的图像$$I_i$$，得到一个固定长度的向量$$f(I_i)$$。依此法对所要查询的图像q进行操作， 也得到了q的向量表达$$f(q)$$，然后依次与数据集进行比对即可。
