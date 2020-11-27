@@ -71,7 +71,7 @@ public: true
 :END:
 #### [[ResNet 101]] $$ \{C_2,C_3,C_4,C_5\} $$ and [[FPN]] $$ \{P_2,P_3,P_4,P_5\} $$ where $$ P_5 $$ follows [[Pyramid Pooling Module (PPM)]].  
 
-#### Scene label:: the highest level attribute annotated at image-level.
+#### **Scene label**: the highest level attribute annotated at image-level.
 ##### Predicted by a [[Global Average Pooling]] of $$ P_5 $$ followed by a linear classifier.  
 
 ##### Unlike [[Dilated Net]], the down-sampling rate of $$ P_5 $$ is large so the features after [[Global Average Pooling]] focus more on high-level semantics.
