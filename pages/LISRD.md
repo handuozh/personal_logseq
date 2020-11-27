@@ -39,8 +39,10 @@ public: true
 
 #### Inspired by [[Superpoint]]
 
-#### Computes
-
+#### TODO Computes 
+:PROPERTIES:
+:todo: 1606460566722
+:END:
 ### 1. Disentangling invariance for local descriptors
 #### Two factors: rotation and illumination
 
