@@ -1,5 +1,6 @@
 ---
 title: LISRD
+public: true
 ---
 
 ## Meta Data
@@ -9,8 +10,7 @@ title: LISRD
 
 ### [[2020]] #issued
 
-### #title [[Online Invariance Selection for Local Feature Descriptors]]
-
+### #title Online Invariance Selection for Local Feature Descriptors, 2020
 ### #topic #[[Keypoint]], [[Descriptor Extraction]], [[Descriptor-Matching]],  #NetVLAD
 
 ### #code https://github.com/rpautrat/LISRD
@@ -75,4 +75,4 @@ title: LISRD
 
 #### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FNhRALW9YgQ.png?alt=media&token=b875b963-4ccc-44c2-b492-757f449bea76)
 
-#### 
+####
