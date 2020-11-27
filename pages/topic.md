@@ -1,5 +1,6 @@
 ---
 title: topic
+public: true
 ---
 
 ## [[Keypoint]] 
