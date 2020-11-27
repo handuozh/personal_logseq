@@ -33,6 +33,9 @@ public: true
 ### 2. Our framework exploits the hierarchical nature of features from a single network, i.e., for concepts with higher-level semantics such as scene classification, the classifier is built on the feature map with the higher semantics only; for lower-level semantics such as object and material segmentation, classifiers are built on feature maps fused across all stages or the feature map with low-level semantics only.
 
 ## 1. Unified Perceptual Parsing (UPP)
+:PROPERTIES:
+:heading: true
+:END:
 ### Recognition of many visual concepts as possible from a given image.
 
 ### Possible visual concepts are: scene labels, objects and object parts; materials and textures of objects.
