@@ -18,6 +18,9 @@ public: true
 ### schedule: 80k, 160k
 
 ## Motivation: 
+:PROPERTIES:
+:heading: true
+:END:
 ### Since scene recognition, object detection, texture and material recognition are intertwined in human visual perception, this raises an important question for the computer vision systems: is it possible for a neural network to solve several visual recognition tasks simultaneously? This motives our work to introduce a new task called [Unified Perceptual Parsing (UPP](Unified-Perceptual-Parsing-(UPP.md)) along with a novel learning method to address it.
 
 ## Challenges:
