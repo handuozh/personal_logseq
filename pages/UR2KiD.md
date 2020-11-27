@@ -24,8 +24,7 @@ title: UR2KiD
 ### No supervision needed. Does not need depth-maps from an SfM model nor manually created synthetic affine transformations.
 
 ## **Structure**: generate local and global description in a network pipeline $$ P_{joint} $$.
-### Given training supervision: [[Anchor Sample]] $$ a $$, [[Positive Sample]] $$ p $$ and [[Negative Sample]] $$ n_k $$ ^^without^^ pixelwise or pointwise matching correspondences.  ^^Image pairs are from SfM model, no GT needed.^^
-
+### Given training supervision: [[Anchor Sample]] $$ a $$, [[Positive Sample]] $$ p $$ and [[Negative Sample]] $n_k$ ^^without^^ pixelwise or pointwise matching correspondences.  ^^Image pairs are from SfM model, no GT needed.^^
 ### $$ d_g, \{k_i, d_i\}=P_{joint}(I)$$
 
 ### Overview (with backbone pretrained CNN [[ResNet 101]])
