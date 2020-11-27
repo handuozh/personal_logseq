@@ -4,6 +4,6 @@ public: true
 ---
 
 ## [[Keypoint]] 
-## [[Image retreival]]
+## [[Image retrieval]]
 ## [[Segmentation]]
 ##
