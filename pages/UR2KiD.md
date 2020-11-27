@@ -3,12 +3,6 @@ title: UR2KiD
 ---
 
 ## Meta Data
-### [yangUR2KiDUnifyingRetrieval2020a]([[UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision]])
-
-### [[Yang, Tsun Yi]], [[Nguyen, Duy Kien]], [[Heijnen, Huub]], & [[Balntas, Vassileios]] #authors
-
-### [[2020]] #issued
-
 ### #title UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision, 2020
 ### #topic #Keypoint #Detection-and-describe #[[Keypoint Extraction]]  #[[Descriptor-Matching]]  #[[Image Retrieval]] #[[Self-distillation]]
 
