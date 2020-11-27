@@ -41,7 +41,7 @@ title: UR2KiD
 
 ### Based on the idea of ^^independent matching for each channel^^, aggregate the concept from different channels as [[GC-DAD]] for both keypoint detection and description.
 
-### GC-DAD:
+### **GC-DAD**:
 #### Group-Concept Detect-and-Describe, [[Channel Grouping]] method.  
 
 #### Unlike [[D2-Net]] taking maximum value across the feature map channel, this paper depends on [[L2 Response]] as the importance of keypoint.
