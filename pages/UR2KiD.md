@@ -28,8 +28,8 @@ title: UR2KiD
 ### $$ d_g, \{k_i, d_i\}=P_{joint}(I)$$
 
 ### Overview (with backbone pretrained CNN [[ResNet 101]])
-/upl
-/upl
+#### /up
+#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_27_test.png?Expires=4760063770&Signature=HhOEyWWmQ4wDycnGbbTPuYLVHEcraUr90PAnw96luo1Q8MIXYpf2KMSRM7gL1-1nNIRMxM0yidNvfDr~DZ-nAiUk1Y8MhGAhKpQe3BB-1d4o41Qf6goRTo9KEwvo8Q02N3yuQeoD~fA5aSeFORy6gQSuylj20kLEX2oWjL~MTqQqP9FgBk1No2j3mr2lqtdV64Lc5N7dWfu1~-l6XT2xmDwdYde9ujRr-kKmSL3R80UjS19nB-74dl6dDKpl4bVwMPyIcbMwX1RoKRGI1Qv-gOHnmZsm70ihasAWZB8QMF7IK2ONlFzQQJNSglrZwbRFvJvjUO0daamalctshD3rqA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_27_test.png]]
 #### Multi-level feature extraction for local descriptors from ResNet blocks and [FPN](FPN.md).
 
 #### Final global descriptor is the concatenation of multiple different [GeM](GeM.md) pooling results.
