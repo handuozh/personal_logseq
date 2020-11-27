@@ -1,5 +1,6 @@
 ---
 title: Image retrieval
+public: true
 ---
 
 ## [[NetVLAD]] 
