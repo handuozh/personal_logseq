@@ -45,7 +45,7 @@ public: true
 
 ### Metrics 
 #### **Pixel Accuracy (P.A.)**: proportion of correctly classified pixels
-#### IoU (mIoU)****:: intersection-over-union between predicted and ground truth pixels, averaged over all object classes.
+#### **IoU (mIoU)**: intersection-over-union between predicted and ground truth pixels, averaged over all object classes.
 #### To balance samples across different labels in different categories we first randomly sample 10% of original images as the validation set. 
 
 #### Then randomly choose an image both from the training and validation set, and check if the annotations in pixel-level are more balanced towards 10% after swapping these two images. The process is performed iteratively.
