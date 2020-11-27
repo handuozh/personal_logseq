@@ -1,5 +1,5 @@
 ---
-title: topic
+title: Academic
 public: true
 ---
 
