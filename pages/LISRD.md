@@ -61,6 +61,9 @@ public: true
 ##### Dense descriptors are sampled on selected keypoints of the images, [[L2-norm]]alized to compute the losses.
 
 ### 2. Online Selection of the best invariance
+:PROPERTIES:
+:heading: true
+:END:
 #### During matching, explore how to pick the most relevant invariance
 
 #### [[NetVLAD]] layer integration
