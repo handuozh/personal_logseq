@@ -1,5 +1,6 @@
 ---
 title: UR2KiD
+public: true
 ---
 
 ## Meta Data

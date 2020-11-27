@@ -6,5 +6,8 @@
 ### [[Unsuperpoint]]
 ### [[KP2D]]
 ### [[LISRD]]
+## [[Image Retrieval]]
+### [[NetVLAD]]
+### [[UR2KiD]]
 ## [[Segmentation]]
 ### [[UPerNet]]
