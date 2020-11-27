@@ -9,4 +9,7 @@ public: true
 ## [[R2D2]]
 ## [[GCNv2]]
 ## [[ASLFeat]]
-##
+## [[Average-Precision (AP)]]
+## [[Unsuperpoint]]
+## [[KP2D]]
+## [[LISRD]]

@@ -6,14 +6,10 @@ public: true
 ---
 
 ## Meta Data
-### [luoASLFeatLearningLocal2020a]([[ASLFeat: Learning Local Features of Accurate Shape and Localization]])
-
-### [[[[Luo, Zixin]], [[Zhou, Lei]], [[Bai, Xuyang]], [[Chen, Hongkai]], [[Zhang, Jiahui]], [[Yao, Yao]], et al.]] #authors
-
-### [[2020]] #issued
-
-### #title [[ASLFeat: Learning Local Features of Accurate Shape and Localization]]
-
+:PROPERTIES:
+:heading: true
+:END:
+### #title ASLFeat: Learning Local Features of Accurate Shape and Localization, 2020
 ### #topic  #Keypoint #[[Descriptor Matching]] [[D2-Net]] [[R2D2]]
 
 ## Limitations of local feature detection and descriptions
@@ -22,6 +18,9 @@ public: true
 ### Localization accuracy
 
 ## Literature Review:
+:PROPERTIES:
+:heading: true
+:END:
 ### [[Lf-net]] and [[D2-Net]] empirically yield low precision in two-view matching or introduce large reprojection error in SfM tasks. As the detections are from low-resolution feature maps ($$ 1/4 $$ times original size).
 
 ### [[Superpoint]] learns to upsample the feature maps with pixel-wise supervision from artificial points.
@@ -32,6 +31,9 @@ public: true
 ### Detections from ^^deepest^^ layer might not be able to identify low-level structures (corners, edges, etc) where keypoints are often located.
 
 ## Contributions:
+:PROPERTIES:
+:heading: true
+:END:
 ### [[Deformable Convolution Network(DCN)]] in dense prediction framework. 
 
 ### Allow pixel-wise estimation of lcoal transformation as well as progressive shape modelling by stacking multiple DCNs.
@@ -40,9 +42,15 @@ public: true
 ### Peakiness measurement for more selective keypoint detection.
 
 ## Network Architecture
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FaeNGx2iSyq.png?alt=media&token=5b050b88-2111-4dc9-81c0-d892ca64f1f8)
 
 ## 1. Prerequisites
+:PROPERTIES:
+:heading: true
+:END:
 ### Output features $\mathbf{y}$ of a standard convolution for each spatial position $\mathbf{p}$ is:
 #### ^^(1)^^                 $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in\mathcal{R}} w(\mathbf{p}_n)\cdot\mathbf{x(p+p_n)} $$, 
 given regular grid $\mathcal{R}$ sampling over input feature map $\mathbf{x}.$
@@ -51,6 +59,9 @@ given regular grid $\mathcal{R}$ sampling over input feature map $\mathbf{x}.$
 with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
 
 ## 2. DCN with Geometric Constraints
+:PROPERTIES:
+:heading: true
+:END:
 ### Original free-form DCN predicts local transformation of DOF like $9\times 2$ offsets for a $3\times 3$ kernel. It can model complex deformation but takes a risk of over-paramertizing local shape.
 ### Affine-constrained DCN. Decompsed as
 #### ^^(3) ^^             $$ \mathbf{S}=\lambda R(\theta)=\lambda\left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array}\right) $$  
@@ -62,6 +73,9 @@ where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for r
 #### TODO To read this part  
 
 ## 3. Selective and Accurate Keypoint Detection
+:PROPERTIES:
+:heading: true
+:END:
 ### Refer to original [[D2-Net]]:
 #### Section
 ##### Amenable for back propagation.
