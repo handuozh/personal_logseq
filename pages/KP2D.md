@@ -116,7 +116,7 @@ Each keypoint $$p_i\in \mathbf{p_s}$$ in source image has descriptor $$f_i$$, an
 
 ###### $$L$$ the total number of feature pairs
 
-## 2. IO-NET: Neural Outlier Rejection as an **Auxiliary** Task
+## 2. [[IO-NET]]: Neural Outlier Rejection as an **Auxiliary** Task
 ### Use [[outlier rejection]] as a [[proxy task]] to supervise the keypoint learning.
 
 ### (5)    $$L_{IO}=\sum\limits_i \frac{1}{2}\left(r_i-\text{sign}{(||p_i^*-\hat{p_i}||_2-\epsilon_{uv})}\right)^2$$
