@@ -66,6 +66,9 @@ public: true
 ##### With deep layers like [[ResNet 101]], in a dilated segmentation framework, dilated convolution needs to be applied to both blocks to ensure that the max down-sampling rate of all feature maps does not exceed 8. But due to the feature maps within the two blocks are ^^increased to 4 or 16 times^^ of their designated sizes, both the computation complexity and GPU memory footprint are dramatically increased.  
 
 ### Network architecture
+:PROPERTIES:
+:heading: true
+:END:
 #### [[ResNet 101]] $$ \{C_2,C_3,C_4,C_5\} $$ and [[FPN]] $$ \{P_2,P_3,P_4,P_5\} $$ where $$ P_5 $$ follows [[Pyramid Pooling Module (PPM)]].  
 
 #### Scene label:: the highest level attribute annotated at image-level.
