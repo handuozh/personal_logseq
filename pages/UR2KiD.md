@@ -9,8 +9,7 @@ title: UR2KiD
 
 ### [[2020]] #issued
 
-### #title [[UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision]]
-
+### #title UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision, 2020
 ### #topic #Keypoint #Detection-and-describe #[[Keypoint Extraction]]  #[[Descriptor-Matching]]  #[[Image Retrieval]] #[[Self-distillation]]
 
 ## Abstract
