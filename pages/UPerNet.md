@@ -4,12 +4,6 @@ public: true
 ---
 
 ## Meta Data:
-### [xiaoUnifiedPerceptualParsing2018]([[Unified Perceptual Parsing for Scene Understanding]])
-
-### [[Xiao, Tete]], [[Liu, Yingcheng]], [[Zhou, Bolei]], [[Jiang, Yuning]], & [[Sun, Jian]] #authors
-
-### [[2018]] #issued
-
 ### #title Unified Perceptual Parsing for Scene Understanding, 2018
 ### #topic #Segmentation [[PSPNet]] [[FPN]] 
 
