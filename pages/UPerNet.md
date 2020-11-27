@@ -4,6 +4,9 @@ public: true
 ---
 
 ## Meta Data:
+:PROPERTIES:
+:heading: true
+:END:
 ### #title Unified Perceptual Parsing for Scene Understanding, 2018
 ### #topic #Segmentation [[PSPNet]] [[FPN]] 
 
