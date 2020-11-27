@@ -24,6 +24,9 @@ public: true
 #### Similarity of them across images is used to select the right invariance.
 
 ## Method
+:PROPERTIES:
+:heading: true
+:END:
 ### Select the most relevant variance for local feature descriptors
 
 ### 2 Steps:
