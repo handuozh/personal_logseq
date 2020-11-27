@@ -1,5 +1,6 @@
 ---
 title: NetVLAD
+public: true
 ---
 
 ## Meta Data
@@ -55,4 +56,4 @@ title: NetVLAD
 ## Supervsed VLAD
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2Fwai5aWdSY7.png?alt=media&token=5fd74c67-6b94-4a8a-b955-995321e690e7)
 
-### 
+###
