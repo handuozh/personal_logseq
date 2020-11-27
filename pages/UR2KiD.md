@@ -10,6 +10,9 @@ title: UR2KiD
 ### #topic #Keypoint #Detection-and-describe #[[Keypoint Extraction]]  #[[Descriptor-Matching]]  #[[Image Retrieval]] #[[Self-distillation]]
 
 ## Abstract
+:PROPERTIES:
+:heading: true
+:END:
 ### Combine keypoint detection, description, and image retrival jointly in a single unified framework.
 
 ### Leverage diverse info from ResNet architecture, extract keypoints and descriptors that encode local info using [[Local Activation Norms]], [[Channel Grouping]], [[Channel Droping]], and [[Self-distillation]].
