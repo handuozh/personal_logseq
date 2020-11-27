@@ -58,8 +58,7 @@ public: true
 ### **FPN:** A generic feature extractor which exploits multi-level feature representations in an inherent and pyramidal hierarchy. It uses a top-down architecture with lateral connections to fuse high-level semantic information into middle and low levels with marginal extra cost. #definition
 #### Issue: empirical [[Recpetive Field]] of CNN is small.  
 
-### FCN:: Fully convolutional networks. To enable high-resolution predictions, [[Dilated Net]] is adopted. #definition
-
+### **FCN**: Fully convolutional networks. To enable high-resolution predictions, [[Dilated Net]] is adopted.
 ### Dilated Net:: Removes the stride of convolutional layers and adds holes between each location of convolution filters. To ease the side effect of down-sampling while maintaining the expansion rate for receptive fields. It is a de facto paradigm for semantic segmentation. #definition
 #### Issues:
 ##### Prior works show that lower layers tend to capture local features such as corners or edge/color conjunctions, while higher layers tend to capture more complex patterns such as parts of some objects. So using the features with the high-level semantics is unfit to segment perceptual attributes at multiple levels, especially the low-level ones.
