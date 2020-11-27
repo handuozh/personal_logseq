@@ -44,6 +44,9 @@ public: true
 :todo: 1606460566722
 :END:
 ### 1. Disentangling invariance for local descriptors
+:PROPERTIES:
+:heading: true
+:END:
 #### Two factors: rotation and illumination
 
 #### So there are four possible combinations of variance with respect to  illumination and rotation
