@@ -1,5 +1,6 @@
 ---
 title: UPerNet
+public: true
 ---
 
 ## Meta Data:
@@ -9,8 +10,7 @@ title: UPerNet
 
 ### [[2018]] #issued
 
-### #title [[Unified Perceptual Parsing for Scene Understanding]]
-
+### #title Unified Perceptual Parsing for Scene Understanding, 2018
 ### #topic #Segmentation [[PSPNet]] [[FPN]] 
 
 ## [[mmsegmentation config]]
