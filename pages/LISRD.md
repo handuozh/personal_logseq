@@ -4,12 +4,9 @@ public: true
 ---
 
 ## Meta Data
-### [pautratOnlineInvarianceSelection2020]([[Online Invariance Selection for Local Feature Descriptors]])
-
-### [[Pautrat, Rémi]], [[Larsson, Viktor]], [[Oswald, Martin R.]], & [[Pollefeys, Marc]] #authors
-
-### [[2020]] #issued
-
+:PROPERTIES:
+:heading: true
+:END:
 ### #title Online Invariance Selection for Local Feature Descriptors, 2020
 ### #topic #[[Keypoint]], [[Descriptor Extraction]], [[Descriptor-Matching]],  #NetVLAD
 
