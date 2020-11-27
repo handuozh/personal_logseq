@@ -79,8 +79,7 @@ public: true
 #### **Object label**: fusing all feature maps of [[FPN]] is better than only using the highest resolution ($P_2$).
 #### Materials: On top of $$P_2$$ rather than fused features.
 
-#### Texture label:: given at image-level, is based on non-natural images.
-
+#### **Texture label**: given at image-level, is based on non-natural images.
 ### ![https://remnote-user-data.s3.amazonaws.com/tTVklhTOhsJ_HMBdrVcdaw8KCn59cMDzRySYaUIYZpWwMfyvNrhPbMzrLo8uWg-Sbir72RiPq0bQ-ISHhJihozh2wImbuMkTeIt9Jp3_izdE1ILmElkJGww9PCodVcXB](https://remnote-user-data.s3.amazonaws.com/tTVklhTOhsJ_HMBdrVcdaw8KCn59cMDzRySYaUIYZpWwMfyvNrhPbMzrLo8uWg-Sbir72RiPq0bQ-ISHhJihozh2wImbuMkTeIt9Jp3_izdE1ILmElkJGww9PCodVcXB)
 
 ### UPerNet framework for Unified Perceptual Parsing.
