@@ -13,6 +13,9 @@ public: true
 ### #code https://github.com/rpautrat/LISRD
 
 ## Abstract
+:PROPERTIES:
+:heading: true
+:END:
 ### Focus on descriptors only, use [[SIFT]] keypoints during training to propagate the gradient. 
 
 ### Limitation of feature descriptor is the trade-off of generalization and discriminative power: **more invariance means less informative descriptors**
