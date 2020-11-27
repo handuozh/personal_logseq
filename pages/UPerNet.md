@@ -21,8 +21,7 @@ public: true
 :PROPERTIES:
 :heading: true
 :END:
-### Since scene recognition, object detection, texture and material recognition are intertwined in human visual perception, this raises an important question for the computer vision systems: is it possible for a neural network to solve several visual recognition tasks simultaneously? This motives our work to introduce a new task called [Unified Perceptual Parsing (UPP](Unified-Perceptual-Parsing-(UPP.md)) along with a novel learning method to address it.
-
+### Since scene recognition, object detection, texture and material recognition are intertwined in human visual perception, this raises an important question for the computer vision systems: is it possible for a neural network to solve several visual recognition tasks simultaneously? This motives our work to introduce a new task called ^^Unified Perceptual Parsing (UPP)^^ along with a novel learning method to address it.
 ## Challenges:
 ### 1. There is no single image dataset annotated with all levels of visual information. Various image datasets are constructed only for a specific task, such as [[ADE20K]]for scene parsing, the [[Describe Texture Dataset]] (DTD) for texture recognition, and OpenSurfaces for material and surface recognition.
 
