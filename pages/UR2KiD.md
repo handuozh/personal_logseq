@@ -79,8 +79,7 @@ title: UR2KiD
 
 ## During feature mapping, low dim descriptor $$ \hat{F} $$ cannot capture whole info from $$ F $$ by only using matching loss.
 
-## Distillation:: Transfer info from teacher model to student model, as in [[HF-Net]], with the extra dataset to train.
-
+## **Distillation**: Transfer info from teacher model to student model, as in [[HF-Net]], with the extra dataset to train.
 ## Here distill indirectly:
 
 ## $$ L_{Dis}=\left( M_{high} \cdot M_{high}^{(det)}-\hat{M}_{low}\right)^2 $$
