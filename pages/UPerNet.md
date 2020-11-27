@@ -80,8 +80,7 @@ public: true
 #### Materials: On top of $$P_2$$ rather than fused features.
 
 #### **Texture label**: given at image-level, is based on non-natural images.
-### ![https://remnote-user-data.s3.amazonaws.com/tTVklhTOhsJ_HMBdrVcdaw8KCn59cMDzRySYaUIYZpWwMfyvNrhPbMzrLo8uWg-Sbir72RiPq0bQ-ISHhJihozh2wImbuMkTeIt9Jp3_izdE1ILmElkJGww9PCodVcXB](https://remnote-user-data.s3.amazonaws.com/tTVklhTOhsJ_HMBdrVcdaw8KCn59cMDzRySYaUIYZpWwMfyvNrhPbMzrLo8uWg-Sbir72RiPq0bQ-ISHhJihozh2wImbuMkTeIt9Jp3_izdE1ILmElkJGww9PCodVcXB)
-
+### ![](https://remnote-user-data.s3.amazonaws.com/tTVklhTOhsJ_HMBdrVcdaw8KCn59cMDzRySYaUIYZpWwMfyvNrhPbMzrLo8uWg-Sbir72RiPq0bQ-ISHhJihozh2wImbuMkTeIt9Jp3_izdE1ILmElkJGww9PCodVcXB)
 ### UPerNet framework for Unified Perceptual Parsing.
 #### ^^Top-left: ^^The Feature Pyramid Network (FPN) with a PPM appended on the last layer of the back-bone network before feeding to the top-down branch in FPN.
 
