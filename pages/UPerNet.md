@@ -76,8 +76,7 @@ public: true
 
 ##### Unlike [[Dilated Net]], the down-sampling rate of $$ P_5 $$ is large so the features after [[Global Average Pooling]] focus more on high-level semantics.
 
-#### Object label:: fusing all feature maps of [[FPN]] is better than only using the highest resolution ($$ P_2 $$).
-
+#### **Object label**: fusing all feature maps of [[FPN]] is better than only using the highest resolution ($P_2).
 #### Materials: On top of $$P_2$$ rather than fused features.
 
 #### Texture label:: given at image-level, is based on non-natural images.
