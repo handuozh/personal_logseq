@@ -43,7 +43,7 @@ title: UR2KiD
 
 ### (((06c45b39-0c01-48c4-a03d-765a67ac123c)))
 
-### GC-DAD::
+### GC-DAD:
 #### Group-Concept Detect-and-Describe, [[Channel Grouping]] method.  
 
 #### Unlike [[D2-Net]] taking maximum value across the feature map channel, this paper depends on [[L2 Response]] as the importance of keypoint.
