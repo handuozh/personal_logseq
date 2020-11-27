@@ -90,9 +90,10 @@ public: true
 #### [[metric-learning]] is used to train by per-pixel [[Triplet loss]] instead of common [[Contrastive Loss]].
 ##### [[Nested hardest sample mining]]:: We pick the negative sample ^^closest^^ in the descriptor space but not a positive sample.
 
-##### #recall Each keypoint $$p_i\in \mathbf{p_s}$$ in source image has descriptor $$f_i$$, an ^^anchor^^ descriptor, obtained by #+BEGIN_NOTE
-Each keypoint $$p_i\in \mathbf{p_s}$$ in source image has descriptor $$f_i$$, an ^^anchor^^ descriptor, obtained by 
-#+END_NOTE sampling the appropriate location in the dense descriptor map $$\mathbf{f_s}$$ (in [[Superpoint]]).
+#####
+#+BEGIN_NOTE
+Each keypoint $$p_i\in \mathbf{p_s}$$ in source image has descriptor $$f_i$$, an ^^anchor^^ descriptor, obtained by sampling the appropriate location in the dense descriptor map $$\mathbf{f_s}$$ (in [[Superpoint]] )
+#+END_NOTE
 ##### This associated descriptor $$f_{i,+}^*$$ in the target frame, a __positive__ descriptor, is obtained by sampling the appropriate location in the target descriptor map $$\mathbf{f_t}$$ based on warped keypoint position $$p_i^*$$.
 
 ##### The nested [[Triplet loss]] is:
