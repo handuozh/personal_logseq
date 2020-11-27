@@ -10,8 +10,8 @@ public: true
 ### #title UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor, 2019
 ### #topic  #Superpoint #Keypoint #[[Descriptor Extraction]] #Unsupervised-learning #[[Siamese Network]] #[[Self-supervised]]
 
-### #code https://github.com/791136190/UnsuperPoint_PyTorch 
-
+### #code https://github.com/791136190/UnsuperPoint_PyTorch
+### External Note: https://note.youdao.com/ynoteshare1/index.html?id=17011dbe01f766f8e5509f4860a08f96&type=note
 ## **Abstract**: 
 :PROPERTIES:
 :heading: true
