@@ -9,8 +9,7 @@ title: NetVLAD
 
 ### [[2016]] #issued
 
-### #title [[NetVLAD: CNN architecture for weakly supervised place recognition]]
-
+### #title NetVLAD: CNN architecture for weakly supervised place recognition, 2016, CVPR
 ### #publisher #IEEE #CVPR
 
 ### #topic #[[Image Retrieval]]
