@@ -41,8 +41,6 @@ title: UR2KiD
 
 ### Based on the idea of ^^independent matching for each channel^^, aggregate the concept from different channels as [[GC-DAD]] for both keypoint detection and description.
 
-### (((06c45b39-0c01-48c4-a03d-765a67ac123c)))
-
 ### GC-DAD:
 #### Group-Concept Detect-and-Describe, [[Channel Grouping]] method.  
 
