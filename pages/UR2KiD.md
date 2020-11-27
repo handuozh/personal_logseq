@@ -28,8 +28,8 @@ title: UR2KiD
 ### $$ d_g, \{k_i, d_i\}=P_{joint}(I)$$
 
 ### Overview (with backbone pretrained CNN [[ResNet 101]])
-![https://remnote-user-data.s3.amazonaws.com/S6dNnRnkaOqcG3bGPK1vNIYDmARXKb1Mdx9a7_Bt4zLYi6FLvqYEPXPq-KbEURNOk_eygltnbYv6DOzb2M8MYnJ4EVs2wtU1PWQfI3kwcFrO-UfA1rtxxeSUbggr00lb](https://remnote-user-data.s3.amazonaws.com/S6dNnRnkaOqcG3bGPK1vNIYDmARXKb1Mdx9a7_Bt4zLYi6FLvqYEPXPq-KbEURNOk_eygltnbYv6DOzb2M8MYnJ4EVs2wtU1PWQfI3kwcFrO-UfA1rtxxeSUbggr00lb)  
-![https://remnote-user-data.s3.amazonaws.com/uX3Y7-ATUcgd2xQFEJ_zR3VLyZSvCvxws6XU2sSW1LOcyPdzx_uuH8ERzbiNRyiBwT2esaf3OIBw1-OMhrMrEKnVSZ8lulIXJpJ3iuL-BlgnadZcRW4p8chIuYnfE6Mn](https://remnote-user-data.s3.amazonaws.com/uX3Y7-ATUcgd2xQFEJ_zR3VLyZSvCvxws6XU2sSW1LOcyPdzx_uuH8ERzbiNRyiBwT2esaf3OIBw1-OMhrMrEKnVSZ8lulIXJpJ3iuL-BlgnadZcRW4p8chIuYnfE6Mn)
+/upl
+/upl
 #### Multi-level feature extraction for local descriptors from ResNet blocks and [FPN](FPN.md).
 
 #### Final global descriptor is the concatenation of multiple different [GeM](GeM.md) pooling results.
