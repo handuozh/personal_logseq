@@ -44,8 +44,7 @@ public: true
 #### Multi-source dataset enforce balancing
 
 ### Metrics 
-#### Pixel Accuracy (P.A.):: proportion of correctly classified pixels
-
+#### **Pixel Accuracy (P.A.)**: proportion of correctly classified pixels
 #### IoU (mIoU):: intersection-over-union between predicted and ground truth pixels, averaged over all object classes.
 
 #### To balance samples across different labels in different categories we first randomly sample 10% of original images as the validation set. 
