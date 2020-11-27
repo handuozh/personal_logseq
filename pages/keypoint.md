@@ -8,6 +8,7 @@ public: true
 ## [[D2-Net]]
 ## [[R2D2]]
 ## [[GCNv2]]
+## [[ContextDesc]]
 ## [[ASLFeat]]
 ## [[Average-Precision (AP)]]
 ## [[Unsuperpoint]]
