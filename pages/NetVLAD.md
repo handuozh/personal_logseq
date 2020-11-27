@@ -44,6 +44,9 @@ title: NetVLAD
 #### 其中$$w_k$$,$$b_k$$,$$c_k$$均为可学习的参数．
 
 ## Architecture
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F7rYkbYZqhN.png?alt=media&token=3fd69688-d5c6-4ea9-8d8a-2c7a4902658b)
 
 ### sdfas
