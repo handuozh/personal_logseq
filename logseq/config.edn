@@ -18,7 +18,7 @@
 
  ;; Git settings
  :git-pull-secs 60
- :git-push-secs 10
+ :git-push-secs 200
  :git-auto-push true
 
  ;; The app will ignore those directories or files.
