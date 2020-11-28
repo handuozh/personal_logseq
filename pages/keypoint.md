@@ -1,6 +1,7 @@
 ---
 title: keypoint
-## published: true
+alias: feature
+published: true
 permalink: keypoint
 public: true
 ---
