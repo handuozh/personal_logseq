@@ -8,4 +8,4 @@ title: Books
 :author: Gaoxiang
 :category: [[robotics]], [[algorithm]], [[cv]]
 :END:
-## ::END:
+##
