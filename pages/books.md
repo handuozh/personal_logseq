@@ -6,5 +6,6 @@ title: Books
 :PROPERTIES:
 :type: [[book]]
 :author: Gaoxiang
+:category: [[robotics]], [[algorithm]], [[cv]]
 :END:
 ## ::END:
