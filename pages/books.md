@@ -13,4 +13,5 @@ title: Books
 :type: [[book]]
 :category: [[C++]] 
 :END:
+## [[Effective C++]], [[More Effective C++]], [[Effective STL]]
 ##
