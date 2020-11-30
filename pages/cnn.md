@@ -1,5 +1,6 @@
 ---
 title: CNN
+public: true
 ---
 
 ## [[Metrics]]
