@@ -17,6 +17,9 @@ title: ArcFace
 ### 训练（人脸分类器）：ResNet50 + ArcFace loss
 ### 测试：从人脸分类器FC1层的输出中提取512维的嵌入特征，对输入的两个特征计算余弦距离，再来进行人脸验证和人脸识别
 ## References:
+:PROPERTIES:
+:heading: true
+:END:
 ### https://zhuanlan.zhihu.com/p/76541084
 ## 4 Kinds of Geodesic Distance (GDis) constraint
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FiDlS4jGqkv.png?alt=media&token=e4962c77-861d-498f-8d9e-55237abc4c73)
