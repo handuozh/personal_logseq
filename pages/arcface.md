@@ -31,3 +31,4 @@ title: ArcFace
 ### 得到挑出从$$y$$ 中挑出与ground truth对应的值所在位置的one-hot code
 - 将$$cos(\theta+m)$$通过独热码放回原来的位置
 - 对所有值乘上固定值$$s$$.
+###
