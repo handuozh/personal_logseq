@@ -3,8 +3,14 @@ title: ArcFace
 ---
 
 ## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
 ### ArcFace: Additive Angular Margin Loss for Deep Face Recognition, 2019
 ## Abstract
+:PROPERTIES:
+:heading: true
+:END:
 ### 在[[SphereFace]]基础上改进了对特征向量归一化和加性角度间隔,提高了类间可分性同时加强类内紧度和类间差异
 ### 对特征向量和权重归一化，对$\theta$加上角度间隔$m$，角度间隔比余弦间隔在对角度的影响更加直接。几何上有恒定的线性角度margin
 #### ArcFace中是直接在角度空间$\theta$中最大化分类界限，而[[CosFace]]是在余弦空间$\cos(\theta)$中最大化分类界限
