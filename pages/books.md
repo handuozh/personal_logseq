@@ -13,7 +13,4 @@ title: Books
 :type: [[book]]
 :category: [[C++]] 
 :END:
-
-category: [[C++]] 
-:END:
 ##
