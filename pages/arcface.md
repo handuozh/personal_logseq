@@ -22,6 +22,9 @@ title: ArcFace
 :END:
 ### https://zhuanlan.zhihu.com/p/76541084
 ## 4 Kinds of Geodesic Distance (GDis) constraint
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FiDlS4jGqkv.png?alt=media&token=e4962c77-861d-498f-8d9e-55237abc4c73)
 ### (A) Margin-Loss
 ### (B) Intra-Loss
@@ -29,6 +32,9 @@ title: ArcFace
 ### (D) Triplet-Loss
 ### (E) **Additive Angular Margin Loss (ArcFace)**
 ## Network Architecture
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F3vCP8VbDkt.png?alt=media&token=1b529fdc-6bd9-45aa-b271-4c45cf51cabc)
 ## 对比
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F-2CQgZ9fIj.png?alt=media&token=404cac07-7afc-415e-8211-cbd25d01cf38)
