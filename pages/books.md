@@ -9,6 +9,11 @@ title: Books
 :category: [[robotics]], [[algorithm]], [[cv]]
 :END:
 ## [[C++ Primer]]
+:PROPERTIES:
+:type: [[book]]
+:category: [[C++]] 
+:END:
+
 category: [[C++]] 
 :END:
 ##
