@@ -21,5 +21,13 @@ title: ArcFace
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F3vCP8VbDkt.png?alt=media&token=1b529fdc-6bd9-45aa-b271-4c45cf51cabc)
 ## 对比
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F-2CQgZ9fIj.png?alt=media&token=404cac07-7afc-415e-8211-cbd25d01cf38)
-## Psedo Code
-##
+## Pseudo Code
+### 对$$x$$进行归一化
+### 对 $$W$$ 进行归一化
+### 计算 $$W_x$$ 得到预测向量$$y$$
+### 从 $$y$$中挑出与ground truth对应的值
+### 计算其反余弦得到角度
+### 角度加上m
+### 得到挑出从$$y$$ 中挑出与ground truth对应的值所在位置的one-hot code
+- 将$$cos(\theta+m)$$通过独热码放回原来的位置
+- 对所有值乘上固定值$$s$$.
