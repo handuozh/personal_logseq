@@ -37,8 +37,14 @@ title: ArcFace
 :END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F3vCP8VbDkt.png?alt=media&token=1b529fdc-6bd9-45aa-b271-4c45cf51cabc)
 ## 对比
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F-2CQgZ9fIj.png?alt=media&token=404cac07-7afc-415e-8211-cbd25d01cf38)
 ## Pseudo Code
+:PROPERTIES:
+:heading: true
+:END:
 ### 对$x$进行归一化
 ### 对 $W$ 进行归一化
 ### 计算 $W_x$ 得到预测向量$y$
