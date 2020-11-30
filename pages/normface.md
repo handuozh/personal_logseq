@@ -21,5 +21,8 @@ title: NormFace
 :END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FrkSKf8gepa.png?alt=media&token=fa37c4ae-7e28-440c-adfa-a07deb200558)
 ## Normalization
+:PROPERTIES:
+:heading: true
+:END:
 ### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FCp7FQXFUoy.png?alt=media&token=675156b6-7526-444b-a1e4-8d0fe0c8943c)
 ##
