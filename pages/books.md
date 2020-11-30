@@ -8,4 +8,7 @@ title: Books
 :author: Gaoxiang
 :category: [[robotics]], [[algorithm]], [[cv]]
 :END:
+## [[C++ Primer]]
+category: [[C++]] 
+:END:
 ##
