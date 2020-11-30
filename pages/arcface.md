@@ -25,7 +25,7 @@ title: ArcFace
 ### 对$x$进行归一化
 ### 对 $W$ 进行归一化
 ### 计算 $W_x$ 得到预测向量$y$
-### 从 $$y$$中挑出与ground truth对应的值
+### 从 $y$中挑出与ground truth对应的值
 ### 计算其反余弦得到角度
 ### 角度加上m
 ### 得到挑出从$$y$$ 中挑出与ground truth对应的值所在位置的one-hot code
