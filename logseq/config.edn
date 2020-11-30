@@ -31,7 +31,7 @@
  :default-templates
  {:journals ""}
    
- :default-home {:page "Handuo's Garden"
+ :default-home {:page "My_Garden"
                 :sidebar "Contents" }
  
  ;; :all-pages-public? true
