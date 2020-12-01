@@ -1,5 +1,5 @@
 ---
-title: My Garden
+title: Notes
 public: true
 ---
 
