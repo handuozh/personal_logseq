@@ -7,4 +7,4 @@ public: true
 ## [[Image retrieval]]
 ## [[Segmentation]]
 ## [[CNN]]
-##
+## [[SLAM]]
