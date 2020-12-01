@@ -8,3 +8,4 @@ public: true
 ## [[Academic]]
 ## [[Projects]]
 ## [[Books]]
+## [[Daily Journal]]
