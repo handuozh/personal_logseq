@@ -1,5 +1,5 @@
 ---
-title: My Garden
+title: Notes
 public: true
 ---
 
@@ -8,3 +8,4 @@ public: true
 ## [[Academic]]
 ## [[Projects]]
 ## [[Books]]
+## [[Daily Journal]]
