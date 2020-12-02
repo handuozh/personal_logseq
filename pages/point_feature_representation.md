@@ -21,3 +21,5 @@ $$
 $$
 \frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = \mathbf{I}_{3\times 3}
 $$
+### 2. Global Inverse Depth
+####
