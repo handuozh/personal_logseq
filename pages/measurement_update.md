@@ -7,4 +7,5 @@ title: Measurement Update
 ### [[Bayes Rule]]
 ### Gaussian [[PDF]]
 ## 3D Feature [[Triangulation]]
-## Camera Measurement Update参数化
+## Camera Measurement Update
+### 特征点的参数化
