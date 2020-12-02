@@ -19,6 +19,5 @@ $${}^{G}\mathbf{p}_f
 $$
 #### It is clear that the Jacobian with respect to the feature parameters is:
 $$
-{align*}{
-\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} &= \mathbf{I}_{3\times 3}}
+\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = \mathbf{I}_{3\times 3}
 $$
