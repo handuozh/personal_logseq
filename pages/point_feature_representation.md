@@ -20,6 +20,6 @@ $$\f{align*}{
 \f}$$
 #### It is clear that the Jacobian with respect to the feature parameters is:
 $$
-\f{align*}{
+{align*}{
 \frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} &= \mathbf{I}_{3\times 3}}
 $$
