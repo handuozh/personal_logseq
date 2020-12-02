@@ -17,9 +17,9 @@ $$\f{align*}{
 &= \mathbf f(\boldsymbol\lambda) \\
 &= \begin{bmatrix} {}^Gx \\ {}^Gy \\ {}^Gz \end{bmatrix} \\
 \text{where} &\quad \boldsymbol\lambda = {}^{G}\mathbf{p}_f = \begin{bmatrix} {}^Gx & {}^Gy & {}^Gz \end{bmatrix}^\top
-\f}
-
-It is clear that the Jacobian with respect to the feature parameters is:
+\f}$$
+#### It is clear that the Jacobian with respect to the feature parameters is:
+$$
 \f{align*}{
 \frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} &= \mathbf{I}_{3\times 3}}
 $$
