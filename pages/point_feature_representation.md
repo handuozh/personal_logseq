@@ -3,8 +3,8 @@ public: true
 ---
 
 title: Point Feature Representation
-:alias: 特征点参数化
-:public: true
+alias: 特征点参数化
+public: true
 ---
 ## There are two main parameterizations of a 3D point feature: 3D position (xyz) and inverse depth with bearing.
 ### Both of these can either be represented in the global frame or in an anchor frame of reference which adds a dependency on having an "anchor" pose where the feature is observed.
