@@ -1,6 +1,6 @@
 ---
 title: Measurement Update
-public: true
+public: false
 ---
 
 ## Minimum Mean Square Error (MMSE) Estimation
