@@ -12,12 +12,11 @@ we derive in detail the generic function ${}^{G}\mathbf{p}_f=\mathbf f (\cdot)$ 
 ## 1. Global XYZ
 ### As the canonical parameterization, the global position of a 3D point feature is simply given by its xyz coordinates in the global frame of  reference:
 ####
-$${align*}{
-{}^{G}\mathbf{p}_f
-&= \mathbf f(\boldsymbol\lambda) \\
-&= \begin{bmatrix} {}^Gx \\ {}^Gy \\ {}^Gz \end{bmatrix} \\
-\text{where} &\quad \boldsymbol\lambda = {}^{G}\mathbf{p}_f = \begin{bmatrix} {}^Gx & {}^Gy & {}^Gz \end{bmatrix}^\top
-}$$
+$${}^{G}\mathbf{p}_f
+= \mathbf f(\boldsymbol\lambda) \\
+= \begin{bmatrix} {}^Gx \\ {}^Gy \\ {}^Gz \end{bmatrix} \\
+\text{where} \quad \boldsymbol\lambda = {}^{G}\mathbf{p}_f = \begin{bmatrix} {}^Gx & {}^Gy & {}^Gz \end{bmatrix}^\top
+$$
 #### It is clear that the Jacobian with respect to the feature parameters is:
 $$
 {align*}{
