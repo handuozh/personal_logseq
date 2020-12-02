@@ -19,3 +19,8 @@ $$\mathbf{x}_k =
 	& {}^G\mathbf{v}_{{I}_{k}}^{\top}
 	& {}^G\mathbf{p}_{f}^{\top}
 	\end{bmatrix}^{\top}$$
+####
+#+BEGIN_NOTE
+We use the left quaternion error state 
+#+END_NOTE
+###
