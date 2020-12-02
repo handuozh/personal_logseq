@@ -11,4 +11,4 @@ title: Measurement Update
 ### Perspective Projection Measurement Model
 ### Perspective Projection Function
 ### Euclidean Transformation
-### 特征点的参数化
+### [[Point Feature Representation]]
