@@ -19,7 +19,8 @@ $$\mathbf{z}_{n,k} = \mathbf h_p  ({}^{C_k}\mathbf{p}_f) =
     {}^Cy/{}^Cz
     \end{bmatrix} \\
     \text{where} \quad  {}^{C_k}\mathbf{p}_f = \begin{bmatrix} {}^Cx \\ {}^Cy \\ {}^Cz \end{bmatrix}$$
-#####
+##### whose Jacobian matrix is computed as follows:
+######
 ### Euclidean Transformation
 ### [[Point Feature Representation]]
 ###
