@@ -33,6 +33,8 @@
    
  :default-home {:page "Notes"
                 :sidebar "Contents" }
+
+ :enable-grammarly? true
  
  ;; :all-pages-public? true
 
