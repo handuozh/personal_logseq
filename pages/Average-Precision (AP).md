@@ -49,7 +49,7 @@ public: true
 
 #####
 ```python
- # number of samples  N x Q = c
+# number of samples  N x Q = c
 nbs = q.sum(dim=-1)
  # nb of correct samples = c+ N x Q
 rec = (q * label.view(N, 1, M).float()).sum(dim=-1)

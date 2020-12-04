@@ -12,6 +12,5 @@
 ### [[UR2KiD]]
 ## [[Segmentation]]
 ### [[UPerNet]]
-## [[Visual SLAM]]
+## [[SLAM]]
 ### [[Measurement Update]]
-###

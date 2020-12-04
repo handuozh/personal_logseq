@@ -1,9 +1,12 @@
 ---
 title: keypoint
-alias: feature
 published: true
 permalink: keypoint
 public: true
+---
+##
+---
+alias: [[feature]]
 ---
 ## [[D2-Net]]
 ## [[R2D2]]
