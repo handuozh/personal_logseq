@@ -10,4 +10,4 @@ title: CLI tools
 ## File search (find alternative): fd
 ## fzf: https://github.com/junegunn/fzf
 ### fzf-z plugin for zsh
-## Shell framework: antibody, zimfw(https://github.com/zimfw/zimfw)
+## Shell framework: antibody, zimfw https://github.com/zimfw/zimfw
