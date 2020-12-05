@@ -11,6 +11,8 @@ title: Python library
 ##### `from rich import print`
 ##### `[italic magenta]hello[/italic magenta]`
 ##### console
+## Tracer for logging and profiling
+### viztracer: https://github.com/gaogaotiantian/viztracer
 ## File related
 ### boltons: https://boltons.readthedocs.io/en/latest/
 #### Atomic file saving
