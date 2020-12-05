@@ -8,5 +8,5 @@ title: Deep learning tools
 ## [[tensorflow]]
 ## OpenMMLab
 ### [[mmcv]]
-## [[mmdetection]]
-## [[mmsegmentation config]]
+### [[mmdetection]]
+### [[mmsegmentation config]]
