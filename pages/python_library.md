@@ -3,6 +3,8 @@ title: Python library
 ---
 
 ## Debugging
+### [[tqdm]]
+###
 ### Print
 #### Rich: https://rich.readthedocs.io/en/latest/
 ##### `from rich import print`
