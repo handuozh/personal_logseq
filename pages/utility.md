@@ -7,6 +7,7 @@ public: true
 ## [[Python library]]
 ### [[Deep learning tools]]
 ## [[C++ library]]
+## [[FrontEnd library]]
 ## [[CLI tools]]
 ## Backup
 ### Mackup for syncing settings (dotfiles)
