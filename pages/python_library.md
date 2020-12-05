@@ -6,6 +6,7 @@ title: Python library
 ### [[tqdm]]
 ###
 ### Print
+#### icecream
 #### Rich: https://rich.readthedocs.io/en/latest/
 ##### `from rich import print`
 ##### `[italic magenta]hello[/italic magenta]`
