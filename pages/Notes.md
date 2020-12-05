@@ -9,6 +9,7 @@ public: true
 ## [[Projects]]
 ## [[Books]]
 ## [[Coding]]
+## [[Utility]]
 ## [[Daily Journal]]
 ##
 ##
