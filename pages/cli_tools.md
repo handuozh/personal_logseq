@@ -15,4 +15,4 @@ title: CLI tools
 ### dust: https://github.com/bootandy/dust
 ### ncdu: https://dev.yorhel.nl/ncdu
 ## regular expressions: grex https://github.com/pemistahl/grex
-##
+## resource monitor: bpytop
