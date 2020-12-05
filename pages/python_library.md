@@ -14,7 +14,8 @@ title: Python library
 ## File related
 ### boltons: https://boltons.readthedocs.io/en/latest/
 #### Atomic file saving
-####
+#### OrderedMultiDict
 #### Queue
+#### Chunked and windowed iteration
 #### Trackback
 #### Mapping for nested data transform
