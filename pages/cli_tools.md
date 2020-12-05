@@ -10,6 +10,7 @@ title: CLI tools
 ## File search (find alternative): fd
 ## fzf: https://github.com/junegunn/fzf
 ### fzf-z plugin for zsh
+## autojump: zoxide https://github.com/ajeetdsouza/zoxide
 ## Shell framework: antibody, zimfw https://github.com/zimfw/zimfw
 ## Disk usage (du alternative)
 ### dust: https://github.com/bootandy/dust
