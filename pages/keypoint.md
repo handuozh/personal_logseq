@@ -17,3 +17,5 @@ alias: [[feature]]
 ## [[Unsuperpoint]]
 ## [[KP2D]]
 ## [[LISRD]]
+## [[DISK]]
+##
