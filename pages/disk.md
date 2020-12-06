@@ -22,4 +22,4 @@ title: DISK
 ### Given images $A$ and $B$, extract a set of local features $F_A$, $F_B$ and match to get a set of correspondences $M_{A\leftrightarrow B}$.
 ### $P(F_I|I,\theta_F)$ distribution over sets of $F_1$, cond. on feature detection params $\theta_F$.
 ### $P(M_{A\leftrightarrow B}|F_A,F_B,\theta_M)$ is distribution over matches between images $A$ and $B$, cond. on matching params $\theta_M$.
-### Solution: estimate gradients of expected reward $\Delta_{\theta} \mathbb{E}_{}$
+### Solution: estimate gradients of expected reward $\Delta_{\theta} \mathbb{E}_{M_{A\leftrightarrow B}\~P(M_{A\leftrightarrow B}|A,B,\theta)}$
