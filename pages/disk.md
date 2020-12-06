@@ -23,5 +23,6 @@ title: DISK
 ### $P(F_I|I,\theta_F)$ distribution over sets of $F_1$, cond. on feature detection params $\theta_F$.
 ### $P(M_{A\leftrightarrow B}|F_A,F_B,\theta_M)$ is distribution over matches between images $A$ and $B$, cond. on matching params $\theta_M$.
 ### Solution: estimate gradients of expected reward $\Delta_{\theta} \mathbb{E}_{M_{A\leftrightarrow B}\sim P(M_{A\leftrightarrow B}|A,B,\theta)}R(M_{A\leftrightarrow B})$ vias [[Monte Carlo]] sampling and use gradient ascent to maximize the quantity.
-## Feature distribution $P(F_I | I, \theta_F)
+## Feature distribution $P(F_I | I, \theta_F)$
+### Feature extraction is based on [[U-Net]] with 1 channel for detection and $N$ for description, as $\mathbf{K}$ and $\mathbf{D}$.
 ###
