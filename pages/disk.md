@@ -27,4 +27,4 @@ title: DISK
 ### Feature extraction is based on [[U-Net]] with 1 channel for detection and $N$ for description, as $\mathbf{K}$ and $\mathbf{D}$. $F=\{K, D\}$, $N=128$.
 ### $\mathbf{K}$ subdivided into a grid with cell size $h\times h$, similar to [[Superpoint]].
 #### Crop feature map to cell $u$, denoted as $\mathbf{K}^u$ and use [[softmax]] to normalize it.
-#### 信tm就连分组都不愿意出，就tm只有置顶和不置顶，每次都tm得在几百个人里面找，这tm废物软件我真的不知道是那帮人带头用来办公的
+####
