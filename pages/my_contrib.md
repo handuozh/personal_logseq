@@ -7,4 +7,4 @@ title: my contrib
 ### However, the
 ### Deep learning architecture
 ## Multiple sensor fusion
-## A versatile localization system with
+## A versatile localization system with online and offline mode and multiple sensor support.
