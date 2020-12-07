@@ -9,5 +9,5 @@ title: my contrib
 #### However, traditional SLAM systems take local visual odometry and loop closure as separate stages, thus
 ### Deep learning architecture
 ## A versatile localization system with online and offline mode and multiple sensor support.
-### The system builds a multi-view stereo (MVS) pipeline
+### The system builds a multi-view stereo (MVS) pipeline to obtain the trajectory and reconstruction of image collections.
 ### In addition to online visual inertial SLAM system, our system
