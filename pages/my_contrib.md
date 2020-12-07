@@ -14,4 +14,4 @@ title: my contrib
 ### With the prior map of arbitrary size the system is able to detect and retrieve revisited scenes to leverage localization accuracy.
 ### The incremental loop closing mechanism can largely reduce the searching time by checking consecutive loops detected near the current frame.
 ## Dynamic object-aware SLAM algorithm
-### The system can estimate the camera poses along with static and dynamic envrionment.
+### The system can estimate the camera poses along with static and dynamic environment, by extracting velocity information.
