@@ -12,6 +12,6 @@ title: my contrib
 ### The system builds a multi-view stereo (MVS) pipeline to obtain the trajectory and reconstruction of image collections.
 ### In addition to online visual-inertial SLAM system, our system can extensively optimize the whole image collection in offline mode to get an accurate prior map.
 ### With the prior map of arbitrary size the system is able to detect and retrieve revisited scenes to leverage localization accuracy.
-### The incremental loop closing mechanism can largely reduce the searching time by seeking loop closure candidates
+### The incremental loop closing mechanism can largely reduce the searching time by checking consecutive loops detected near the current frame.
 ## Dynamic object-aware SLAM algorithm
 ## Present a grid-based motion clustering method to detect dynamic objects.
