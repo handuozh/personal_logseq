@@ -11,4 +11,5 @@ title: VDO_SLAM
 #### Define $\mathbf{I}_k$ the reference frame associated with image captured by the camera at time $k$ chosen at the top left corner of the image, and let ${}^{I_k}\mathbf{p}_k^i=\left[u_i,v_i,1 \right]\in{\text{IE}^2}$ be the pixel location on frame $\mathbf{I}_k$ corresponding to the homogeneous 3D point ${}^{\mathbf{X}_k}\mathbf{m}_k^i$, which is obtained via projection function $\pi(\cdot)$
 ####
 $${}^{I_k}\mathbf{p}_k^i=\pi\left({}^{X_k}\mathbf{m}_k^i\right)=\mathbf{K}{}^{\mathbf{X}_k}\mathbf{m}_k^i$$
-####
+### Optical flow ${}^{I_k}\mathbf{\phi}_i$
+###
