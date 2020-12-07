@@ -15,5 +15,5 @@ title: my contrib
 ### The incremental loop closing mechanism can largely reduce the searching time by checking consecutive loops detected near the current frame.
 ## Dynamic object-aware SLAM algorithm
 ### The system can estimate the camera poses along with static and dynamic environment, by extracting velocity information.
-###
+### The system exploits semantic information to enable motion estimation of rigid objects without any prior knowledge of the object shape.
 ### The system uses [[YOLO]] for instance detection.
