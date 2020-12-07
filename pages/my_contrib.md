@@ -10,6 +10,7 @@ title: my contrib
 ### Deep learning architecture
 ## A versatile localization system with online and offline mode and multiple sensor support.
 ### The system builds a multi-view stereo (MVS) pipeline to obtain the trajectory and reconstruction of image collections.
-### In addition to online visual-inertial SLAM system, our system can extensively optimize the whole image collection in offline mode to get a prior map.
+### In addition to online visual-inertial SLAM system, our system can extensively optimize the whole image collection in offline mode to get an accurate prior map.
+### With the prior map
 ## Dynamic object-aware SLAM algorithm
 ## Present a grid-based motion clustering method to detect dynamic objects.
