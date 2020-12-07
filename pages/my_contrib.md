@@ -6,7 +6,7 @@ title: my contrib
 ### Motivation
 #### With the recent advances in robotics navigation and visual SLAM, loop closure has been studied substantially. To address it in practice, both image retrieval and geometric verification tasks need to be accomplished.
 #### Therefore, keypoint extraction and description are required not only for local adjacent image frames as structure from motion but also for the system to validate whether the retrieved image pairs share the same landmark overlap via epipolar geometry.
-#### However, traditional SLAM systems take local visual odometry and loop closure as separate stages, thus wasting a lot of time
+#### However, traditional SLAM systems take local visual odometry and loop closure as separate stages, thus wasting a lot of time extracting both "global" and "local features"
 ### Deep learning architecture
 ## A versatile localization system with online and offline mode and multiple sensor support.
 ### The system builds a multi-view stereo (MVS) pipeline to obtain the trajectory and reconstruction of image collections.
