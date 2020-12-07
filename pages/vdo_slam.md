@@ -14,4 +14,5 @@ $${}^{I_k}\mathbf{p}_k^i=\pi\left({}^{X_k}\mathbf{m}_k^i\right)=\mathbf{K}{}^{\m
 ### Optical flow ${}^{I_k}\mathbf{\phi}_i$ indicates ^^motion^^ of pixel ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ from image frame $I_{k-1}$ to $I_k$
 ####
 $${}^{I_k}\mathbf{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
+####
 ###
