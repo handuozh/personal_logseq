@@ -32,5 +32,5 @@ $${}^{I_k}\mathbf{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf
 #### The object motion is homogeneous transformation ${}^{L_{k-1}}_{k-1}\mathbf{H}_k\in{\mathbb{SE}(3)}$ where
 ####
 $${}^{L_{k-1}}_{k-1}\mathbf{H}_k={}^0 \mathbf{L}_{k-1}^{-1} \cdot {}^0 \mathbf{L}_k$$
-## 2. Camera Pose and Object Motion Estimation
-###
+## 2. Camera Pose
+### Given static 3D points $\{{}^0\mathbf{m}_{k-1}^i | i\in{\mathcal{M}}\}$
