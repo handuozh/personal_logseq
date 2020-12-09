@@ -33,5 +33,8 @@ $${}^{I_k}\mathbf{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf
 ####
 $${}^{L_{k-1}}_{k-1}\mathbf{H}_k={}^0 \mathbf{L}_{k-1}^{-1} \cdot {}^0 \mathbf{L}_k$$
 ## 2. Camera Pose
+:PROPERTIES:
+:heading: true
+:END:
 ### Given static 3D points $\{{}^0\mathbf{m}_{k-1}^i | i\in{\mathcal{M}}, k\in{\mathcal{T}}\}$ observed at time $k-1$ in global reference frame.
 ### 2D correspondences $\{{}^{I_k}\tilde{\mathbf{P}}\}$
