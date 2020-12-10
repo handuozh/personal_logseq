@@ -79,5 +79,5 @@ $$\begin{aligned}
 :background_color: rgb(121, 62, 62)
 :heading: true
 :END:
-### Factor graph[[factor graph]]
+### [[factor graph]]
 ###
