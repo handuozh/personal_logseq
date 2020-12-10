@@ -70,4 +70,4 @@ $$
 &\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0} \mathbf{x}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({\mathbf{x}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
 \end{aligned}
 $$
-####
+##### where
