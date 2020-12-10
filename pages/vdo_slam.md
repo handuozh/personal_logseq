@@ -61,3 +61,4 @@ title: VDO_SLAM
 ### (2)+(7) =>
 ####
 $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}_{I_k}\phi)={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
+####
