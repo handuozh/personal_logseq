@@ -55,4 +55,6 @@ $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_
 :background_color: rgb(73, 125, 70)
 :heading: true
 :END:
+### Reprojection error of object 3D point and corresponding 2D point in image $\mathbf{I}_k$:
 ###
+$$$$
