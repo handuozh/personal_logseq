@@ -45,4 +45,4 @@ $$\mathbf{e}_i({}^0 \mathbf{X}_k)=\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0
 ######
 $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
 ##### Define ${}^0\mathbf{x}_k^{\vee}\in{IR^6}$ mapping from se(3) to $IR^6$
-#####
+####
