@@ -59,4 +59,5 @@ $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_
 ####
 $$\mathbf{e}_i({}^0_{k-1} \mathbf{H}_k)\begin{aligned}=& {}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0_{k-1} \mathbf{H}_k \cdot {}^0 \mathbf{m}_{k-1}^i\right) \\
 & ={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left( {}^0_{k-1} \mathbf{G}_k \cdot {}^0 \mathbf{m}_{k-1}^i\right)\end{aligned}$$
+#### ${}^0_{k-1} \mathbf{G}_k \in{\text{SE(3)}$ and ${}^0_{k-1} \mathbf{G}_k:=\exp{{}^0_{k-1}\mathbf{g}_k}$ with latter se(3)
 ####
