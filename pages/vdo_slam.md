@@ -58,4 +58,4 @@ $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_
 ### Reprojection error of object 3D point and corresponding 2D point in image $\mathbf{I}_k$:
 ####
 $$\mathbf{e}_i({}^0_{k-1} \mathbf{H}_k)\begin{bmatrix}=\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0_{k-1} \mathbf{H}_k \cdot {}^0 \mathbf{m}_{k-1}^i\right) \\
-\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0_{k-1} \mathbf{H}_k \mathbf{m}_{k-1}^i\right)$$
+\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0_{k-1} \mathbf{G}_k \cdot {}^0 \mathbf{m}_{k-1}^i\right)$$
