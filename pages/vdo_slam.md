@@ -53,5 +53,6 @@ $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_
 ## 3. Object motion
 :PROPERTIES:
 :background_color: rgb(73, 125, 70)
+:heading: true
 :END:
 ###
