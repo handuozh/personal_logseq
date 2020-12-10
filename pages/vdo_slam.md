@@ -46,10 +46,10 @@ $$\mathbf{e}_i({}^0 \mathbf{X}_k)=\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0
 ######
 $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
 ##### Define ${}^0\mathbf{x}_k^{\vee}\in{IR^6}$ mapping from se(3) to $IR^6$
-#### [[least squares]] cost is:
-#####
+### [[least squares]] **cost** is:
+####
 $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
-##### $n_b$ visible 3D-2D static background point correspondences.
+#### $n_b$ visible 3D-2D static background point correspondences.
 ## 3. Object motion ${}^0_{k-1}\mathbf{H}_k$
 :PROPERTIES:
 :background_color: rgb(73, 125, 70)
