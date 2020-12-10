@@ -60,7 +60,7 @@ title: VDO_SLAM
 ### (2)+(7) =>
 #### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\phi)={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\phi^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
 ##### where $$\mathbf{e}_i({}^{I_k}\phi^i)={}^{I_k}\hat{\phi}^i-{}^{I_k}\phi^i$$
-### Minimizing the cost with [[Lie-algebra]] parameterisation of SE(3) element:
+### Minimizing the **camera pose** cost with [[Lie-algebra]] parameterisation of SE(3) element:
 #### ^^(13)^^ 
 \begin{aligned}
 \left\{{ }^{0} \mathbf{x}_{k}^{* \vee},{ }^{k} \boldsymbol{\Phi}_{k}^{*}\right\}=& \underset{\left\{{{}^0\mathbf{x}}_{k}^{\vee},{ }^{k}{\boldsymbol{\Phi}}_{k}\right\}}{\operatorname{argmin}} \sum_{i}^{n_{b}}\left\{\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{\phi}^{-1} \mathbf{e}_{i}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right. + \\
