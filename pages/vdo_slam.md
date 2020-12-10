@@ -62,4 +62,4 @@ $$\mathbf{e}_i({}^0_{k-1} \mathbf{H}_k)\begin{aligned}=& {}^{I_k}\tilde{\mathbf{
 #### ${}^0_{k-1} \mathbf{G}_k \in{\text{SE}(3)}$ and ${}^0_{k-1} \mathbf{G}_k:=\exp{{}^0_{k-1}\mathbf{g}_k}$ with latter se(3)
 ### **Cost** is
 ####
-$$$$
+$${}^0_{k-1}\mathbf{g}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
