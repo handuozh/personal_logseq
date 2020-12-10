@@ -39,12 +39,10 @@ title: VDO_SLAM
 ### re-projection error of camera pose ${}^0 \mathbf{X}_k$ is:
 #### ^^(7)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k)=\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
 ##### Parameterise the SE(3) camera pose by elements of [[Lie-algebra]] $\mathbf{x}_k \in{se(3)}$
-######
-$${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
+###### ^^(8)^^  $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
 ##### Define ${}^0\mathbf{x}_k^{\vee}\in{IR^6}$ mapping from se(3) to $IR^6$
 ### [[least squares]] **cost** is:
-####
-$${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
+#### ^^(9)^^  $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
 #### $n_b$ visible 3D-2D static background point correspondences.
 ## 3. Object motion ${}^0_{k-1}\mathbf{H}_k$
 :PROPERTIES:
