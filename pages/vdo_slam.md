@@ -35,6 +35,7 @@ $${}^{L_{k-1}}_{k-1}\mathbf{H}_k={}^0 \mathbf{L}_{k-1}^{-1} \cdot {}^0 \mathbf{L
 ## 2. Camera Pose
 :PROPERTIES:
 :heading: true
+:background_color: rgb(73, 118, 123)
 :END:
 ### Given static 3D points $\{{}^0\mathbf{m}_{k-1}^i | i\in{\mathcal{M}}, k\in{\mathcal{T}}\}$ observed at time $k-1$ in global reference frame.
 ### 2D correspondences $\{{}^{I_k}\tilde{\mathbf{P}}_k^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$ in image $\mathbf{I}_k$.
@@ -50,4 +51,7 @@ $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
 $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
 ##### $n_b$ visible 3D-2D static background point correspondences.
 ## 3. Object motion
+:PROPERTIES:
+:background_color: rgb(73, 125, 70)
+:END:
 ###
