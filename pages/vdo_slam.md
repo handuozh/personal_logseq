@@ -81,5 +81,6 @@ $$\begin{aligned}
 :END:
 ### [[factor graph]]
 ### Joint optimization of 3D point measurements, VO measurements, motion of points on dynamic object, object smooth motion observations.
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_10_factor%20graph%20of%20object-aware%20slam.png?Expires=4761190329&Signature=V70cE14yCCGcGrWcptKJgkYDxlJGTlkCnYt8OGb4D40sC-MtlPauxpcnNhCgIRzWGCo~HcoTZWI3RvB1RJHdH4sJK4Y31DA32fqtXtGpN64hmU4S993kqkmgknB2kY9LhaNKJhQ4qXhGsY4xXoMd6b085tCMS9P5MlIl-W~d1~YrkdGVNNqHywXFb85VsSErsy3Vcnt3H9tFlWqgnBp-gxZQt~6SfWdCq~uzKllKEOrSdSEla4Iuas0mXyRBttgFH4c9Y9nDdfnmK9aW61eOrBv8hzBQeT-aa69ylIj8nHiSSCbiq9D0cVTN67t5AUp-MFNgo3W9kCOEvTtiOAxlJA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_10_factor graph of object-aware slam.png]]
 ### 3D point measurement model error $\mathbf{e}_{i,k}({}^0\mathbf{X}_k,{}^0\mathbf{m}_k^i)$
 ###
