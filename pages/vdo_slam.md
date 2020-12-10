@@ -49,3 +49,5 @@ $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
 #####
 $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
 ##### $n_b$ visible 3D-2D static background point correspondences.
+## 3. Object motion
+###
