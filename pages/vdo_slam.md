@@ -58,6 +58,6 @@ title: VDO_SLAM
 ## 4. Joint Estimation with Optical Flow
 ### Refine the estimation of optical flow jointly with the motion estimation
 ### (2)+(7) =>
-#### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}_{I_k}\phi)={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\phi^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
+#### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\phi)={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\phi^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
 ### Minimizing the cost:
 ####
