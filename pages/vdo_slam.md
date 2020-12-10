@@ -58,4 +58,5 @@ title: VDO_SLAM
 #### $n_d$ visible 3D-2D dynamic point correspondences on an object.
 ## 4. Joint Estimation with Optical Flow
 ### Refine the estimation of optical flow jointly with the motion estimation
-###
+### (2)+(7) =>
+####
