@@ -43,5 +43,5 @@ $${}^{L_{k-1}}_{k-1}\mathbf{H}_k={}^0 \mathbf{L}_{k-1}^{-1} \cdot {}^0 \mathbf{L
 $$\mathbf{e}_i({}^0 \mathbf{X}_k)=\{{}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
 #### Parameterise the SE(3) camera pose by elements of [[Lie-algebra]] $\mathbf{x}_k \in{se(3)}$
 #####
-$${}^0 \mathbf{X}_k=exp({}^0\mathbf{x}_k)$$
+$${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
 ####
