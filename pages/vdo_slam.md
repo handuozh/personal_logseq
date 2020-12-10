@@ -80,4 +80,5 @@ $$\begin{aligned}
 :heading: true
 :END:
 ### [[factor graph]]
+### Joint optimization of 3D point measurements, VO measurements, motion of points on dynamic object, object smooth motion observations.
 ###
