@@ -64,3 +64,10 @@ title: VDO_SLAM
 ####
 ### Minimizing the cost:
 ####
+$$
+\begin{aligned}
+\left\{{ }^{0} \mathbf{x}_{k}^{* \vee},{ }^{k} \boldsymbol{\Phi}_{k}^{*}\right\}=& \underset{\left\{{\mathbf{x}}_{k}^{\vee},{ }^{k}{\boldsymbol{\Phi}}_{k}\right\}}{\operatorname{argmin}} \sum_{i}^{n_{b}}\left\{\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{\phi}^{-1} \mathbf{e}_{i}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right.\\
+&\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0} \mathbf{x}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({\mathbf{x}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
+\end{aligned}
+$$
+####
