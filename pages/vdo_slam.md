@@ -62,7 +62,7 @@ title: VDO_SLAM
 ##### where $$\mathbf{e}_i({}^{I_k}\phi^i)={}^{I_k}\hat{\phi}^i-{}^{I_k}\phi^i$$
 #### here $${}^{I_k}\hat{\Phi}^i=\{{}^{I_k}\hat{\phi}^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$$ is the initial optic-flow.
 ####
-### Minimizing the cost:
+### Minimizing the cost with [[Lie-algebra]] parameterisation of SE(3) element:
 ####
 $$
 \begin{aligned}
