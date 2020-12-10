@@ -60,6 +60,7 @@ title: VDO_SLAM
 ### (2)+(7) =>
 #### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\phi)={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\phi^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
 #### where $$\mathbf{e}_i({}^{I_k}\phi^i)={}^{I_k}\hat{\phi}^i-{}^{I_k}\phi^i$$
-#### here
+#### here $${}^{I_k}\hat{\Phi}^i=\left{{}^{I_k}\hat{\phi}^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\right}$$ is the initial optic-flow.
+####
 ### Minimizing the cost:
 ####
