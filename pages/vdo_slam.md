@@ -56,5 +56,5 @@ $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_
 :heading: true
 :END:
 ### Reprojection error of object 3D point and corresponding 2D point in image $\mathbf{I}_k$:
-###
+####
 $$$$
