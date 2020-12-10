@@ -63,4 +63,6 @@ $$\mathbf{e}_i({}^0_{k-1} \mathbf{H}_k)\begin{aligned}=& {}^{I_k}\tilde{\mathbf{
 ### **Cost** is
 ####
 $${}^0_{k-1}\mathbf{g}_k^{*\vee}=\argmin\limits_{{}^0_{k-1}\mathbf{g}_k^{*\vee}}{\sum\limits_{i}^{n_d}\rho_h\left( \mathbf{e}_i^{\top}({}^0_{k-1}\mathbf{g}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0_{k-1}\mathbf{g}_k)\right)}$$
-####
+#### $n_d$ visible 3D-2D dynamic point correspondences on an object.
+## 4. Joint Estimation with Optical Flow
+###
