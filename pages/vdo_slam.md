@@ -24,7 +24,7 @@ title: VDO_SLAM
 :PROPERTIES:
 :heading: true
 :END:
-#### (2)  $${}^{I_k}\mathbf{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
+#### ^^(2)^^  $${}^{I_k}\mathbf{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
 #### ${}^{I_{k}}\tilde{\mathbf{p}}$ is the correspondence of ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ in $I_k$.
 ### Object and 3D Point Motions
 #### The object motion is homogeneous transformation ${}^{L_{k-1}}_{k-1}\mathbf{H}_k\in{\mathbb{SE}(3)}$ where
