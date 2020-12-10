@@ -75,5 +75,9 @@ $$\begin{aligned}
 &\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0}_{k-1} \mathbf{g}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({{}^0_{k-1}\mathbf{g}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
 \end{aligned}$$
 ## 4. Graph Optimization
-### Factor graph
+:PROPERTIES:
+:background_color: rgb(121, 62, 62)
+:heading: true
+:END:
+### Factor graph[[factor graph]]
 ###
