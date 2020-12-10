@@ -81,4 +81,5 @@ $$\begin{aligned}
 :END:
 ### [[factor graph]]
 ### Joint optimization of 3D point measurements, VO measurements, motion of points on dynamic object, object smooth motion observations.
-###
+### 3D point measurement model error $\mathbf{e}_{i,k}({}^0\mathbf{X}_k,{}^0\mathbf{m}_k^i)$
+####
