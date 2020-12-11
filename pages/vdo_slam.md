@@ -106,4 +106,4 @@ $$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}
 :END:
 #### ^^(18)^^
 $$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)={}^0\mathbf{m}_k^i - {}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i$$
-#### Shown in magenta circles, is a ternary factor
+#### Shown in magenta circles, is a ternary factor as _motion model of a point on a rigid body_.
