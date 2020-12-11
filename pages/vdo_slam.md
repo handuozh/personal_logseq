@@ -100,9 +100,9 @@ $$
 $$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})^{-1} {}_{k-1}^{X_{k-1}} \mathbf{T}_k$$
 ##### where $\mathbf{T}=\{{}_{k-1}^{X_{k-1}} \mathbf{T}_k | k\in{\mathcal{T}}\}$ is odometry measurement set SE(3) and **cardinality** $n_o$.
 ##### Shown in orange circles.
-### 4.3 Motion model error $\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0)$
+### 4.3 Motion model error $\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)$
 :PROPERTIES:
 :heading: true
 :END:
 #### ^^(18)^^
-$$ss$$
+$$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)=$$
