@@ -100,7 +100,7 @@ $$
 $$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})^{-1} {}_{k-1}^{X_{k-1}} \mathbf{T}_k$$
 ##### where $\mathbf{T}=\{{}_{k-1}^{X_{k-1}} \mathbf{T}_k | k\in{\mathcal{T}}\}$ is odometry measurement set SE(3) and **cardinality** $n_o$.
 ##### Shown in orange circles.
-### 4.3 Motion model error
+### 4.3 Motion model error $$
 :PROPERTIES:
 :heading: true
 :END:
