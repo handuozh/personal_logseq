@@ -85,6 +85,6 @@ $$\begin{aligned}
 ### 3D point measurement model error $\mathbf{e}_{i,k}({}^0\mathbf{X}_k,{}^0\mathbf{m}_k^i)$
 #### ^^(16)^^ 
 $$
-\mathbf{e}_{i, k}\left({ }^{0} \mathbf{X}_{k},{ }^{0} \mathbf{m}_{k}^{i}\right)={\mathbf{X}}_{k}^{-1}{ }^{0} \mathbf{m}_{k}^{i}-\mathbf{z}_{k}^{i}
+\mathbf{e}_{i, k}\left({ }^{0} \mathbf{X}_{k},{ }^{0} \mathbf{m}_{k}^{i}\right)={{}^0\mathbf{X}}_{k}^{-1}{ }^{0} \mathbf{m}_{k}^{i}-\mathbf{z}_{k}^{i}
 $$
 ####
