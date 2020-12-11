@@ -108,4 +108,5 @@ $$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}
 $$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)={}^0\mathbf{m}_k^i - {}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i$$
 #### Shown in magenta circles, is a ternary factor as _motion model of a point on a rigid body_.
 ### 4.4 Smooth motion error $\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)$
-####
+#### (19)
+$$\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)=$$
