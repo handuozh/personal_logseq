@@ -93,10 +93,16 @@ $$
 ##### here $\mathbf{z}=\{\mathbf{z}_k^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$ is the set of all 3D point measurements at all time steps, with **cardinality** $n_z$.
 ##### Shown in white circles.
 ### 4.2 Visual Odometry model error $\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})$
+:PROPERTIES:
+:heading: true
+:END:
 #### ^^(17)^^ 
 $$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})^{-1} {}_{k-1}^{X_{k-1}} \mathbf{T}_k$$
 ##### where $\mathbf{T}=\{{}_{k-1}^{X_{k-1}} \mathbf{T}_k | k\in{\mathcal{T}}\}$ is odometry measurement set SE(3) and **cardinality** $n_o$.
 ##### Shown in orange circles.
 ### 4.3 Motion model error
+:PROPERTIES:
+:heading: true
+:END:
 #### ^^(18)^^
 $$ss$$
