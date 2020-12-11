@@ -94,4 +94,4 @@ $$
 ##### Shown in white circles.
 ### 4.2 Visual Odometry model error $\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})$
 #### ^^(17)^^ 
-$$$$
+$$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})$$
