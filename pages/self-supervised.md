@@ -6,4 +6,6 @@ title: Self-supervised
 ## 自监督学习能避免注释大型数据集带来的成本，即采用自定义pseudo-labels作为监督，并将学习的表示形式用于多个下游任务
 ### 具体而言，contrastive learning最近已成为在计算机视觉、自然语言处理（NLP）和其他领域中自监督学习方法的主要部分
 ### 推进原图像和其增强positive更近，而推开原图像和其negative更远
-## 自监督学习方法集成了[[generative]]方法和[[contrastive]]方法，利用未标数据来学习基础表示。pseudo-labels是一个普遍技术，帮助在各种pretext任务中学习特征。目前已经看到，在image-inpainting, colorizing greyscale images, jigsaw puzzles, super-resolution, video frame prediction, audio-visual correspondence等任务中，学习好的表示方式已经很有效
+## 自监督学习方法集成了[[generative]]方法和[[contrastive]]方法，利用未标数据来学习基础表示
+### pseudo-labels是一个普遍技术，帮助在各种pretext任务中学习特征
+### 目前已经看到，在image-inpainting, colorizing greyscale images, jigsaw puzzles, super-resolution, video frame prediction, audio-visual correspondence等任务中，学习好的表示方式已经很有效
