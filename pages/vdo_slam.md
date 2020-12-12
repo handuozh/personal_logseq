@@ -24,7 +24,7 @@ title: VDO_SLAM
 :PROPERTIES:
 :heading: true
 :END:
-#### ^^(2)^^  $${}^{I_k}\mathbf{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
+#### ^^(2)^^  $${}^{I_k}\boldsymbol{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
 #### ${}^{I_{k}}\tilde{\mathbf{p}}$ is the correspondence of ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ in $I_k$.
 ### Object and 3D Point Motions
 #### The object motion is homogeneous transformation ${}^{L_{k-1}}_{k-1}\mathbf{H}_k\in{\mathbb{SE}(3)}$ where
@@ -56,10 +56,14 @@ title: VDO_SLAM
 #### ^^(11)^^  $${}^0_{k-1}\mathbf{g}_k^{*\vee}=\argmin\limits_{{}^0_{k-1}\mathbf{g}_k^{*\vee}}{\sum\limits_{i}^{n_d}\rho_h\left( \mathbf{e}_i^{\top}({}^0_{k-1}\mathbf{g}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0_{k-1}\mathbf{g}_k)\right)}$$
 #### $n_d$ visible 3D-2D dynamic point correspondences on an object.
 ## 4. Joint Estimation with Optical Flow
+:PROPERTIES:
+:background_color: rgb(151, 134, 38)
+:heading: true
+:END:
 ### Refine the estimation of optical flow jointly with the motion estimation
 ### (2)+(7) =>
-#### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\phi)={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\phi^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
-##### where $$\mathbf{e}_i({}^{I_k}\phi^i)={}^{I_k}\hat{\phi}^i-{}^{I_k}\phi^i$$
+#### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\boldsymbol{\phi})={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\boldsymbol{\phi}^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
+##### where $$\mathbf{e}_i({}^{I_k}\boldsymbol{\phi}^i)={}^{I_k}\hat{\boldsymbol{\phi}}^i-{}^{I_k}\boldsymbol{\phi}^i$$
 ### Minimizing the **camera pose** cost with [[Lie-algebra]] parameterisation of SE(3) element:
 #### ^^(14)^^ 
 \begin{aligned}
@@ -115,4 +119,8 @@ $$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_
 $$\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)={{}^0_{k-2}\mathbf{H}_{k-1}^l}^{-1} \cdot {}^0_{k-1}\mathbf{H}^l_k$$
 #### Minimize the change between consecutive time steps
 #### Shown in cyan circles.
+#### ^^(20)^^ ${}^0_{k-1}\mathbf{H}^l_k=\exp{({}^0_{k-1}\mathbf{h}^l_k)}$
+### 4.5 Others
+#### define $\boldsymbol{\theta}_H=\{{}^0_{k-1}\mathbf{h}^l_k | k\in{\mathcal{T}}, l\in{\mathcal{L}}\}$ as the set of all object ^^motions^^, with $\mathcal{L}$ the set of object ^^labels^^.
+####
 ##
