@@ -9,3 +9,4 @@ title: Self-supervised
 ## 自监督学习方法集成了[[generative]]方法和[[contrastive]]方法，利用未标数据来学习基础表示
 ### pseudo-labels是一个普遍技术，帮助在各种pretext任务中学习特征
 ### 目前已经看到，在image-inpainting, colorizing greyscale images, jigsaw puzzles, super-resolution, video frame prediction, audio-visual correspondence等任务中，学习好的表示方式已经很有效
+##
