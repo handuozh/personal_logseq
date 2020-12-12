@@ -11,6 +11,6 @@ title: Self-supervised
 ### 目前已经看到，在image-inpainting, colorizing greyscale images, jigsaw puzzles, super-resolution, video frame prediction, audio-visual correspondence等任务中，学习好的表示方式已经很有效
 ## [[generative]]方法，如[[GAN]]，已经是不错的结果，但训练不容易:
 ### (a) 不收敛
-## pretext任务是自监督类，用pseudo-label来学习数据的表示形式
+## [[pretext]]任务是自监督类，用pseudo-label来学习数据的表示形式
 ### 这些pseudo-label根据数据属性自动生成.
-### 从pretext任务中学习的模型可用于计算机视觉下游任务，例如分类、分割、检测等。 此外，这些任务可用任何类型数据，例如图像、视频、语音、信号等。 对于一个contrastive learning (CL)中的pretext任务，原始图像充当锚点，其增强（转换）版充当positive样本，而其余批处理或训练数据中的图像充当negative样本。 大多数常用的pretext任务分为四个主要类别：颜色转换、几何转换、基于上下文任务和基于模式交叉任务，如下图所示。 基于要解决的问题，这些pretext任务已在各样方案中使用
+### 从[[pretext]]任务中学习的模型可用于计算机视觉下游任务，例如分类、分割、检测等。 此外，这些任务可用任何类型数据，例如图像、视频、语音、信号等。 对于一个contrastive learning (CL)中的pretext任务，原始图像充当锚点，其增强（转换）版充当positive样本，而其余批处理或训练数据中的图像充当negative样本。 大多数常用的pretext任务分为四个主要类别：颜色转换、几何转换、基于上下文任务和基于模式交叉任务，如下图所示。 基于要解决的问题，这些pretext任务已在各样方案中使用
