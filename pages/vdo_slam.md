@@ -116,5 +116,5 @@ $$\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)={{}^0
 #### Minimize the change between consecutive time steps
 #### Shown in cyan circles.
 #### ^^(20)^^ ${}^0_{k-1}\mathbf{H}^l_k=\exp{({}^0_{k-1}\mathbf{h}^l_k)}$
-#### define $\mathbf{\theta}_H=$
+#### define $\mathbf{\theta}_H=\{{}^0_{k-1}\mathbf{h}^l_k | k\in{\mathcal{T}}, l\in{\mathcal{L}}\}$ as the set of all object motions, with $\mathcal{L}$ the set of
 ##
