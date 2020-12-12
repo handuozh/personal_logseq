@@ -58,6 +58,7 @@ title: VDO_SLAM
 ## 4. Joint Estimation with Optical Flow
 :PROPERTIES:
 :background_color: rgb(151, 134, 38)
+:heading: true
 :END:
 ### Refine the estimation of optical flow jointly with the motion estimation
 ### (2)+(7) =>
