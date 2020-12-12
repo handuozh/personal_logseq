@@ -12,6 +12,10 @@ title: git
 #### ![合并](http://marklodato.github.io/visual-git-guide/basic-usage-2.svg.png)
 #### git commit -a 相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行 git commit.
 #####
+#+BEGIN_NOTE
+如果文件从没有被跟踪过（untracked）仍然需要用 git add . 先添加
+#+END_NOTE
+####
 ## lazygit
 ## rebase
 ### 提取我们在A分支上的改动，然后应用在B分支的代码上，完成类似于补丁的功能
