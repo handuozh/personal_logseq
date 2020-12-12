@@ -28,7 +28,8 @@ title: git
 #### git checkout HEAD – files 回滚到复制最后一次提交.
 ### 删除文件
 #### git rm files 从暂存区 和 工作目录同时删除，然后可以 commit 到版本库.
-####
+#### rm files 从工作 目录删除 因为暂存区没有删除，因此提示：修改没有暂存.
+#####
 ## lazygit
 ## rebase
 ### 提取我们在A分支上的改动，然后应用在B分支的代码上，完成类似于补丁的功能
