@@ -26,7 +26,8 @@ title: git
 如果文件从没有被跟踪过（untracked）仍然需要用 git add . 先添加
 #+END_NOTE
 #### git checkout HEAD – files 回滚到复制最后一次提交.
-###
+### 删除文件
+####
 ## lazygit
 ## rebase
 ### 提取我们在A分支上的改动，然后应用在B分支的代码上，完成类似于补丁的功能
