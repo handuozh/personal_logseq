@@ -11,4 +11,4 @@ title: Self-supervised
 ### 目前已经看到，在image-inpainting, colorizing greyscale images, jigsaw puzzles, super-resolution, video frame prediction, audio-visual correspondence等任务中，学习好的表示方式已经很有效
 ## [[generative]]方法，如[[GAN]]，已经是不错的结果，但训练不容易:
 ### (a) 不收敛
-### (b) 鉴别器过于成功而无法继续学习。contrastive learning (CL)是discriminative方法，如图所示：用于自监督学习
+### (b) 鉴别器过于成功而无法继续学习。contrastive learning (CL)是[[discriminative]]方法，如图所示：用于自监督学习
