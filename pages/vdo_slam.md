@@ -115,6 +115,6 @@ $$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_
 $$\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)={{}^0_{k-2}\mathbf{H}_{k-1}^l}^{-1} \cdot {}^0_{k-1}\mathbf{H}^l_k$$
 #### Minimize the change between consecutive time steps
 #### Shown in cyan circles.
-#### ${}^0_{k-1}\mathbf{H}^l_k)=\exp{{}^0_{k-1}\mathbf{h}^l_k)}$
-####
+#### ${}^0_{k-1}\mathbf{H}^l_k)=\exp{({}^0_{k-1}\mathbf{h}^l_k)}$
+#####
 ##
