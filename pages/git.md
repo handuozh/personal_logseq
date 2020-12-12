@@ -5,6 +5,7 @@ title: git
 ## Basics
 ### 图解1
 #### ![图解1](http://marklodato.github.io/visual-git-guide/basic-usage.svg.png)
+#### git add files 把当前文件放入暂存区域。 stage 注意： git add 同时具有添加到跟踪列表的功能
 ####
 ## lazygit
 ## rebase
