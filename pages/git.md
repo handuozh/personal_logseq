@@ -16,6 +16,9 @@ title: git
 #### git commit 给暂存区域生成快照并提交history区
 #### git checkout – files 把文件从暂存区域复制到工作目录，用来丢弃本地修改.(注意将会丢弃本地修改.)
 ### 合并图解
+:PROPERTIES:
+:heading: true
+:END:
 #### ![合并](http://marklodato.github.io/visual-git-guide/basic-usage-2.svg.png)
 #### git commit -a 相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行 git commit.
 #####
