@@ -3,7 +3,7 @@ title: git
 ---
 
 ## Basics
-### 图解
+### 图解1
 ####
 ## lazygit
 ## rebase
