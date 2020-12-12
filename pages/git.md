@@ -27,6 +27,7 @@ title: git
 #+END_NOTE
 #### git checkout HEAD – files 回滚到复制最后一次提交.
 ### 删除文件
+#### git rm files 从暂存区 和 工作目录同时删除，然后可以 commit 到版本库.
 ####
 ## lazygit
 ## rebase
