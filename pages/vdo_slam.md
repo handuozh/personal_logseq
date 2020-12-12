@@ -56,6 +56,9 @@ title: VDO_SLAM
 #### ^^(11)^^  $${}^0_{k-1}\mathbf{g}_k^{*\vee}=\argmin\limits_{{}^0_{k-1}\mathbf{g}_k^{*\vee}}{\sum\limits_{i}^{n_d}\rho_h\left( \mathbf{e}_i^{\top}({}^0_{k-1}\mathbf{g}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0_{k-1}\mathbf{g}_k)\right)}$$
 #### $n_d$ visible 3D-2D dynamic point correspondences on an object.
 ## 4. Joint Estimation with Optical Flow
+:PROPERTIES:
+:background_color: rgb(151, 134, 38)
+:END:
 ### Refine the estimation of optical flow jointly with the motion estimation
 ### (2)+(7) =>
 #### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\phi)={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\phi^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
