@@ -40,5 +40,6 @@ $$\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightar
 $$\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightarrow \log{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
 ## Position
 ### Vector
-#### $\mathbf{r}_{OP}$,
-#### from point $O$ to point $P$
+#### $\mathbf{r}_{OP}$, from point $O$ to point $P$
+### Position vector
+####
