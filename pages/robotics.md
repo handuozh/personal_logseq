@@ -2,4 +2,5 @@
 title: Robotics
 ---
 
-## 
+## [[Kinematic]]
+##
