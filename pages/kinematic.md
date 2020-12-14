@@ -57,4 +57,4 @@ $$\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightar
 #### rotates the vector $\mathbf{r}_{OP}
 ### Passive Rotation
 #### $\Phi^{P}: {}_I\mathbf{r}_{OP} \mapsto {}_B\mathbf{r}_{OP}$
-#### rotates the frame ()
+#### rotates the frame ($\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$)
