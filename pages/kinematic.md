@@ -54,7 +54,7 @@ $$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log
 ## Orientation / Rotation
 ### Active Rotation
 #### $\Phi^A: {}_I \mathbf{r}_{OP} \mapsto {}_I \mathbf{r}_{OQ}$
-#### rotates the vector $\mathbf{r}_{OP}
+#### rotates the vector $\mathbf{r}_{OP}$
 ### Passive Rotation
 #### $\Phi^{P}: {}_I\mathbf{r}_{OP} \mapsto {}_B\mathbf{r}_{OP}$
 #### rotates the frame ($\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$)
