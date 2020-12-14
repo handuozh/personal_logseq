@@ -2,5 +2,5 @@
 title: Kinematic
 ---
 
-## Nomenclature
+## Nomenclature 命名
 ###
