@@ -20,6 +20,7 @@ title: Kinematic
 ### Cross product / skew
 ####
 $$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\wedge}\mathbf{b}=\hat{\mathbf{a}}\mathbf{b}=\left[\begin{matrix} 0 & -a_3 & a_2 \\ a_3 & 0 & -a_1 \\ -a_2 & a_1 & 0 \end{matrix} \right]\left[ \begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]$$
+### Unskew
 ####
 $$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top}, \mathbf{a\times b}=- \mathbf{b\times a}$$
-####
+#####
