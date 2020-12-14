@@ -43,6 +43,7 @@ $$\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightar
 ## Position
 :PROPERTIES:
 :heading: true
+:background_color: rgb(38, 76, 155)
 :END:
 ### Vector
 #### $\mathbf{r}_{OP}$, from point $O$ to point $P$
