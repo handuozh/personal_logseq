@@ -39,10 +39,10 @@ $$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top},
 $$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}=\sqrt{a_1^2 + \cdots + a_n^2}$$
 ### Exponential map for matrix (**exp**)
 ####
-$$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto e^{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
+$$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto e^{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
 ### Logarithmic map for matrix (**log**)
 ####
-$$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
+$$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
 ## Position
 :PROPERTIES:
 :heading: true
