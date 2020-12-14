@@ -55,6 +55,10 @@ $$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log
 ### Homogeneous position vector
 #### ${}_B\bar{\mathbf{r}}_{OP}=\left[{}_B\mathbf{r}^{\top}_{OP}, 1\right]^{\top}$, from point $O$ to point $P$ in frame $B$.
 ## Orientation / Rotation
+:PROPERTIES:
+:heading: true
+:background_color: rgb(121, 62, 62)
+:END:
 ### The most well-known parameterizations are Euler angles, rotation matrix, angle-axis, rotation vector and [[unit quaternion]].
 ### Active Rotation
 #### $\Phi^A: {}_I \mathbf{r}_{OP} \mapsto {}_I \mathbf{r}_{OQ}$
