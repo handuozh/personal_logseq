@@ -68,4 +68,5 @@ $$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log
 ### Inversion
 #### $\Phi^{A^{-1}}(\mathbf{r})=\Phi^P(\mathbf{r})$
 ### Concatenation
-#### $\Phi_2^A\left(\Phi_1^A(\mathbf{r})\right)=\left(\Phi_2^A \otimes \Phi_1^A\right)(\mathbf{r})=\left(\Phi_1^{A^{-1}}\otimes \right)^{-1}
+#### $\Phi_2^A\left(\Phi_1^A(\mathbf{r})\right)=\left(\Phi_2^A \otimes \Phi_1^A\right)(\mathbf{r})=\left(\Phi_1^{A^{-1}}\otimes \Phi_2^{A^{-1}} \right)^{-1}(\mathbf{r})
+####
