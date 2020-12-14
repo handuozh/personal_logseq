@@ -43,4 +43,5 @@ $$\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightar
 #### $\mathbf{r}_{OP}$, from point $O$ to point $P$
 ### Position vector
 #### ${}_B\mathbf{r}_{OP}$, from point $O$ to point $P$ in frame $B$.
+### Homogeneous position vector
 ####
