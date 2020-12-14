@@ -19,5 +19,5 @@ title: Kinematic
 ## Operators
 ### Cross product / skew / unskew
 ####
-$$\mathbf{a \times b}=\begin{cmatrix} a_1 \\ a_2 \\ a_3\end{cmatrix}$$
+$$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\^}\mathbf{b}$$
 ####
