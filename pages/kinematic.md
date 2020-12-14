@@ -5,6 +5,7 @@ title: Kinematic
 ## Nomenclature 命名
 :PROPERTIES:
 :heading: true
+:background_color: rgb(83, 62, 125)
 :END:
 ### Identity matrix: $\mathbb{1}_{n\times m}$
 ### Coordinate system
