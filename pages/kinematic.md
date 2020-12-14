@@ -61,6 +61,9 @@ $$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log
 :END:
 ### The most well-known parameterizations are Euler angles, rotation matrix, angle-axis, rotation vector and [[unit quaternion]].
 ### Active Rotation
+:PROPERTIES:
+:heading: true
+:END:
 #### $\Phi^A: {}_I \mathbf{r}_{OP} \mapsto {}_I \mathbf{r}_{OQ}$
 #### rotates the vector $\mathbf{r}_{OP}$
 ### Passive Rotation
