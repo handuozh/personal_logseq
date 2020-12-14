@@ -25,5 +25,8 @@ $$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] 
 $$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top}, \mathbf{a\times b}=- \mathbf{b\times a}$$
 ### Euclidean norm
 ####
-$$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}$$
+$$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}=\sqrt{a_1^2 + \cdots + a_n^2}$$
+### Exponential map for matrix
+#### exp: $\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightarrow e^{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$
+### Logarithmic map for matrix
 ####
