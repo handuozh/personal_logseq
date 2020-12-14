@@ -26,7 +26,7 @@ $$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top},
 ### Euclidean norm
 ####
 $$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}=\sqrt{a_1^2 + \cdots + a_n^2}$$
-### Exponential map for matrix
+### Exponential map for matrix (**exp**)
 #### exp: $\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightarrow e^{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$
 ### Logarithmic map for matrix
 ####
