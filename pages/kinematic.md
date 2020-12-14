@@ -53,7 +53,7 @@ $$\mathbb{R}^{3\times 3} \rightarrow \mathbb{R}^{3\times 3}, \mathbf{A} \rightar
 #### ${}_B\bar{\mathbf{r}}_{OP}=\left[{}_B\mathbf{r}^{\top}_{OP}, 1\right]^{\top}$, from point $O$ to point $P$ in frame $B$.
 ## Orientation / Rotation
 ### Active Rotation
-#### $\Phi^A: {}_I \mathbf{r}_{OP} \rightarrow {}_I \mathbf{r}_{OQ}$
+#### $\Phi^A: {}_I \mathbf{r}_{OP} \mapsto {}_I \mathbf{r}_{OQ}$
 #### rotates the vector $\mathbf{r}_{OP}
 ### Passive Rotation
 #### $\Phi^{P}: {}_I\mathbf{r}_{OP} \mapsto {}_B\mathbf{r}_{OP}$
