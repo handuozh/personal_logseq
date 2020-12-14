@@ -23,6 +23,7 @@ title: Kinematic
 ## Operators
 :PROPERTIES:
 :heading: true
+:background_color: rgb(73, 125, 70)
 :END:
 ### Cross product / skew
 ####
