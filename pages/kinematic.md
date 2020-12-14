@@ -19,5 +19,5 @@ title: Kinematic
 ## Operators
 ### Cross product / skew / unskew
 ####
-$$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\wedge}\mathbf{b}=\hat{\mathbf{a}}\mathbf{b}=\left[\begin{matrix} 0 -a_3 a_2 \\ a_3 0 -a_1 \\ -a_2 a_1 0 \right]\left[b_1 \\ b_2 b_3\right]\end{matrix}$$
+$$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\wedge}\mathbf{b}=\hat{\mathbf{a}}\mathbf{b}=\left[\begin{matrix} 0 -a_3 a_2 \\ a_3 0 -a_1 \\ -a_2 a_1 0 \end{matrix} \right]\left[ \begin{matrix} b_1 \\ b_2 b_3\right]\end{matrix}$$
 ####
