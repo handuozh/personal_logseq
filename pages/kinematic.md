@@ -3,6 +3,9 @@ title: Kinematic
 ---
 
 ## Nomenclature 命名
+:PROPERTIES:
+:heading: true
+:END:
 ### Identity matrix: $\mathbb{1}_{n\times m}$
 ### Coordinate system
 #### $\mathbf{e}_x^A, \mathbf{e}_y^A, \mathbf{e}_z^A$
@@ -17,6 +20,9 @@ title: Kinematic
 #### $\Phi \in{SO(3)}$
 #### generic rotation (for all parameterizations)
 ## Operators
+:PROPERTIES:
+:heading: true
+:END:
 ### Cross product / skew
 ####
 $$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\wedge}\mathbf{b}=\hat{\mathbf{a}}\mathbf{b}=\left[\begin{matrix} 0 & -a_3 & a_2 \\ a_3 & 0 & -a_1 \\ -a_2 & a_1 & 0 \end{matrix} \right]\left[ \begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]$$
