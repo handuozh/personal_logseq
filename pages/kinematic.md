@@ -23,4 +23,7 @@ $$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] 
 ### Unskew
 ####
 $$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top}, \mathbf{a\times b}=- \mathbf{b\times a}$$
-#####
+### Euclidean norm
+####
+$$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}$$
+####
