@@ -67,4 +67,5 @@ $$\mathbb{R}^{3\times 3} \mapsto \mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log
 #### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_14_t1.png?Expires=4761520316&Signature=VtSP6R552prqdXTO1mMhxajiCuRMpWxga68kGyHSqORsRxxLvYytvs7qJPb~mj1dKzlVqb4bw4tJo5ZDr6FDRqC5dBbMaoie1R4iXLxlpWc~VFurxOxwakAiQXdp2aNcOute2nqgXi606pI9iW9Ac6fCUiy89DiDIZuSNTnAPp~rCCyMKh6Rn6bA5-RFd0snsCgoKNWUInXal~EnHCuO8aO1pWUnp4lbVhMZV3C~7g3KwMz9G-ePiWYFVW2sTlhnXtMCMvRLJ-rNriIivSrF3ddrNZkVPX2fFRI1QNNbfUofW39MLey3b0yT~3FbJqTGoSX9pYyUNeRMVdhWddL2Hw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_14_t1.png]]
 ### Inversion
 #### $\Phi^{A^{-1}}(\mathbf{r})=\Phi^P(\mathbf{r})$
-###
+### Concatenation
+#### $\Phi_2^A\left(\Phi_1^A(\mathbf{r})\right)=\left(\Phi_2^A \right)
