@@ -89,7 +89,7 @@ $$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \
 :END:
 #### $\Phi_2^A\left(\Phi_1^A(\mathbf{r})\right)=\left(\Phi_2^A \otimes \Phi_1^A\right)(\mathbf{r})=\left(\Phi_1^{A^{-1}}\otimes \Phi_2^{A^{-1}} \right)^{-1}(\mathbf{r})$
 ### Exp map
-#### $\mathbb{R}^3 \rightarrow SO(3), \mathbf{v}\mapsto \exp{\hat{\mathbf{v}}}, \mathbf{v}\in{\mathbb{R}^3}$
+#### $\mathbb{R}^3 \rightarrow SO(3), \mathbf{v}\mapsto \exp{(\hat{\mathbf{v}})}, \mathbf{v}\in{\mathbb{R}^3}$
 ### Log map
-#### $SO(3)\rightarrow \mathbb{R}^3, \Phi \mapsto \log{\Phi}^{\vee}, \Phi \in{SO(3)}$
+#### $SO(3)\rightarrow \mathbb{R}^3, \Phi \mapsto \log{(\Phi}^{\vee)}, \Phi \in{SO(3)}$
 ####
