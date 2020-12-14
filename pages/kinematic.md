@@ -8,4 +8,14 @@ title: Kinematic
 #### $\mathbf{e}_x^A, \mathbf{e}_y^A, \mathbf{e}_z^A$
 #### Cartesian right-hand system A with basis (unit) vectors $\mathbf{e}$
 ### Inertial frame
+#### $\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$
+#### global / inertial / world coordinate system
+### Body-fixed frame
+#### $\mathbf{e}_x^B, \mathbf{e}_y^B, \mathbf{e}_z^B$
+#### local / body-fixed coordinate system (moves with body)
+### Rotation
+#### $\Phi \in{SO(3)}$
+#### generic rotation (for all parameterizations)
+## Operators
+### Cross product / skew / unskew
 ####
