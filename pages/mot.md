@@ -17,4 +17,6 @@ title: MOT
 :PROPERTIES:
 :heading: true
 :END:
-####
+#### Dissimilarity cost for objects detected in current frame and tracking buffer.
+#####
+$$dis(i,j)=$$
