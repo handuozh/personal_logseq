@@ -19,5 +19,5 @@ title: MOT
 :END:
 #### Dissimilarity cost for objects detected in current frame and tracking buffer.
 #####
-$$dis(i,j)=\left\{\begin{array} 1; & if i_{cls}\neq{j_{cls}} \\ 0.5[app(i,j)+\text{loc(i,j)}]; & \text{otherwise}$$
+$$dis(i,j)=\left\{\begin{array} 1; & if i_{cls}\neq{j_{cls}} \\ 0.5[app(i,j)+\text{loc(i,j)}]; & \text{otherwise} \end{array}$$
 #####
