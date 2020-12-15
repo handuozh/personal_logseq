@@ -3,6 +3,9 @@ title: MOT
 ---
 
 ## MOT based on Deep Features and Localization info
+:PROPERTIES:
+:heading: true
+:END:
 ### Given information
 #### object class
 #### object bounding box coordinates
