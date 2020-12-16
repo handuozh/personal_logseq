@@ -12,4 +12,3 @@ public: true
 ## [[Utility]]
 ## [[Daily Journal]]
 ##
-##

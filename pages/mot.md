@@ -20,4 +20,7 @@ title: MOT
 #### Dissimilarity cost for objects detected in current frame and tracking buffer.
 #####
 $$\text{dis}(i,j)=\begin{cases} 1; & \text{if} \; i_{cls}\neq{j_{cls}} \\ 0.5[\text{app}(i,j)+\text{loc}(i,j)]; & \text{otherwise} \end{cases} .$$
-#####
+##### The distance must be normalized (width and height resize)
+###### If current area is smaller than track, track resize with interpolation (shrink)
+###### Otherwise inter cubic interpolation to resize the track's feature volume over $4\times 4$ neighborhood.
+##### [[L2-norm]] to calculate at each feature point in each feature layer and summed up.
