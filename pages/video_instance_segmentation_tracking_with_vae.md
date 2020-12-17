@@ -56,5 +56,5 @@ title: video instance segmentation tracking with VAE
 ### Conditional Variational Bound
 #### Add a conditional prior $\phi$ extracted from $\xi$ to perserve spatial information
 #### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\phi)$
-##### We need to maximize the log-likelihood of observed data $\xi$ and marginalize out the latent variables $z$ and $\phi$.
+##### We need to maximize the **log-likelihood** of observed data $\xi$ and marginalize out the latent variables $z$ and $\phi$.
 #####
