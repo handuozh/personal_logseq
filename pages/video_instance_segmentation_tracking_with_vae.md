@@ -22,5 +22,5 @@ title: video instance segmentation tracking with VAE
 ### Structure
 #### Encoder $E_{\phi}$
 #### Decoder $D_{\theta}^{aux}$
-#### Decoder $D_{\theta}^{aux}$
+#### Decoder $D_{\theta}^{pro}$
 #### Decoder $D_{\theta}^{aug}$
