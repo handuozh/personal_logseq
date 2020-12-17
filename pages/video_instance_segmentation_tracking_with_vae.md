@@ -24,4 +24,5 @@ title: video instance segmentation tracking with VAE
 #### Auxiliary Decoder $D_{\theta}^{aux}$
 #### Proposal Decoder $D_{\theta}^{pro}$
 #### Augmentation Decoder $D_{\theta}^{aug}$
-####
+### Input
+#### Current observation $\$
