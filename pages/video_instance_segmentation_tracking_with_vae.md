@@ -27,4 +27,5 @@ title: video instance segmentation tracking with VAE
 ### Input
 #### Current observation $\xi_t=[F_t,F_{t-1}, \Lambda_{t-1}]$
 ### Output
-#### Predict future frame $\hat{F}_{t+1}$ in
+#### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
+####
