@@ -5,7 +5,7 @@ title: video instance segmentation tracking with VAE
 ## #topic  [[tracking]], [[segmentation]], [[VAE]]
 ## TODO  To read!
 :PROPERTIES:
-:todo: 1608191760624
+:todo: 1608191817524
 :END:
 ## Structure: 1 encoder, 3 parallel branches
 :PROPERTIES:
