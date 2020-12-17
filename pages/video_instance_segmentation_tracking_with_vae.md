@@ -10,7 +10,7 @@ title: video instance segmentation tracking with VAE
 #### learn finer representations, meaningful semantic information encoded in latent space
 ### proposal branch
 #### object-level information for connecting objects over time
-#### attentive cues to reduce false negatives
+#### attentive cues to reduce false negatives in augment branch
 ### augment branch
 #### aggregates pixel-level features extracted from different layers in encoder
 ##
