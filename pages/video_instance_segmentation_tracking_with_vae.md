@@ -55,4 +55,5 @@ title: video instance segmentation tracking with VAE
 #### $n_b$ and $n_m$ are number of object instances at frame $t$ in $D_{\theta}^{pro}$ and $D_{\theta}^{aug}$
 ### Conditional Variational Bound
 #### Add a conditional prior $\phi$ extracted from $\xi$ to perserve spatial information
-#### $D_{\phi}$ estimates the parameters of distribution $p_{\phi}(\Chi)
+#### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\phi)$
+####
