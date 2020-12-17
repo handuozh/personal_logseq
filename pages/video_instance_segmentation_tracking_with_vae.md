@@ -25,6 +25,9 @@ title: video instance segmentation tracking with VAE
 ### Input
 #### Current observation $\xi_t=[F_t,F_{t-1}, \Lambda_{t-1}]$
 ### Structure
+:PROPERTIES:
+:heading: true
+:END:
 #### Encoder $E_{\phi}$
 ##### maps the current observation $xi_t$ to:
 ###### a latent variable $\mathbf{z}$ and
@@ -33,6 +36,9 @@ title: video instance segmentation tracking with VAE
 #### Proposal Decoder $D_{\theta}^{pro}$
 #### Augmentation Decoder $D_{\theta}^{aug}$
 ### Output $\hat{\chi}_t=[\hat{F}_{t+1},\hat{\Gamma}_{t},\hat{\Lambda}_t]$
+:PROPERTIES:
+:heading: true
+:END:
 #### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
 #### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
 ##### $\hat{\Gamma}_{t}=\{b_{i,t}\}^{n_b}_{i=1}$
