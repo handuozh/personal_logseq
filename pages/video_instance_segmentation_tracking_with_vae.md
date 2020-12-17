@@ -29,6 +29,6 @@ title: video instance segmentation tracking with VAE
 ### Output
 #### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
 #### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
-#####
+##### $\hat{\Gamma}_{t}=\{b_{i,t}\}^{n_b}_}i=1$
 #### Estimate a set of instance segmentation masks $\hat{\Lambda}_t$ in $D_{\theta}^{aug}$
 ####
