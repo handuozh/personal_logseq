@@ -50,4 +50,5 @@ title: video instance segmentation tracking with VAE
 #### where $b_{i,t}$ and $m_{i,t}$ is detection box and segmentation mask for instance $i$ at frame $t$.
 #### $n_b$ and $n_m$ are number of object instances at frame $t$ in $D_{\theta}^{pro}$ and $D_{\theta}^{aug}$
 ### Conditional Variational Bound
+#### Add a conditional prior $\phi$ extracted from $\xi$ to perserve spatial information
 ####
