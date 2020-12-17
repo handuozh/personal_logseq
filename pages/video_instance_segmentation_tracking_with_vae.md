@@ -31,4 +31,6 @@ title: video instance segmentation tracking with VAE
 #### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
 ##### $\hat{\Gamma}_{t}=\{b_{i,t}\}^{n_b}_{i=1}$
 #### Estimate a set of instance segmentation masks $\hat{\Lambda}_t$ in $D_{\theta}^{aug}$
-####
+##### $\hat{\Lambda}_t=\{m_{i,t}\}_{i=1}^{n_m}$
+#### where $b_{i,t}$ and $m_{i,t}$ is detection box and segmentation mask for instance $i$ at frame $t$.
+#### $n_b$ and $n_m$ are number of object instances at frame $t$ in
