@@ -23,6 +23,9 @@ title: video instance segmentation tracking with VAE
 :END:
 ### Video sequence $F$ with $T$ frames $F_t, t\in{\{1, \cdots, T\}}$ with $N$ instances belonging to label set $C$.
 ### Input
+:PROPERTIES:
+:heading: true
+:END:
 #### Current observation $\xi_t=[F_t,F_{t-1}, \Lambda_{t-1}]$
 ### Structure
 :PROPERTIES:
@@ -46,4 +49,5 @@ title: video instance segmentation tracking with VAE
 ##### $\hat{\Lambda}_t=\{m_{i,t}\}_{i=1}^{n_m}$
 #### where $b_{i,t}$ and $m_{i,t}$ is detection box and segmentation mask for instance $i$ at frame $t$.
 #### $n_b$ and $n_m$ are number of object instances at frame $t$ in $D_{\theta}^{pro}$ and $D_{\theta}^{aug}$
-###
+### Conditional Variational Bound
+####
