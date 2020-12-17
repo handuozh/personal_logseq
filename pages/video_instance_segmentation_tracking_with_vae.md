@@ -28,4 +28,5 @@ title: video instance segmentation tracking with VAE
 #### Current observation $\xi_t=[F_t,F_{t-1}, \Lambda_{t-1}]$
 ### Output
 #### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
-#### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in
+#### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
+####
