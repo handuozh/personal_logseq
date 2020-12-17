@@ -29,7 +29,7 @@ title: video instance segmentation tracking with VAE
 #### Auxiliary Decoder $D_{\theta}^{aux}$
 #### Proposal Decoder $D_{\theta}^{pro}$
 #### Augmentation Decoder $D_{\theta}^{aug}$
-### Output $\hat{\chi}_t=[\hat{F}_{t+1},$
+### Output $\hat{\chi}_t=[\hat{F}_{t+1},\hat{\Gamma}_{t},$
 #### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
 #### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
 ##### $\hat{\Gamma}_{t}=\{b_{i,t}\}^{n_b}_{i=1}$
