@@ -21,6 +21,6 @@ title: video instance segmentation tracking with VAE
 ### Video sequence $F$ with $T$ frames $F_t, t\in{\{1, \cdots, T\}}$ with $N$ instances belonging to label set $C$.
 ### Structure
 #### Encoder $E_{\phi}$
-#### Decoder $D_{\theta}^{aux}$
+#### Auxiliary Decoder $D_{\theta}^{aux}$
 #### Decoder $D_{\theta}^{pro}$
 #### Decoder $D_{\theta}^{aug}$
