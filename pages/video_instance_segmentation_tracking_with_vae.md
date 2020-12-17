@@ -4,6 +4,9 @@ title: video instance segmentation tracking with VAE
 
 ## #topic  [[tracking]], [[segmentation]], [[VAE]]
 ## Structure: 1 encoder, 3 parallel branches
+:PROPERTIES:
+:heading: true
+:END:
 ### auxiliary branch
 #### predict future frame
 #### reconstruct loss
