@@ -6,6 +6,7 @@ title: video instance segmentation tracking with VAE
 ## 1 encoder, 3 parallel branches
 ### auxiliary branch
 #### predict future frame
+#### reconstruct
 ####
 ### proposal branch
 ### augment branch
