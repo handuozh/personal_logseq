@@ -70,5 +70,8 @@ title: video instance segmentation tracking with VAE
 ####### log-likelihood part, a **decoding** loss, which measures how accurately the network constructs the semantic output $\chi_t$ by using the distribution $p_{\theta}(\chi_t|z,\varphi)$
 ######## distance between $\hat{\chi}_t$ and $\chi_t$.
 ### 2. Variational Inference with Gaussian Process Latent Variables
+:PROPERTIES:
+:heading: true
+:END:
 #### Video data strong spatial correlation
 ####
