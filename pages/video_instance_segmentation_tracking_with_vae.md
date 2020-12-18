@@ -65,4 +65,6 @@ title: video instance segmentation tracking with VAE
 ###### ^^(1)^^ $\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}(\chi_t|z,\phi)p_{\phi}(z|\varphi)}{q_{\phi}(z|\chi,\varphi)}}.$
 ##### The loss function follows (1) and has the form:
 ###### $\mathcal{L}(\chi_t,\theta, \phi)=-D_{KL}\left(q_{\phi}(z|\xi,\varphi)||p_{\theta}(z|\varphi)\right) + \mathbb{E}_{q_{\phi}(z|\xi,\varphi)}[\log{p_{\theta}(\chi_t|z,\varphi)}].$
-#######
+####### $D_{KL}$ divergence
+####### log likelihood part
+######
