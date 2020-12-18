@@ -67,5 +67,6 @@ title: video instance segmentation tracking with VAE
 ###### $\mathcal{L}(\chi_t,\theta, \phi)=-D_{KL}\left(q_{\phi}(z|\xi,\varphi)||p_{\theta}(z|\varphi)\right) + \mathbb{E}_{q_{\phi}(z|\xi,\varphi)}[\log{p_{\theta}(\chi_t|z,\varphi)}].$
 ####### $D_{KL}$ divergence, a **latent** loss as distance between distribution $q_{\phi}(z|\xi,\varphi)$ and prior distribution $z$.
 ######## As [[regulariztion]] term to avoid departs too much from prior.
-####### log-likelihood part, a **decoding** loss, which measures how accurately the network
+####### log-likelihood part, a **decoding** loss, which measures how accurately the network constructs the semantic output $\chi_t$ by using the distribution $p_{\theta}(\chi_t|z,\varphi)$
+######## distance between $\hat{\chi}_t$ and $\chi_t$.
 ######
