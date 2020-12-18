@@ -61,4 +61,7 @@ title: video instance segmentation tracking with VAE
 #### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\phi)$
 ##### We need to maximize the **log-likelihood** of observed data $\xi$
 ##### **marginalize out** the latent variables $z$ and $\phi$.
-#####
+##### Use approximate posterior $q_{\Phi}(z|\xi,\phi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
+######
+$$\log{p_{\theta}(\Chi_t|\xi)}$$
+######
