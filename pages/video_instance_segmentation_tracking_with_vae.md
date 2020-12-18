@@ -58,9 +58,9 @@ title: video instance segmentation tracking with VAE
 :heading: true
 :END:
 #### Add a conditional prior $\varphi$ extracted from $\xi$ to preserve spatial information
-#### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\phi)$
+#### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\varphi)$
 ##### We need to maximize the **log-likelihood** of observed data $\xi$
-##### **marginalize out** the latent variables $z$ and $\phi$.
+##### **marginalize out** the latent variables $z$ and $\varphi$.
 ##### Use approximate posterior $q_{\Phi}(z|\xi,\phi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
 ######
 $$\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}(\chi_t|z,\phi)p_{\Phi}(z|\phi)}{q_{\Phi}(z|\chi,\phi)}}.$$
