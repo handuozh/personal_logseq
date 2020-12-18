@@ -69,4 +69,4 @@ title: video instance segmentation tracking with VAE
 ######## As [[regulariztion]] term to avoid departs too much from prior.
 ####### log-likelihood part, a **decoding** loss, which measures how accurately the network constructs the semantic output $\chi_t$ by using the distribution $p_{\theta}(\chi_t|z,\varphi)$
 ######## distance between $\hat{\chi}_t$ and $\chi_t$.
-######
+###
