@@ -63,5 +63,5 @@ title: video instance segmentation tracking with VAE
 ##### **marginalize out** the latent variables $z$ and $\phi$.
 ##### Use approximate posterior $q_{\Phi}(z|\xi,\phi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
 ######
-$$\log{p_{\theta}(\chi_t|\xi)}$$
+$$\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}}(\chi_t|z,\phi)p_{\Phi}(z|\phi)}{q_{\Phi}(z|\chi,\phi)}.$$
 ######
