@@ -61,8 +61,8 @@ title: video instance segmentation tracking with VAE
 #### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\varphi)$
 ##### We need to maximize the **log-likelihood** of observed data $\xi$
 ##### **marginalize out** the latent variables $z$ and $\varphi$.
-##### Use approximate posterior $q_{\phi}(z|\xi,\varphi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
-###### ^^(1)^^ $\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}(\chi_t|z,\phi)p_{\phi}(z|\varphi)}{q_{\phi}(z|\chi,\varphi)}}.$
+#### Use approximate posterior $q_{\phi}(z|\xi,\varphi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
+##### ^^(1)^^ $\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}(\chi_t|z,\phi)p_{\phi}(z|\varphi)}{q_{\phi}(z|\chi,\varphi)}}.$
 ##### The loss function follows (1) and has the form:
 ###### $\mathcal{L}(\chi_t,\theta, \phi)=-D_{KL}\left(q_{\phi}(z|\xi,\varphi)||p_{\theta}(z|\varphi)\right) + \mathbb{E}_{q_{\phi}(z|\xi,\varphi)}[\log{p_{\theta}(\chi_t|z,\varphi)}].$
 ####### $D_{KL}$ divergence, a **latent** loss as distance between distribution $q_{\phi}(z|\xi,\varphi)$ and prior distribution $z$.
