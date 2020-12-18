@@ -74,4 +74,5 @@ title: video instance segmentation tracking with VAE
 :heading: true
 :END:
 #### Video data strong spatial correlation
-####
+#### So to relax the assumption that latent variables are [[iid]], propose new scheme
+#####
