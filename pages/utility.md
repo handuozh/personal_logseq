@@ -4,8 +4,8 @@ public: true
 ---
 
 ## [[git]]
-## [[emacs]] cheatsheet
-## [[vim]] cheatsheet
+## [[emacs]] #cheatsheet
+## [[vim]] #cheatsheet
 ## [[Python library]]
 ### [[Deep learning tools]]
 ## [[C++ library]]
