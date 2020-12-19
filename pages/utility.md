@@ -4,6 +4,8 @@ public: true
 ---
 
 ## [[git]]
+## [[emacs]] cheatsheet
+## [[vim]] cheatsheet
 ## [[Python library]]
 ### [[Deep learning tools]]
 ## [[C++ library]]
@@ -17,5 +19,3 @@ public: true
 ### Chezmoi: manage dotfiles
 #### https://github.com/twpayne/chezmoi
 ## [[Zotero]]
-## [[Productivity]]
-##
