@@ -14,6 +14,6 @@ catkin_package(
     LIBRARIES my_math_lib
 )
 ```
-#####
+####
 ## [[cmake]]
 ##
