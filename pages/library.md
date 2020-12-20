@@ -14,6 +14,13 @@ catkin_package(
     LIBRARIES my_math_lib
 )
 ```
+#### 使用依赖库的包
+#####
+```
+<!-- 声明需要依赖的库 -->  
+  <build_depend>my_math_lib</build_depend>
+  <exec_depend>my_math_lib</exec_depend>
+```
 ####
 ## [[cmake]]
 ##
