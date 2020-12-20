@@ -8,7 +8,7 @@ title: Library
 #### 因此需要利用package.xml文件来提示ROS首先编译依赖包
 #### 被依赖库的包
 #####
-```shell
+```
 catkin_package(
     INCLUDE_DIRS include
     LIBRARIES my_math_lib
