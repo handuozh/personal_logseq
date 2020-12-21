@@ -28,4 +28,9 @@ title: MOTS
 ##### each assigned to a hypothesized track id $\text{id}_h \in {\mathbb{N}}$ and a time frame $t_h \in {\{1,\cdots, T\}}$.
 #### Establishing Correspondences
 #### Mask-based Evaluation Measures
-####
+##### MOTSP
+##### sMOTSA
+### Method
+#### Overview
+#### Integrating temporal context
+#### Mask Propagation
