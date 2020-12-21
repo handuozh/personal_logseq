@@ -38,7 +38,7 @@ title: org-mode
 #### `Ctr-C` `Ctr-c` alternative (native Emacs)
 ## Latex Support
 ###
-```c++
+```org
 \begin{equation}
 x=\sqrt{b}
 \end{equation}
