@@ -34,4 +34,5 @@ title: org-mode
 ### Progress
 #### Add `[/]` at the head before sub lists.
 ### Tick/Untick
+#### `SPC-m-x` to toggle
 ####
