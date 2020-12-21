@@ -37,6 +37,7 @@ title: MOTS
 ### Method
 :PROPERTIES:
 :heading: true
+:background_color: rgb(151, 134, 38)
 :END:
 #### Overview
 ##### [[Mask R-CNN]] plus an association head and two 3D convolutional layers.
