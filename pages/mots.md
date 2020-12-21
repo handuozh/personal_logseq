@@ -67,7 +67,7 @@ public: true
 ######## from time frame $t_d$
 ######## from ground truth track id $\text{id}_d$ determined by the overlap with the ground truth objects.
 ####### For a video of $T$ time steps, the association loss with margin $\alpha$:
-########
+######## ^^(8)^^
 $$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{  e\in{\mathcal{D}: \text{id}_e=\text{id}_d} }||a_e-a_d|| - \min\limits_{  e\in{\mathcal{D}: \text{id}_e\neq\text{id}_d} }||a_e-a_d|| + \alpha, 0\right)$$
 #### Mask Propagation
 :PROPERTIES:
@@ -84,4 +84,5 @@ $$\text{maskprop}(mask_d,mask_e)=\text{IoU}(\mathcal{W}(mask_d),mask_e)$$
 :heading: true
 :END:
 ##### For each class and frame $t$, we link together detections at the current frame that have detector confidence larger than a threshold $\gamma$ with detections selected in the previous frames
-###### using the association vector distances
+###### using the association vector distances (eqn (7))
+#####
