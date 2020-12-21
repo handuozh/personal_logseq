@@ -8,7 +8,7 @@ title: MOTS
 :END:
 #### Multi-object Tracking and Segmentation
 ####
-#+ALIAS:
+#+ALIAS: https://i.imgur.com/b0RZUlH.png
 #### #code https://www.vision.rwth-aachen.de/page/mots
 #### Segmentation vs. Bounding boxes
 ##### [[https://i.imgur.com/8h8HIgI.png][Segmentation vs. Bounding boxes]]
