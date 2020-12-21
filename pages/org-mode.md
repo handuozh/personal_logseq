@@ -42,6 +42,6 @@ title: org-mode
 \begin{equation}
 x=\sqrt{b}
 \end{equation}
-```
+``` for standalone equations
 ###
 ###
