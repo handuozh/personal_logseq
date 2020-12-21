@@ -18,4 +18,5 @@ title: org-mode
 :todo: 1608515146262
 :END:
 #### PROJ (p)
+#### STRT (s)
 ####
