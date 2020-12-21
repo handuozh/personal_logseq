@@ -50,4 +50,4 @@ x=\sqrt{b}
 ### `Ctrl-c` `Ctrl-x` `Ctrl-l`: Preview current latex equation (cursor location)
 ## Agenda
 ### `SPC-o` `A`: agenda menu
-### `SPC-m-d-d-s`
+### `SPC-m-d`: org-schedule
