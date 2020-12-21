@@ -86,4 +86,6 @@ $$\text{maskprop}(mask_d,mask_e)=\text{IoU}(\mathcal{W}(mask_d),mask_e)$$
 ##### For each class and frame $t$, we link together detections at the current frame that have detector confidence larger than a threshold $\gamma$ with detections selected in the previous frames
 ###### using the association vector distances (eqn (7))
 ##### We only choose the most recent detection for tracks from up to a threshold of $\beta$ frames in the past.
-#####
+##### Matching with [[Hungarian]] algorithm
+###### only allow pairs of detections with a distance smaller than a thresold $\epsilon$
+######
