@@ -62,7 +62,8 @@ public: true
 ##### Association training
 ###### distance $d(v,w)$ between two association vectors $v$ and $w$ as the [[Euclidean distance]]
 ####### $d(v,w):=||v-w||$
-###### Batch hard triplet loss (for video sequences)
+###### Batch hard triplet loss (for video sequences) [[Triplet loss]]
+######
 #### Mask Propagation
 :PROPERTIES:
 :heading: true
