@@ -35,4 +35,5 @@ title: org-mode
 #### Add `[/]` at the head before sub lists.
 ### Tick/Untick
 #### `SPC-m-x` to toggle
+#### `Ctr-C` `Ctr-c` alternative (native Emacs)
 ####
