@@ -47,4 +47,5 @@ x=\sqrt{b}
 \end{equation}
 ```
 ### For inline, close with `$` or `\( \)`
-###
+### `Ctrl-c` `Ctrl-x` `Ctrl-l`: Preview current latex equation (cursor location)
+##
