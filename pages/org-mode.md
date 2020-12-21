@@ -12,7 +12,8 @@ title: org-mode
 :PROPERTIES:
 :heading: true
 :END:
-###
+### Shorcut
+####
 ### Keywords
 #### -TODO (t)
 :PROPERTIES:
