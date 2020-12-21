@@ -2,5 +2,5 @@
 title: MOTS
 ---
 
-## Meta Data
+## Abstract
 ##
