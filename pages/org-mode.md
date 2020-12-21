@@ -24,4 +24,8 @@ title: org-mode
 :wait: 1608515175131
 :END:
 #### HOLD (h)
+#### DONE (d)
+:PROPERTIES:
+:done: 1608515185964
+:END:
 ####
