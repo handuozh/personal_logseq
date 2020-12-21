@@ -1,4 +1,4 @@
 #+TITLE: GMPHD
 
-** Online Multi-Object Tracking and Segmentation with GMPHD Filter and Simple Affinity Fusion
+** Online Multi-Object Tracking and Segmentation with *GMPHD* Filter and Simple Affinity Fusion
 **
