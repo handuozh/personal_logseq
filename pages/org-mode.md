@@ -41,6 +41,9 @@ title: org-mode
 #### `SPC-m-x` to toggle
 #### `Ctr-C` `Ctr-c` alternative (native Emacs)
 ## Latex Support
+:PROPERTIES:
+:heading: true
+:END:
 ###
 ```org
 \begin{equation}
@@ -50,5 +53,8 @@ x=\sqrt{b}
 ### For inline, close with `$` or `\( \)`
 ### `Ctrl-c` `Ctrl-x` `Ctrl-l`: Preview current latex equation (cursor location)
 ## Agenda
+:PROPERTIES:
+:heading: true
+:END:
 ### `SPC-o` `A`: agenda menu
 ### `SPC-m-d`: org-schedule
