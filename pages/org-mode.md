@@ -8,7 +8,7 @@ title: org-mode
 :END:
 ### `Ctrl-c`, `Ctrl-w`: Move current head to another place
 ### `Alt-up/down`: cursor navigate current head up / down
-###
+### `Ctrl-ALt-up/down`: move current head up / down
 ### `SPC-m-h`: toggle heading
 ### `SPC-m-i`: toggle item
 ## Todo keywords
