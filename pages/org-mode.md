@@ -8,7 +8,8 @@ title: org-mode
 :END:
 ### `Ctrl-c`, `Ctrl-w`: Move current head to another place
 ### `Alt-up/down`: move current head up / down
-###
+### `SPC-m-h`: toggle heading
+### `SPC-m-i`: toggle item
 ## Todo keywords
 :PROPERTIES:
 :heading: true
