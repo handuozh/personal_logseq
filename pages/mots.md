@@ -18,4 +18,10 @@ title: MOTS
 ##### soft Multi-Object Tracking and Segmentation Accuracy
 ##### [[TrackR-CNN]]
 ### Evaluation Measures
-####
+#### TODO  read on!
+:PROPERTIES:
+:todo: 1608522599059
+:END:
+#### ground truth of a video with $T$ time frames, height $h$, and width $w$ consists of a set of $N$ non-empty gt pixel masks $M=\{m_1,\cdots, m_N\}$ with $m_i\in{\{0,1\}^{h\times w}}$
+##### each belongs to a corresponding time frame $t_m \in{\{1,\cdots, T\}}$ and is assigned to a gt track id $\text{id}_m \in {\mathbb{N}}$.
+#####
