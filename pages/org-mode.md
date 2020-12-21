@@ -19,4 +19,9 @@ title: org-mode
 :END:
 #### PROJ (p)
 #### STRT (s)
+#### WAIT (w)
+:PROPERTIES:
+:wait: 1608515175131
+:END:
+#### HOLD (h)
 ####
