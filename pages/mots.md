@@ -1,5 +1,6 @@
 ---
 title: MOTS
+public: true
 ---
 
 ### Abstract
