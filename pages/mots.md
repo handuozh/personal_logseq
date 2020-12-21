@@ -15,4 +15,5 @@ title: MOTS
 ###### [[KITTI]]
 ###### [[MOTChallenge]] dataset
 ##### Propose new measurement metrics
-###### soft Multi-Object Tracking and Segmentation
+###### soft Multi-Object Tracking and Segmentation Accuracy
+######
