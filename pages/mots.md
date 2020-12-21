@@ -57,7 +57,7 @@ title: MOTS
 :END:
 ##### extend [[Mask R-CNN]] by an association head ([[fully connected layer]])
 ###### Input: [[region proposal network]]
-###### output: predicts an association vector for each proposal
+###### output: predicts an **association vector** for each proposal
 #####
 #### Mask Propagation
 :PROPERTIES:
