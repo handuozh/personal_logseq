@@ -46,6 +46,8 @@ title: MOTS
 :PROPERTIES:
 :heading: true
 :END:
+##### 3D convolutions (3rd dim is ^^time^^)
+##### [[ResNet 101]] backbone
 #### Association Head
 :PROPERTIES:
 :heading: true
