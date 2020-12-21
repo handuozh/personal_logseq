@@ -43,5 +43,5 @@ title: org-mode
 x=\sqrt{b}
 \end{equation}
 ```
-### For inline, close with `$` or `\()`
+### For inline, close with `$` or `\( \)`
 ###
