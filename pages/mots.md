@@ -31,6 +31,9 @@ title: MOTS
 ##### MOTSP
 ##### sMOTSA
 ### Method
+:PROPERTIES:
+:heading: true
+:END:
 #### Overview
 ##### [[Mask R-CNN]] plus an association head and two 3D convolutional layers.
 ##### [[https://i.imgur.com/b0RZUlH.png][TrackR-CNN Overview]]
