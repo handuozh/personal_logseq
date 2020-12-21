@@ -47,4 +47,7 @@ title: MOTS
 :heading: true
 :END:
 #### Association Head
+:PROPERTIES:
+:heading: true
+:END:
 #### Mask Propagation
