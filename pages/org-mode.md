@@ -48,4 +48,5 @@ x=\sqrt{b}
 ```
 ### For inline, close with `$` or `\( \)`
 ### `Ctrl-c` `Ctrl-x` `Ctrl-l`: Preview current latex equation (cursor location)
-##
+## Agenda
+### `SPC-o` `A`: agenda menu
