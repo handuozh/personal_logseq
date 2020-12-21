@@ -48,7 +48,9 @@ title: MOTS
 :END:
 ##### 3D convolutions (3rd dim is ^^time^^)
 ##### [[ResNet 101]] backbone
-#####
+##### Augment features with temporal context
+###### The output augmented features are then fed into [[region proposal network]]
+######
 #### Association Head
 :PROPERTIES:
 :heading: true
