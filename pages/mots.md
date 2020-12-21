@@ -83,4 +83,5 @@ $$\text{maskprop}(mask_d,mask_e)=\text{IoU}(\mathcal{W}(mask_d),mask_e)$$
 :PROPERTIES:
 :heading: true
 :END:
-#####
+##### For each class and frame $t$, we link together detections at the current frame that have detector confidence larger than a threshold $\gama$ with detections selected in the previous frames
+###### using the association vector distances
