@@ -17,6 +17,7 @@ title: org-mode
 :END:
 ### Shorcut
 #### Mark with `SPC-m-t-t`
+#### Togle with `Return`
 ### Keywords
 #### -TODO (t)
 :PROPERTIES:
