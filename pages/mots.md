@@ -63,7 +63,10 @@ public: true
 ###### distance $d(v,w)$ between two association vectors $v$ and $w$ as the [[Euclidean distance]]
 ####### $d(v,w):=||v-w||$
 ###### ^^Batch hard triplet loss^^ (for video sequences) [[Triplet loss]]
-######
+####### Each detection $d\in{\mathcal{D}}$ consists of a mask $\text{mask}_d$ and an association vector $a_d$
+######## from time frame $t_d$
+######## from ground truth track id $\text{id}_d$ determined by the overlap with the ground truth objects.
+#######
 #### Mask Propagation
 :PROPERTIES:
 :heading: true
