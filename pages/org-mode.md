@@ -13,7 +13,7 @@ title: org-mode
 :heading: true
 :END:
 ### Shorcut
-#### Mark with ``
+#### Mark with `SPC-m-t-t`
 ### Keywords
 #### -TODO (t)
 :PROPERTIES:
