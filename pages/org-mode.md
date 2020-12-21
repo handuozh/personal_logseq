@@ -36,4 +36,5 @@ title: org-mode
 ### Tick/Untick
 #### `SPC-m-x` to toggle
 #### `Ctr-C` `Ctr-c` alternative (native Emacs)
-##
+## Latex Support
+###
