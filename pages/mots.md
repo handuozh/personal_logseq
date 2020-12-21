@@ -70,6 +70,8 @@ public: true
 ########
 $$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{\begin{matrix} e\in{\mathcal{D}: \\ \text{id}_e=\text{id}_d} \end{matrix} }||a_e-a_d|| + \alpha, 0\right)$$
 ########
+$$\begin{matrix} a+b \\ c+d \end{matrix}$$
+########
 #### Mask Propagation
 :PROPERTIES:
 :heading: true
