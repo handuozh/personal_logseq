@@ -37,10 +37,9 @@ title: org-mode
 #### `SPC-m-x` to toggle
 #### `Ctr-C` `Ctr-c` alternative (native Emacs)
 ## Latex Support
-###
-```org
+### ```org
 \begin{equation}
 x=\sqrt{b}
 \end{equation}
-``` for standalone latex equations
+###
 ###
