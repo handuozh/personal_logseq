@@ -38,3 +38,9 @@ title: org-mode
 #### `Ctr-C` `Ctr-c` alternative (native Emacs)
 ## Latex Support
 ###
+```
+\begin{equation}
+x=\sqrt{b}
+\end{equation}
+``` for standalone latex equations
+###
