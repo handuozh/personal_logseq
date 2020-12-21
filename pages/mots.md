@@ -50,7 +50,7 @@ title: MOTS
 ##### [[ResNet 101]] backbone
 ##### Augment features with temporal context
 ###### The output augmented features are then fed into [[region proposal network]]
-######
+###### [[LSTM]] can also be an alternative
 #### Association Head
 :PROPERTIES:
 :heading: true
