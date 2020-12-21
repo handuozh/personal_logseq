@@ -32,4 +32,6 @@ title: org-mode
 :END:
 #### KILL (k)
 ### Progress
-#### Add
+#### Add `[/]` at the head before sub lists.
+### Tick/Untick
+####
