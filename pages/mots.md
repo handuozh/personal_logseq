@@ -32,7 +32,7 @@ title: MOTS
 ##### sMOTSA
 ### Method
 #### Overview
-#####
+##### [[Mask R-CNN]] plus an association head and two 3D convolutional layers.
 ##### [[https://i.imgur.com/b0RZUlH.png][TrackR-CNN Overview]]
 #### Integrating temporal context
 #### Association Head
