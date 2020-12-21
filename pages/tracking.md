@@ -1,5 +1,6 @@
 ---
 title: tracking
+public: true
 ---
 
-## 
+##
