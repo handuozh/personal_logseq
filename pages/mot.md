@@ -1,5 +1,6 @@
 ---
 title: MOT
+public: true
 ---
 
 ## MOT based on Deep Features and Localization info
