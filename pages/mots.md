@@ -68,7 +68,7 @@ public: true
 ######## from ground truth track id $\text{id}_d$ determined by the overlap with the ground truth objects.
 ####### For a video of $T$ time steps, the association loss with margin $\alpha$:
 ########
-$$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{\begin{matrix} e\in{\mathcal{D}: \\ \text{id}_e=\text{id}_d}}||a_e-a_d|| + \alpha, 0\right)$$
+$$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{\begin{matrix} e\in{\mathcal{D}: \\ \text{id}_e=\text{id}_d} \end{matrix}}||a_e-a_d|| + \alpha, 0\right)$$
 ########
 #### Mask Propagation
 :PROPERTIES:
