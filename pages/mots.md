@@ -69,8 +69,13 @@ public: true
 ####### For a video of $T$ time steps, the association loss with margin $\alpha$:
 ########
 $$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{  e\in{\mathcal{D}: \text{id}_e=\text{id}_d} }||a_e-a_d|| - \min\limits_{  e\in{\mathcal{D}: \text{id}_e\neq\text{id}_d} }||a_e-a_d|| + \alpha, 0\right)$$
-########
 #### Mask Propagation
 :PROPERTIES:
 :heading: true
 :END:
+##### Mask-based IoU together with optical flow warping is a strong cue for associating pixel masks.
+##### For detection $d\in{\mathcal{D}}$ at time $t-1$ with mask $\text{mask}_d$ and a detection $e\in{\mathcal{D}}$ at time $t$ with mask $\text{mask}_e$
+###### define mask propagation score as
+######
+$$\text{maskprop}(mask_d,mask_e)=\text{IoU}(\mathcal{W}(mask_d),mask_e)$$
+###### where $
