@@ -58,7 +58,10 @@ title: MOTS
 ##### extend [[Mask R-CNN]] by an association head ([[fully connected layer]])
 ###### Input: [[region proposal network]]
 ###### output: predicts an **association vector** for each proposal
-#####
+##### Association training
+###### distance $d(v,w)$ between two association vectors $v$ and $w$ as the [[Euclidean distance]]
+####### $d(v,w):=||v-w||$
+###### Batch hard triplet loss (for video sequences)
 #### Mask Propagation
 :PROPERTIES:
 :heading: true
