@@ -88,4 +88,4 @@ $$\text{maskprop}(mask_d,mask_e)=\text{IoU}(\mathcal{W}(mask_d),mask_e)$$
 ##### We only choose the most recent detection for tracks from up to a threshold of $\beta$ frames in the past.
 ##### Matching with [[Hungarian]] algorithm
 ###### only allow pairs of detections with a distance smaller than a thresold $\delta$
-######
+##### Finally all unassigned high confidence detections start new tracks
