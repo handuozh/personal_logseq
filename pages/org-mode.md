@@ -13,7 +13,7 @@ title: org-mode
 :heading: true
 :END:
 ### Keywords
-#### TODO (t)
+#### todo (t)
 :PROPERTIES:
 :todo: 1608515146262
 :END:
