@@ -33,4 +33,5 @@ title: MOTS
 ### Method
 #### Overview
 #### Integrating temporal context
+#### Association Head
 #### Mask Propagation
