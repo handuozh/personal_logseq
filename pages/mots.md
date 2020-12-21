@@ -24,4 +24,6 @@ title: MOTS
 :END:
 #### ground truth of a video with $T$ time frames, height $h$, and width $w$ consists of a set of $N$ non-empty gt pixel masks $M=\{m_1,\cdots, m_N\}$ with $m_i\in{\{0,1\}^{h\times w}}$
 ##### each belongs to a corresponding time frame $t_m \in{\{1,\cdots, T\}}$ and is assigned to a gt track id $\text{id}_m \in {\mathbb{N}}$.
-#####
+#### The output of a MOTS is a set of $K$ non-empty hpyothesis masks $H=\{h_1,\cdots, h_k\}$ with $h_i\in{\{0,1\}^{h\times w}}$
+##### each assigned to a hypothesized track id $\text{id}_h \in {\mathbb{N}}$ and a time frame $t_h \in {\{1,\cdots, T\}}$.
+####
