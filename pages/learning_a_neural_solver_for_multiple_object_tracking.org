@@ -1,3 +1,4 @@
 #+TITLE: Learning a Neural Solver for Multiple Object Tracking
 
-** 
+** A fully differentiable framework based on based on [[Message Passing Networks]] MPN
+**
