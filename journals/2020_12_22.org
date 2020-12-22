@@ -1,3 +1,4 @@
 #+TITLE: Dec 22nd, 2020
 
-** 
+** #idea object tracking with [[graph network]]
+**
