@@ -2,4 +2,8 @@
 
 ** A fully differentiable framework based on based on [[Message Passing Networks]] MPN
 ** MPN
+:PROPERTIES:
+:heading: true
+:background_color: rgb(73, 118, 123)
+:END:
 ***
