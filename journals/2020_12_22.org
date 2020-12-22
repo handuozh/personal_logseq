@@ -6,4 +6,5 @@
 :END:
 *** Combine graph neural network and [[tracking]]
 **** [[Graph Convolutional Tracking]] #[[single object tracking]
+**** [[Learning a Neural Solver for Multiple Object Tracking]]
 ****
