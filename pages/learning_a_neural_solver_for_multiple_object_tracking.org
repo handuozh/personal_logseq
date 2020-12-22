@@ -7,3 +7,4 @@
 :background_color: rgb(73, 118, 123)
 :END:
 *** In graphical models, we have nodes and edges which are embeddings of the information that we are interested in processing.
+*** /link
