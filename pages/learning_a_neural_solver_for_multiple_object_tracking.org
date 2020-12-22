@@ -10,4 +10,7 @@
 *** [[https://miro.medium.com/max/700/1*VENR8NB-93X8tYdP20u4bw.png][GNN]]
 *** there is no concept of a layer
 **** so naturally layer-wise processing of information is absent
-***
+**
+**
+** [[https://miro.medium.com/max/600/0*BfMh_HClkSHu97_Q.gif][Animation]]
+**
