@@ -8,5 +8,6 @@
 :END:
 *** In graphical models, we have nodes and edges which are embeddings of the information that we are interested in processing.
 *** [[https://miro.medium.com/max/700/1*VENR8NB-93X8tYdP20u4bw.png][GNN]]
-*** there is no concept of a layer so naturally
+*** there is no concept of a layer
+**** so naturally layer-wise processing of information is absent
 ***
