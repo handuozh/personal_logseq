@@ -6,4 +6,6 @@ $$y_i=\frac{1}{C(x)}\sum\limits_{\forall j}f(x_i,x_j)g(x_j)$$
 **** $x$ input feauture map
 **** $f(\cdot)$ the similarity between $x_i$ and $x_j$
 **** $g(\cdot)$ the representation of feauture map
-**** $y$ the
+**** $y$ the final output after normalization of response factor $C(x)$
+*** $i$ 当前位置的响应, $j$ 全局响应
+***
