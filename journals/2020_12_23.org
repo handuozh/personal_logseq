@@ -1,3 +1,6 @@
 #+TITLE: Dec 23rd, 2020
 
-** 
+** Annotation format in [[MOTS]]
+*** png format
+****
+*** txt format
