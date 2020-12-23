@@ -19,4 +19,5 @@ obj_instance_id = obj_id % 1000
 **** `time\_frame  id  class\_id  img\_height  img\_width  rle`
 ***** where *rle* means run-length encoding from COCO
 ***** example
-****** 52 1005 1 375 1242 WSV:2d;
+****** 52 1005 1 375 1242 WSV:2d;1O10000O1...
+*****
