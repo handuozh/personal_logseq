@@ -4,4 +4,7 @@
 ** #topic [[graph network]] [[Descriptor Matching]]
 ** Abstract
 *** 能够同时进行特征匹配以及滤除外点的网络
+*** matches two sets of local features by jointly finding correspondences and rejecting non-matchable points
+*** 特征匹配是通过求解可微分最优化转移问题（ optimal transport problem）来解决
+*** 损失函数由 [[graph network]] 来构建
 ***
