@@ -2,5 +2,5 @@
 
 ** Attention
 ***
-$$y_i=\frac{1}{C(x)}\sum_limits_{\forall}f(x_i,x_j)g(x_j)$$
+$$y_i=\frac{1}{C(x)}\sum_\limits_{\forall}f(x_i,x_j)g(x_j)$$
 ***
