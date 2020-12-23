@@ -1,7 +1,7 @@
 #+TITLE: SuperGlue
 
 ** Learning Feature Matching with Graph Neural Networks
-** #topic [[graph network]] [[Descriptor Matching]] #attention
+** #topic [[graph network]] [[Descriptor Matching]] #attention #transformer
 ** Abstract
 *** 能够同时进行特征匹配以及滤除外点的网络
 *** matches two sets of local features by jointly finding correspondences and rejecting non-matchable points
