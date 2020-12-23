@@ -12,4 +12,4 @@
 *** 收到 [[transformer]] 启发,同时将self-和cross-attention利用特征点位置以及其视觉外观进行匹配
 ** [[https://i.imgur.com/jnHec3w.png][Feature matching]]
 *** acts as a *middle-end* between handcrafted or learned front-end and back-end
-***
+**
