@@ -13,4 +13,4 @@
 ** [[https://i.imgur.com/jnHec3w.png][Feature matching]]
 *** acts as a *middle-end* between handcrafted or learned front-end and back-end
 ** Architecture
-***
+*** /link
