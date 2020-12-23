@@ -21,4 +21,5 @@ obj_instance_id = obj_id % 1000
 ***** example
 ****** 52 1005 1 375 1242 WSV:2d;1O10000O1...
 ****** object id 1005 (meaning class id is 1, i.e. car and instance id is 5)
-******
+****** image height, image width, and rle can be used together to decode a mask using [[cocotools]]
+*****
