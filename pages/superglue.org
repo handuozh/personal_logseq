@@ -15,6 +15,7 @@
 ** Architecture
 :PROPERTIES:
 :heading: true
+:background_color: rgb(121, 62, 62)
 :END:
 *** [[https://i.imgur.com/6sWQRoA.png][]]
 ***
