@@ -3,6 +3,7 @@
 ** Attention
 ***
 $$y_i=\frac{1}{C(x)}\sum\limits_{\forall j}f(x_i,x_j)g(x_j)$$
-**** x input feauture map
+**** $x$ input feauture map
 **** $f(\cdot)$ the similarity between $x_i$ and $x_j$
-****
+**** $g(\cdot)$ the representation of feauture map
+**** $y$ the
