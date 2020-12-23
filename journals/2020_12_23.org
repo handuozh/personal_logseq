@@ -2,5 +2,16 @@
 
 ** Annotation format in [[MOTS]]
 *** png format
+**** The png format has a single color channel with 16 bits
+****
+```Python
+import PIL.Image as Image
+img = np.array(Image.open("000005.png"))
+obj_ids = np.unique(img)
+# to correctly interpret the id of a single object
+obj_id = obj_ids[0]
+class_id = obj_id // 1000
+obj_instance_id = obj_id % 1000
+```
 ****
 *** txt format
