@@ -15,3 +15,6 @@ obj_instance_id = obj_id % 1000
 ```
 ****
 *** txt format
+**** Each line of an annotation txt file is structured like this (where rle means run-length encoding from COCO)
+**** `time_frame id class_id img_height img_width rle`
+****
