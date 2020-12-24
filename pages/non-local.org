@@ -7,6 +7,8 @@
 ***** [[dilated conv]], [[Deformable Convolution Network(DCN)]] , [[aspp]]
 **** global-based 采用 [[attention]] 机制
 ***** 通过建模二元关系获得全局感受野
+***** 但是建模一元或二元关系的方法，无法感知其他物体的影响
+******
 ****
 ** Attention
 ***
