@@ -12,7 +12,7 @@
 ****** 但是在没有position encoding的前提下，这些方法会输出较高的相关性
 ****** 反映在可视化上，即^^很难保留物体的细节或者结构化信息^^
 **** [[https://i.imgur.com/tfEfAsk.png][long-range]]
-****
+** 为了解决global-based
 ** Attention
 ***
 $$y_i=\frac{1}{C(x)}\sum\limits_{\forall j}f(x_i,x_j)g(x_j)$$
