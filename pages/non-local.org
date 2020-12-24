@@ -11,7 +11,7 @@
 ****** 例如，当两个同类物体被背景隔离，这对于instance相关的任务而言，期望两者具有较低的相关性
 ****** 但是在没有position encoding的前提下，这些方法会输出较高的相关性
 ****** 反映在可视化上，即^^很难保留物体的细节或者结构化信息^^
-**** /link
+**** [[https://i.imgur.com/tfEfAsk.png][long-range]]
 ****
 ** Attention
 ***
