@@ -2,7 +2,12 @@
 
 ** 长距离关系建模
 *** 为了解决卷积神经网络的有效感受野受限的问题
-***
+*** 分为两种
+**** local-based 增大感受野
+***** [[dilated conv]], [[Deformable Convolution Network(DCN)]] , [[aspp]]
+**** global-based 采用 [[attention]] 机制
+***** 通过建模二元关系获得全局感受野
+****
 ** Attention
 ***
 $$y_i=\frac{1}{C(x)}\sum\limits_{\forall j}f(x_i,x_j)g(x_j)$$
