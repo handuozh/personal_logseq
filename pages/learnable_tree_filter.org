@@ -2,3 +2,4 @@
 
 ** #topic [[segmentation]]
 ** 利用具有丰富细节信息的低层级特征来构建一颗最小生成树
+*** preserve relations
