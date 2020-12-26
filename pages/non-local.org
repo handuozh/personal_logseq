@@ -1,5 +1,19 @@
 #+TITLE: Non-local
 
+** 长距离关系建模
+*** 为了解决卷积神经网络的有效感受野受限的问题
+*** 分为两种
+**** local-based 增大感受野
+***** [[dilated conv]], [[Deformable Convolution Network(DCN)]] , [[aspp]]
+**** global-based 采用 [[attention]] 机制
+***** 通过建模二元关系获得全局感受野
+***** 但是建模一元或二元关系的方法，无法感知其他物体的影响
+****** 例如，当两个同类物体被背景隔离，这对于instance相关的任务而言，期望两者具有较低的相关性
+****** 但是在没有position encoding的前提下，这些方法会输出较高的相关性
+****** 反映在可视化上，即^^很难保留物体的细节或者结构化信息^^
+**** [[https://i.imgur.com/tfEfAsk.png][long-range]]
+** 为了解决global-based的相关性问题
+*** [[Learnable Tree Filter]]
 ** Attention
 ***
 $$y_i=\frac{1}{C(x)}\sum\limits_{\forall j}f(x_i,x_j)g(x_j)$$
