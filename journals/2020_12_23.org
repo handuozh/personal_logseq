@@ -1,6 +1,6 @@
 #+TITLE: Dec 23rd, 2020
 
-** Annotation format in [[MOTS]]
+** Annotation format in [[MOTS]] #dataset
 *** #url https://www.vision.rwth-aachen.de/page/mots
 *** png format
 **** The png format has a single color channel with 16 bits
@@ -23,4 +23,3 @@ obj_instance_id = obj_id % 1000
 ****** 52 1005 1 375 1242 WSV:2d;1O10000O1...
 ****** object id 1005 (meaning class id is 1, i.e. car and instance id is 5)
 ****** image height, image width, and rle can be used together to decode a mask using [[cocotools]]
-*****
