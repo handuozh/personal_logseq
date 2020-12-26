@@ -1,6 +1,6 @@
 #+TITLE: Dec 22nd, 2020
 
-** TODO #idea object tracking with [[graph network]] 
+** TODO #idea object tracking with [[graph network]]
 :PROPERTIES:
 :todo: 1608617191244
 :END:
