@@ -1,5 +1,9 @@
 #+TITLE: Non-local
 
+** 
+:PROPERTIES:
+:heading: true
+:END:
 ** 长距离关系建模
 *** 为了解决卷积神经网络的有效感受野受限的问题
 *** 分为两种
