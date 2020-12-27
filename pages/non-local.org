@@ -21,7 +21,7 @@
 :PROPERTIES:
 :heading: true
 :END:
-*** 为了解决卷积神经网络的有效感受野受限的问题
+*** 为了解决卷积神经网络的有效感受野*受限*的问题
 *** 分为两种
 **** local-based 增大感受野
 ***** [[dilated conv]], [[Deformable Convolution Network(DCN)]] , [[aspp]]
