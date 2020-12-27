@@ -18,7 +18,7 @@
 
  ;; Git settings
  :git-pull-secs 60
- :git-push-secs 10
+ :git-push-secs 200
  :git-auto-push true
 
  ;; The app will ignore those directories or files.
@@ -30,6 +30,13 @@
  ;; Example for Org mode users: "** [[Work]]\n***\n** [[Family]]\n***\n
  :default-templates
  {:journals ""}
+   
+ :default-home {:page "Notes"
+                :sidebar "Contents" }
+
+ ;; :enable-grammarly? true
+ 
+ ;; :all-pages-public? true
 
  ;; The app will show those queries in today's journal page,
  ;; the "NOW" query asks the tasks which need to be finished "now",
@@ -38,16 +45,9 @@
  {:journals
   [{:title "🔨 NOW"
     :query [:find (pull ?h [*])
-            :in $ ?start ?today
             :where
             [?h :block/marker ?marker]
-            [?h :block/page ?p]
-            [?p :page/journal? true]
-            [?p :page/journal-day ?d]
-            [(>= ?d ?start)]
-            [(<= ?d ?today)]
-            [(contains? #{"NOW" "DOING"} ?marker)]]
-    :inputs [:14d :today]
+            [(= ?marker "NOW")]]
     :result-transform (fn [result]
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
@@ -78,5 +78,4 @@
  ;; input "{{{poem(red,blue)}}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}
-   :ui/show-brackets? false}
+ :macros {}}
