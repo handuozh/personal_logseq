@@ -9,6 +9,7 @@
 *** 注意力机制可分为两种
 **** 一种是软注意力(soft attention)
 **** 一种则是强注意力(hard attention)
+***
 ** 长距离关系建模
 :PROPERTIES:
 :heading: true
