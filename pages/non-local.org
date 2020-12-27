@@ -5,7 +5,10 @@
 :heading: true
 :END:
 *** [[Attention is all you need]]
-***
+*** Attention Mechanism可以帮助模型对输入的X每个部分赋予不同的权重，抽取出更加关键及重要的信息，使模型做出更加准确的判断，同时不会对模型的计算和存储带来更大的开销，这也是Attention Mechanism应用如此广泛的原因
+*** 注意力机制可分为两种
+**** 一种是软注意力(soft attention)
+**** 一种则是强注意力(hard attention)
 ** 长距离关系建模
 :PROPERTIES:
 :heading: true
