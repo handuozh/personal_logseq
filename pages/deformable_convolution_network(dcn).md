@@ -28,4 +28,5 @@ title: Deformable Convolution Network(DCN)
 ### Deformable ROI pooling 则是先对RoI对应的每个bin按照RoI的长宽比例的倍数进行整体偏移,然后再pooling.
 #### 同样偏移后的位置是小数，使用双线性差值来求
 ### 由于按照RoI长宽比例进行水平和竖直方向偏移，因此每一个bin的偏移量只需要一个参数来表示，具体可以用全连接来实现
+### [deformable roi pooling](https://i.imgur.com/f7fd1hq.png)
 ###
