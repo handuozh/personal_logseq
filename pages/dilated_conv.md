@@ -10,6 +10,9 @@ title: dilated conv
 #### pooling减小图像尺寸增大感受野
 #### upsampling扩大图像尺寸
 ### 主要问题
+:PROPERTIES:
+:heading: true
+:END:
 #### Up-sampling / pooling layer (e.g. bilinear interpolation) is deterministic. (参数不可学习)
 ####
 ### 在先减小再增大尺寸的过程中，肯定有一些信息损失掉了，那么能不能设计一种新的操作，不通过pooling也能有较大的感受野看到更多的信息呢？答案就是[[dilated conv]]
