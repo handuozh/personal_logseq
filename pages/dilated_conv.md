@@ -22,4 +22,8 @@ title: dilated conv
 #### ![2020_12_28_dilated.png](https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_28_dilated.png?Expires=4762720632&Signature=F4-BqYwHLu~PFFjbZRAa3~jdqBx~VM1focBB~2y0UNA4qk4WqmPCDHlqKOKgoj9OZktRMQUYZEo2BLR18F7On57ePLaCMYBh5Fk7UtvNiNVn-FJMOAyq2E-ptQ9pPKx9vbWW9qRBCvD7rSdtrFibeqaLIFVIqDiqNNgfl1IL2mlO2EWftiETRbEZ7yuOPZcMGMPZJrXzd1pRxJPp-4fhbxZ~5Vxan2ruaa9pavWjd0Si7N82RdklHFpElhGidlHHLuvFnOELcrxTYVrKow84J0bpBfiPARtoUTkn2vAGsXsWDkBh7tE2-Qwzf4T~GqhJvkRrzEO6~SQ-yjv-rElZCQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 ### ![2020_12_28_compare.png](https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_28_compare.png?Expires=4762720900&Signature=M4xjtTMZ7NxBI6vyb7G80VOTwRoKe3wqLbizMzLHQfvbz6W6O8Gtc4rbHRXoKDZxhzk5vN54E25~N~mfICtkMGNQoED8VJIbdYTj3s6ZP2NMbth5epQgfB4-lEuMmYJ3kCFAApgvioyW4WzqWJGGqOl8suW5dbVpRT8pkmRMdz8aIP9pGrriSJ8WndwHY4Hs9H5e3z40skWGwBHQDObxsknzuycqLlOlFkqOfbkU0yRcvNjX~FQJJEKugSePgzyo~22fwEpCE7pwAuIbK6evUVGVeaJpwiWjh4kOK5A1SWxtH6S-15HbmLaGUwWl87RJQMFrpcvZPrCUegjYndkHvg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 ## 缺点
-###
+:PROPERTIES:
+:heading: true
+:END:
+### The Gridding Effect
+####
