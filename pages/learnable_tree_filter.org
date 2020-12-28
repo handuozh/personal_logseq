@@ -30,5 +30,8 @@
 *** [[https://i.imgur.com/Phgotki.png][语义分割网络]]
 **** 图中绿圆就是[[learnable tree filter]]
 ** 3. 基于Markov Random Filed进一步提升long-range特征表达能力
+:PROPERTIES:
+:heading: true
+:END:
 *** 由于树自身具有几何约束，导致滤波过程会被限制在一个局部区域内，很难与远方的节点进行有效交互
 ***
