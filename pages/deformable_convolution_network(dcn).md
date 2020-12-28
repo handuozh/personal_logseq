@@ -15,5 +15,5 @@ title: Deformable Convolution Network(DCN)
 ##### 这个offset通过额外的卷积层学习得到），排列变得不规则
 #### (c)和(d)是可变形卷积的两种特例
 ##### 对于(c)加上offset，达到尺度变换的效果aspect ratio
-##### 对于(d)加上offset，达到旋转变换的效果
+##### 对于(d)加上offset，达到旋转变换的效果rotation
 ##
