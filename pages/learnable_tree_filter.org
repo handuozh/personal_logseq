@@ -1,6 +1,8 @@
 #+TITLE: Learnable Tree Filter
 
 ** #topic [[segmentation]], [[Markov Random Field]]
+** #paper
+***
 ** 利用具有丰富细节信息的低层级特征来构建一颗最小生成树 learnable [[spanning tree]]
 *** preserve relations
 *** 如下图所示,$k$点和$n$点分别属于不同的物体,理想情况下我们希望它们之间具有很低的特征相似度
