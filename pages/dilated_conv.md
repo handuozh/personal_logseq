@@ -30,3 +30,4 @@ title: dilated conv
 #### ![2020_12_28_gridding.jpg](https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_28_gridding.jpg?Expires=4762721737&Signature=g5RywuH5voI1c8d~0KQ9pgK1blP1AYo2kHFwr2I-DzCx0Y-oRFkDOIv~v2XcUtEsctTOsKtH2exPHG8THArIG6MRVJb8YJcg~e~WR-QTwnCTNCRyhe4w4d4mKXEaby~~3XzH37T3kUlyxlBSloCLEn9r6PtqeIuO~43h6A63U6Ul6ufdar97wNewnQ-ccw4KGNosPsTzeEloKVj9aTNCkP7XlUrBvgxbQDYxHM~izIMcidkZp-~T~wyLaz-F7OV23BT2J50lfqWKFMVIwZMawijW~8j-PmWJFWk600omTLNZwSQVLDAPU1sW~t5ZxsqCMb2TkSPhSVdNrBdf06DSlw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 #### kernel 并不连续，也就是并不是所有的 pixel 都用来计算了，因此这里将信息看做 checker-board 的方式会损失信息的连续性.
 #### 这对 pixel-level dense prediction 的任务来说是致命的
+###
