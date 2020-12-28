@@ -33,4 +33,4 @@ title: dilated conv
 ### 2. Long-ranged information might be not relevant
 #### 光采用大 dilation rate 的信息或许只对一些大物体分割有效果，而对小物体来说可能则有弊无利了
 #### 如何同时处理不同大小的物体的关系，则是设计好 dilated convolution 网络的关键
-###
+##
