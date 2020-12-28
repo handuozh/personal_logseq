@@ -16,3 +16,4 @@ title: Deformable Convolution Network(DCN)
 #### (c)和(d)是可变形卷积的两种特例
 ##### 对于(c)加上offset，达到尺度变换的效果
 ##### 对于(d)加上offset，达到旋转变换的效果
+##
