@@ -5,7 +5,7 @@ title: dilated conv
 ## 空洞卷积
 ## FCN先像传统的CNN那样对图像做卷积再pooling，降低图像尺寸的同时增大感受野
 ### 由于图像分割预测是pixel-wise的输出，所以要将pooling后较小的图像尺寸upsampling到原始的图像尺寸进行预测
-#### upsampling一般采用[[deconv]]反卷积操作，deconv可参见CVPR2016(https://www.zhihu.com/question/43609045/answer/132235276)
+#### upsampling一般采用[[deconv]]反卷积操作，deconv可参见CVPR2016 Shallow and Deep Convolutional Networks for Saliency Prediction (https://www.zhihu.com/question/43609045/answer/132235276)
 ### 之前的pooling操作使得每个pixel预测都能看到较大感受野信息
 ### ![2020_12_28_standard.png](https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_28_standard.png?Expires=4762720645&Signature=hkyk35~Ih3auqiAfwN42m~ThIHgcui83S4EaPupQMgjj24sbEIBoZkPLt4L~K804dh3f~UAiS-b~r2LYvJ1lUp3DIqywq67BPdiKEY68kMFFyTEC1m1FY6K92SjDnkUMGcrvXYIOUnGFQRWAUOIS4KqWzvVz9-bShKgFcOMJAlnvyh6RSx3TGmf1iUk2W2oFdqCIg8R3mW4NPW~AzRvraHwctY-uRCaCJcDVwPTbJ7Ik71VE66ffWGVbxRrq0vXdDj7OMCZxfoEdsjujza4DwB~wa5oTWeC3gBWSLTSA4y75GHiVPWhref7QdctxWnmAErDDhsBPgRhA9DXFyOD9gA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
 ### 因此图像分割FCN中有两个关键
