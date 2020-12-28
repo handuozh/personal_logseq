@@ -5,6 +5,7 @@ title: Deformable Convolution Network(DCN)
 ## #paper
 ### Deformable convolutional networks, ICCV 2017 (DCN V1)
 ### Deformable ConvNets v2: More Deformable, Better Results
+### 解决如何适应这些复杂的几何形变是物体识别的主要难点
 ## Deformable Convolution
 :PROPERTIES:
 :heading: true
