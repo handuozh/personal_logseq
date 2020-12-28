@@ -26,4 +26,5 @@ title: dilated conv
 :heading: true
 :END:
 ### The Gridding Effect
+#### 假设我们仅仅多次叠加 dilation rate 2 的 3 x 3 kernel 的话，则会出现这个问题
 ####
