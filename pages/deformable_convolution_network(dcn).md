@@ -24,4 +24,5 @@ title: Deformable Convolution Network(DCN)
 #### 有一个额外的conv层来学习offset，共享input feature maps
 #### 然后input feature maps和offset共同作为deformable conv层的输入，deformable conv层操作采样点发生偏移，再进行卷积
 ## Deformable ROI Pooling
+### [[ROI pooling]] 是把不同大小的RoI(w*h)对应的feature map 统一到固定的大小(k x k)
 ###
