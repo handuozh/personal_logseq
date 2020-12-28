@@ -31,4 +31,5 @@ title: dilated conv
 #### kernel 并不连续，也就是并不是所有的 pixel 都用来计算了，因此这里将信息看做 checker-board 的方式会损失信息的连续性.
 #### 这对 pixel-level dense prediction 的任务来说是致命的
 ### 2. Long-ranged information might be not relevant
-####
+#### 光采用大 dilation rate 的信息或许只对一些大物体分割有效果，而对小物体来说可能则有弊无利了
+#### 如何同时处理不同大小的物体的关系，则是设计好 dilated convolution 网络的关键
