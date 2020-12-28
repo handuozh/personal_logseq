@@ -29,4 +29,4 @@ title: Deformable Convolution Network(DCN)
 #### 同样偏移后的位置是小数，使用双线性差值来求
 ### 由于按照RoI长宽比例进行水平和竖直方向偏移，因此每一个bin的偏移量只需要一个参数来表示，具体可以用全连接来实现
 ### [deformable roi pooling](https://i.imgur.com/f7fd1hq.png)
-### 如上图,ROI被分为$3\times 3$ 个bin,
+### 如上图,ROI被分为$3\times 3$ 个bin,被输入到一个额外的fc层来学习offset,然后通过一个deformable RoI pooling层来操作使每个bin发生偏移
