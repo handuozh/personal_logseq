@@ -73,7 +73,7 @@ $$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{  e\in{\mat
 :PROPERTIES:
 :heading: true
 :END:
-##### Mask-based IoU together with optical flow warping is a strong cue for associating pixel masks.
+##### Mask-based [[IoU]] together with optical flow warping is a strong cue for associating pixel masks.
 ##### For detection $d\in{\mathcal{D}}$ at time $t-1$ with mask $\text{mask}_d$ and a detection $e\in{\mathcal{D}}$ at time $t$ with mask $\text{mask}_e$
 ###### define mask propagation score as
 ######

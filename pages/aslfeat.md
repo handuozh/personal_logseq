@@ -34,7 +34,7 @@ public: true
 :PROPERTIES:
 :heading: true
 :END:
-### [[Deformable Convolution Network(DCN)]] in dense prediction framework. 
+### [[Deformable Convolution Network]] in dense prediction framework. 
 
 ### Allow pixel-wise estimation of lcoal transformation as well as progressive shape modelling by stacking multiple DCNs.
 #### Leverage inherent feature hierarchy. Restore both spatial resolution and low-level details for accurate keypoint localization.

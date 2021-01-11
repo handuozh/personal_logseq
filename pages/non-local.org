@@ -25,7 +25,7 @@
 *** 为了解决卷积神经网络的有效感受野受限的问题
 *** 分为两种
 **** local-based 增大感受野
-***** [[dilated conv]], [[Deformable Convolution Network(DCN)]] , [[aspp]]
+***** [[dilated conv]], [[Deformable Convolution Network]] , [[aspp]]
 **** global-based 采用 [[attention]] 机制
 ***** 通过建模二元关系获得全局感受野
 ***** 但是建模一元或二元关系的方法，无法感知其他物体的影响

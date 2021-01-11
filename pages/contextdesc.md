@@ -4,7 +4,7 @@ title: ContextDesc
 
 ## TODO  Read on!
 ## Meta Data
-### #topic #Keypoint #[[Descriptor-Matching]]  #Cross-modality #[[N-pair Loss]]  #[[Deformable Convolution Network(DCN)]]
+### #topic #Keypoint #[[Descriptor-Matching]]  #Cross-modality #[[N-pair Loss]]  #[[Deformable Convolution Network]]
 ## Two core stages:
 ### Preparation
 #### Patch sampler
