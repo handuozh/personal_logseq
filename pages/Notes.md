@@ -11,4 +11,4 @@ public: true
 ## [[Coding]]
 ## [[Utility]]
 ## [[Daily Journal]]
-## sdfasdf
+##
