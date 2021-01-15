@@ -30,7 +30,10 @@ title: Learning to Segment Rigid Motions from Two Frames
 #### Observed by monocular camera with known camera intrinsics $(\mathbf{K}_0,\mathbf{K}_1)$
 #### Target is to detect points whose 3D motion cannot be described by camera motion $\mathbf{R}_C \in {\mathbf{SO}(3)}, \mathbf{T}_C \in {\mathbb{R}^3}$
 ##### such that ^^(1)^^ $(\mathbf{R_C P_1}+\mathbf{T}_C)-\mathbf{P}_0 \neq 0$
-##### where $\mathbf{P}_0=Z_0 \mathbf{K}_0^{-1}\tilde{\mathbf{p}_0}$ and $\mathbf{P}_1=Z_1 \mathbf{K}_1^{-1}\tilde{\mathbf{p}_1}$ are corresponding 3D points observed in camera frame
+##### $\mathbf{P}_0=Z_0 \mathbf{K}_0^{-1}\tilde{\mathbf{p}_0}$ and $\mathbf{P}_1=Z_1 \mathbf{K}_1^{-1}\tilde{\mathbf{p}_1}$ are corresponding 3D points observed in camera frame
+:PROPERTIES:
+:id: 5ffeb0b3-fc27-46ef-8016-74cebe53cc76
+:END:
 ###### depth $(Z_0, Z_1)$
 ###### homogeneous coordinates $(\tilde{\mathbf{p}_0},\tilde{\mathbf{p}_1})$
 ##### 其实就是不符合 [[epipolar geometry]] 约束的运动 ->动态点(物体)

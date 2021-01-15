@@ -13,7 +13,9 @@ permalink: d2-net
 ### #[[Academic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
 
 ## [[Detect-then-describe]]:: Classical interest point detection and description method where separated handcrafted methods are used to first identify repeatable keypoints and then represent them with a local descriptor. #definition
-
+:PROPERTIES:
+:id: 5fffb4b3-72ca-47f6-b439-7d63456a4aff
+:END:
 ## [[Detection-and-describe]]  paradigm
 ### Compare two paradigms
 [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_25_compair_two_paradigms.png?Expires=4759878442&Signature=PiQEPrEH67zjnYttENAuUb73AMKxr5T7y2T8b8taVom1xm85nxQ76L3qGpW1an6YWcMzZIUaOcIjgOW0DTbSuTTnm-UxmM0Sif2tC7XQ4K8NzZz3ZbxbTBFv6J22knQanPOt3P96h9tRlVqLfeRZrQiWnm~l03FFftV9pavgu5kx7BC8MYPS-woBXYccqdBI4jkBaF4RfOS6igUGSWbN0QWw4Kk5zCxhHa1rMYoqeS3N8bSJZBQeUMy54MvSoknSIRPOfwll4e7FFYeoi~a900U7PHVRcIEzJ5MDG~Fc38K2Y7k8gawqNTDdVfCR0sNmp9tLJpuGUoWjiP1l0pXWOg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_25_compair_two_paradigms.png]]

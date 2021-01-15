@@ -34,9 +34,9 @@
  :default-home {:page "Notes"
                 :sidebar "Contents" }
 
- ;; :enable-grammarly? true
+ :enable-grammarly? true
  
- ;; :all-pages-public? true
+ :all-pages-public? true
 
  ;; The app will show those queries in today's journal page,
  ;; the "NOW" query asks the tasks which need to be finished "now",
