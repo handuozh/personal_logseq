@@ -10,4 +10,4 @@ public: true
 ## [[Robotics]]
 ## [[SLAM]]
 ## [[tracking]]
-##
+## [[3D Object Detection]]

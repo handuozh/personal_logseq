@@ -43,7 +43,7 @@ $$ \begin{aligned} \mathbf{t} &= \mathbf{P}^{\prime} - \mathbf{P} \\ &= \mathbf{
 ##### (2) [[optical expansion]] estimation -> scale $s$
 ##### (3) [[motion-in-depth]] estimation $\tau$
 ###### optical expansion is refined to produce correct outputs for a full perspective camera model
-#### Local Affine Layer
+#### [[Local Affine Layer]]
 :PROPERTIES:
 :heading: true
 :END:
@@ -60,6 +60,7 @@ $$(\mathbf{x}^{\prime}-\mathbf{x}^{\prime}_c)=\mathbf{A}(\mathbf{x}-\mathbf{x}_c
 ######## 这里 $\mathbf{x}^{\prime}=\mathbf{x}+\mathbf{u(x)}$ 是$\mathbf{x}$匹配点
 ##### (2) Extract expansion _(pixel-wise layer)_
 ###### compute optical expansion of a pixel as the ^^ratio^^ of the **areas** between the deformed vs original $3\times 3$ grid
+####### 这个仿射矩阵的[[rank]]就是patch的optical expansion
 #######
 $$s=\sqrt{|\rm{det}(\mathbf{A})|}$$
 ##### (3) Compute fitting errors _(differential layer)_
@@ -67,4 +68,10 @@ $$s=\sqrt{|\rm{det}(\mathbf{A})|}$$
 ###### pass it as an additional channel to the optical refinement network
 #### Learn expansion (**supervised**)
 ##### challenge: ground-truth
-#####
+###### Common的方法: search over a [[multi-scale image pyramid]]是不可能的(因为结果sparse and inaccurate)
+##### For each pixel with optical flow ground-truth, we fit an [[affine transform]] over $7\times 7$ neighborhood
+###### extract the scale component, similar to [[local affine layer]]
+###### 抛弃高error的pixels
+#### Learn expansion ( [[Self-supervised]])
+#### Learn [[motion-in-depth]]
+####
