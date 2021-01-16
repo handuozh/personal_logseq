@@ -74,4 +74,8 @@ $$s=\sqrt{|\rm{det}(\mathbf{A})|}$$
 ###### 抛弃高error的pixels
 #### Learn expansion ( [[Self-supervised]])
 #### Learn [[motion-in-depth]]
-####
+### 过滤条件
+#### $s>0.5$
+#### $s < 2$
+#### $error < 0.1$
+###
