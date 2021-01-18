@@ -19,3 +19,4 @@ public: true
 ### Chezmoi: manage dotfiles
 #### https://github.com/twpayne/chezmoi
 ## [[Zotero]]
+### [[Zotero plugins]]

@@ -17,7 +17,7 @@ title: DynaSLAM
 #### pose $\mathbf{T}^{k,i}_{\rm{WO}} \in {\mathbb{SE}(3)}$
 #### linear, angular velocity $\mathbf{v}_i^k,\mathbf{w}_i^k\in{\mathbb{R}^3}$
 #### Each observed object $k$ contains dynamic objects points $\mathbf{x}_{\rm{O}}^{j,k}\in{\mathbb{R}^3}$
-### [Notation](https://i.imgur.com/0EKVpFo.png)
+### [Notation](https://i.imgur.com/0EKVpFo.png){:height 554, :width 594}
 ## Object Association
 :PROPERTIES:
 :background_color: #497d46

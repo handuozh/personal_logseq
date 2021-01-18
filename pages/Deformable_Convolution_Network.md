@@ -1,7 +1,9 @@
 ---
 title: Deformable Convolution Network
 public: true
+alias: DCN
 ---
+
 ## #paper
 ### Deformable convolutional networks, ICCV 2017 (DCN V1)
 ### Deformable ConvNets v2: More Deformable, Better Results

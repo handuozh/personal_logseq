@@ -43,28 +43,66 @@
  ;; the "NEXT" query asks the future tasks.
  :default-queries
  {:journals
-  [{:title "🔨 NOW"
-    :query [:find (pull ?h [*])
-            :where
-            [?h :block/marker ?marker]
-            [(= ?marker "NOW")]]
-    :result-transform (fn [result]
+  [
+        {:title "🔨 NOW"
+        :query [:find (pull ?h [*])
+                :in $ ?start ?today
+                :where
+                [?h :block/marker ?marker]
+                [?h :block/page ?p]
+                [?p :page/journal? true]
+                [?p :page/journal-day ?d]
+                [(>= ?d ?start)]
+                [(<= ?d ?today)]
+                [(contains? #{"NOW" "DOING"} ?marker)]]
+        :inputs [:14d :today]
+        :result-transform (fn [result]
                         (sort-by (fn [h]
-                                   (get h :block/priority "Z")) result))
-    :collapsed? false}
-   {:title "📅 NEXT"
-    :query [:find (pull ?h [*])
-            :in $ ?start ?next
-            :where
-            [?h :block/marker ?marker]
-            [?h :block/ref-pages ?p]
-            [?p :page/journal? true]
-            [?p :page/journal-day ?d]
-            [(> ?d ?start)]
-            [(< ?d ?next)]
-            [(contains? #{"NOW" "LATER" "TODO"} ?marker)]]
-    :inputs [:today :7d-after]
-    :collapsed? false}]}
+                                        (get h :block/priority "Z")) result))
+        :collapsed? false}
+
+        {:title "📅 NEXT"
+        :query [:find (pull ?h [*])
+                :in $ ?start ?next
+                :where
+                [?h :block/marker ?marker]
+                [?h :block/ref-pages ?p]
+                [?p :page/journal? true]
+                [?p :page/journal-day ?d]
+                [(> ?d ?start)]
+                [(< ?d ?next)]
+                [(contains? #{"NOW" "LATER" "TODO"} ?marker)]]
+        :inputs [:today :7d-after]
+        :collapsed? false}
+
+        {:title "🏄 Document wandering"
+        :query [:find (pull ?b [*])
+                :where
+                [?p :page/name ?name]
+                [?b :block/ref-pages ?p]
+                [(contains? #{"3.5💗️" "4💗️" "4.5💗️" "5💗️"} ?name)]]
+        :result-transform (fn [blocks]
+                        (take 5 (shuffle (take 100 blocks))))}
+
+        {:title "📚 To Read"
+        :query [:find (pull ?b [*])
+                :where
+                [?p :page/name "toread"]
+                [?b :block/ref-pages ?p]]
+        :collapsed? true}
+
+        {:title "📅 临近DeadLine"
+        :query [:find (pull ?b [*])
+        :in $ ?start ?next
+        :where
+        [?b :block/deadline ?d]
+        [?b :block/marker ?marker]
+        [(> ?d ?start)]
+        [(< ?d ?next)]
+        [(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
+        :inputs [:today :7d-after]
+        :collapsed? false}
+    ]}
 
  ;; Add your own commands to speedup.
  ;; E.g. [["js" "Javascript"]]
