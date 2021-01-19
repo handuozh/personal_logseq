@@ -8,8 +8,7 @@ title: smoke
 :END:
 ### #[[3D Object Detection]] [[single-stage]] #monocular #mono3D
 ### 评分 [[3.5💗️]]
-## SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation #toread
-
+## SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation #readdone
 ### Metadata
 
 #### * Item Type: [[Article]]
@@ -54,6 +53,8 @@ Estimating 3D orientation and translation of objects is essential for infrastruc
 #### aggregate information across different layers
 ### Replace all hierarchical aggregation connections with [[Deformable Convolution Network]]
 ### Output [[feature map]] downsampled 4 times
+### Replace [[Batch Normalization]] with [[GroupNorm]]
+#### ((60066452-7c2a-4a58-9dde-3ccca0eb6c15))
 ## 2. Keypoint Branch
 :PROPERTIES:
 :heading: true
@@ -61,13 +62,17 @@ Estimating 3D orientation and translation of objects is essential for infrastruc
 ### Similar to [[Objects as points]]
 #### each object is represented by one specific point
 ### Identify projected 3D center of the object on image plane
+:PROPERTIES:
+:id: 60065273-b8d6-4dc3-9c7c-a0d07595c3c4
+:END:
+#### 不使用2D bounding box的中心点
 #### $[x \; y \; z]^{\top}$ 3D center of object in camera frame
 #### $[x_c \; y_c]^{\top}$ projection of 3D points to image plane points
 #### For each ground truth keypoint, the corresponding downsampled location on the [[feature map]] is computed and distributed using
 ##### [[Gaussian Kernel]]
 ##### Standard deviation based on ground truth 3D bounding boxes projection on image plane
 #### 3D box is represented by 8 2D points
-##### standard deviation by the smallest 2D box with $\{x_b^{min},y_b^{min},x_b^{max},y_b^{max}\} to encircle 3D box
+##### standard deviation by the smallest 2D box with $\{x_b^{min},y_b^{min},x_b^{max},y_b^{max}\}$ to encircle 3D box
 ## 3. Regression Branch
 :PROPERTIES:
 :heading: true

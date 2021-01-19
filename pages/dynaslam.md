@@ -2,10 +2,37 @@
 title: DynaSLAM
 ---
 
-## Tightly-Coupled Multi-Object Tracking and SLAM
+## Keywords
 :PROPERTIES:
 :heading: true
 :END:
+### [[Dynamic SLAM]] [[slam+tracking]]
+### 评分 [[4💗️]]
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### DynaSLAM II: Tightly-Coupled Multi-Object Tracking and SLAM #readdone
+### Zotero Metadata
+
+#### * Item Type: [[Article]]
+#### * Authors: [[Berta Bescos]], [[Carlos Campos]], [[Juan D. Tardós]], [[José Neira]]
+#### 
+#### * Date: [[2020-10-15]]
+#### [http://arxiv.org/abs/2010.07820](http://arxiv.org/abs/2010.07820)
+####  
+#### * Cite key: bescosDynaSLAMIITightlyCoupled2020
+#### * Topics: [[slam+tracking]], [[dynamic SLAM]]
+#### 
+#### * Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition, #Computer-Science---Robotics #zotero #literature-notes #reference
+
+#### PDF Attachments
+	- [Bescos et al_2020_DynaSLAM II.pdf](zotero://open-pdf/library/items/L2CWES3T)
+
+#### [[abstract]]:
+The assumption of scene rigidity is common in visual SLAM algorithms. However, it limits their applicability in populated real-world environments. Furthermore, most scenarios including autonomous driving, multi-robot collaboration and augmented/virtual reality, require explicit motion information of the surroundings to help with decision making and scene understanding. We present in this paper DynaSLAM II, a visual SLAM system for stereo and RGB-D configurations that tightly integrates the multi-object tracking capability. DynaSLAM II makes use of instance semantic segmentation and of ORB features to track dynamic objects. The structure of the static scene and of the dynamic objects is optimized jointly with the trajectories of both the camera and the moving agents within a novel bundle adjustment proposal. The 3D bounding boxes of the objects are also estimated and loosely optimized within a fixed temporal window. We demonstrate that tracking dynamic objects does not only provide rich clues for scene understanding but is also beneficial for camera tracking. The project code will be released upon acceptance.
+
+#### zotero items: [Local library](zotero://select/items/1_69AP3XQK)
 ## Notation
 :PROPERTIES:
 :background_color: #793e3e
@@ -17,7 +44,7 @@ title: DynaSLAM
 #### pose $\mathbf{T}^{k,i}_{\rm{WO}} \in {\mathbb{SE}(3)}$
 #### linear, angular velocity $\mathbf{v}_i^k,\mathbf{w}_i^k\in{\mathbb{R}^3}$
 #### Each observed object $k$ contains dynamic objects points $\mathbf{x}_{\rm{O}}^{j,k}\in{\mathbb{R}^3}$
-### [Notation](https://i.imgur.com/0EKVpFo.png){:height 554, :width 594}
+### [Notation](https://i.imgur.com/0EKVpFo.png){:height 439, :width 480}
 ## Object Association
 :PROPERTIES:
 :background_color: #497d46
@@ -25,7 +52,7 @@ title: DynaSLAM
 :END:
 ### 1. Pixel-wise semantic segmentation and [[ORB]] features
 #### If an instance belongs to a dynamic class (car, person, animal)
-#### and contains high number of new nearby key points
+#### and contains high number of new **nearby** key points
 #### new object created -> assign the key points $j$ to the object $k$
 ### 2. We first associate the **static features** with the ones from the previous frame and the map to initially estimate camera pose.
 ### 3. **Dynamic features** are associated with the dynamic points from **local map**
@@ -37,6 +64,11 @@ title: DynaSLAM
 ##### key points overlapping
 ##### [[IoU]] of the 2D bounding boxes
 ### 4. The SE(3) pose of the first object of a track is initialized with the **center of mass** of the 3D points and with identity rotation
+#### TODO 这段考虑一下与 [[smoke]] 进行合并分析
+:PROPERTIES:
+:todo: 1611031368308
+:END:
+##### ((60065273-b8d6-4dc3-9c7c-a0d07595c3c4))
 ### 5. Refine the object pose by minimizing [[reprojection]] error
 #### Static representation
 ##### 3D map point $l$ with a stereo key point correspondence $\mathbf{u}^l_i=\left[u,v,u_R\right]\in{\mathbb{R}^3}$ is $$\mathbf{e}_{re}^{i,l}=\mathbf{u}^l_i-\pi_i\left(\mathbf{T}_{\rm{CW}}^i\bar{\mathbf{x}}_{\rm{W}}^l\right)$$
@@ -58,18 +90,28 @@ boxes and 3D points are optimized over a sliding window with marginalization and
 #### If 3D object points become unique to be referred to their object:
 ##### $N^{\prime}=6N_c +N_c \times 6N_o + N_o \times 3N_{op}$
 ### 为了降低计算量,每个物体上只考虑一个点,相对这个物体是静止的
+####
 ## [[bundle adjustment]] with Objects
 :PROPERTIES:
 :heading: true
 :background_color: #978626
 :END:
 ### Joint optimization
+:PROPERTIES:
+:heading: true
+:END:
 #### [BA factor graph representation with objects](https://i.imgur.com/MxHR7DR.png)
 ### Key frame insertion condition:
+:PROPERTIES:
+:heading: true
+:END:
 #### camera tracking is weak
 ##### same as conventional static SLAM optimization
 ##### all the key frames connected to it in the [[covisibility graph]]
 #### tracking of any scene object is weak
+:PROPERTIES:
+:background_color: #793e3e
+:END:
 ##### if an object with a relatively large amount of feautres has few points tracked in the current frame -> create new object with new points
 ##### local [[BA]] optimizes the pose and velocity of the object and the camera along a^^ temporal tail of 2 seconds^^ together with object points
 #### If both object tracking and camera tracking is weak, jointly optimize!
