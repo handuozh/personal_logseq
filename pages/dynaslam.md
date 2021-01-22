@@ -54,16 +54,22 @@ The assumption of scene rigidity is common in visual SLAM algorithms. However, i
 #### If an instance belongs to a dynamic class (car, person, animal)
 #### and contains high number of new **nearby** key points
 #### new object created -> assign the key points $j$ to the object $k$
+:PROPERTIES:
+:background_color: #978626
+:END:
 ### 2. We first associate the **static features** with the ones from the previous frame and the map to initially estimate camera pose.
 ### 3. **Dynamic features** are associated with the dynamic points from **local map**
-#### 3.1 if the velocity of the map objects is known, the matches are searched by [[reprojection]] assuming an inter-frame^^ constant velocity motion^^
-#### 3.2 if the objects velocity is not initalized or not enough matches
+#### 3.1 if the velocity of the map objects is known, the matches are searched by [[reprojection]] assuming an inter-frame ^^constant velocity motion^^
+#### 3.2 if the objects velocity is not initialized or not enough matches
 ##### constraint the [[brute force]] matching to the features that belong to the most overlapping instance withint consecutive frames
-##### handle occlusion by matching map objects (not previous frame objects)
+##### handle occlusion by matching map objects
+###### not previous frame objects
 #### 3.2 higher level association -> [[tracking]] by
 ##### key points overlapping
-##### [[IoU]] of the 2D bounding boxes
-### 4. The SE(3) pose of the first object of a track is initialized with the **center of mass** of the 3D points and with identity rotation
+##### [[IoU]] of the 2D bounding boxes -> instance-to-instance matching
+### 4. The SE(3) pose of the first object of a track is initialized with
+#### the **center of mass** of the 3D points
+#### with identity rotation
 #### TODO 这段考虑一下与 [[smoke]] 进行合并分析
 :PROPERTIES:
 :todo: 1611031368308
@@ -77,7 +83,7 @@ The assumption of scene rigidity is common in visual SLAM algorithms. However, i
 $$\mathbf{e}_{re}^{i,j,k}=\mathbf{u}^j_i-\pi_i\left(\mathbf{T}_{\rm{CW}}^i\mathbf{T}_{\rm{WO}}^{k,i}\bar{\mathbf{x}}_{\rm{O}}^{j,k}\right)$$
 ##### where $\mathbf{T}_{\rm{WO}}^{k,i}$ is the inverse pose of object $k$ in world coordinate.
 ### 6. The camera and objects trajectories, as well as the objects bounding
-boxes and 3D points are optimized over a sliding window with marginalization and a soft smooth motion prior.
+boxes and 3D points are optimized over a sliding window with [[marginalization]] and a soft smooth motion prior.
 ## Object-Centric Representation
 :PROPERTIES:
 :heading: true
@@ -87,7 +93,7 @@ boxes and 3D points are optimized over a sliding window with marginalization and
 #### $N_c$ cameras, $N_o$ dynamic objects with $N_{op}$ 3D points
 #### Conventional static SLAM: $N=6N_c + N_o \times 3N_{op}$
 #### Total $N=6N_c+N_c \times N_o \times 3N_{op}$ considering each camera
-#### If 3D object points become unique to be referred to their object:
+#### If 3D object points become **unique** to be referred to their object:
 ##### $N^{\prime}=6N_c +N_c \times 6N_o + N_o \times 3N_{op}$
 ### 为了降低计算量,每个物体上只考虑一个点,相对这个物体是静止的
 ####
@@ -112,50 +118,85 @@ boxes and 3D points are optimized over a sliding window with marginalization and
 :PROPERTIES:
 :background_color: #793e3e
 :END:
-##### if an object with a relatively large amount of feautres has few points tracked in the current frame -> create new object with new points
-##### local [[BA]] optimizes the pose and velocity of the object and the camera along a^^ temporal tail of 2 seconds^^ together with object points
+##### if an object with a relatively large amount of feautres has few points tracked in the current frame
+###### -> create new object with new points
+##### local [[BA]] optimizes the pose and velocity of the object and the camera along a ^^temporal tail of 2 seconds^^ together with object points
+###### sliding window of 2 second
+####### object points
+####### pose, velocity of object
+####### camera pose
 #### If both object tracking and camera tracking is weak, jointly optimize!
-### Smoothing with constant velocity model, object $k$ and observation $i$
-#### linear velocity $\mathbf{v}_i^k \in {\mathbb{R}^3}$
-#### angular velocity $\mathbf{w}_i^k \in {\mathbb{R}^3}$
+### 1) Smoothing with constant velocity model, object $k$ and observation $i$
+:PROPERTIES:
+:heading: true
+:END:
+#### object smooth trajectory  (动态)物体轨迹光滑度一致
+##### 只跟前后帧的物体速度有关
+##### linear velocity $\mathbf{v}_i^k \in {\mathbb{R}^3}$
+##### angular velocity $\mathbf{w}_i^k \in {\mathbb{R}^3}$
 #### error term of object velocity
 :PROPERTIES:
 :heading: true
 :END:
 #####
 $$\mathbf{e}_{\rm{vcte}}^{i,k}=\left( \begin{aligned} \mathbf{v}_{i+1}^k - \mathbf{v}_i^k  \\ \mathbf{w}_{i+1}^k - \mathbf{w}_i^k \end{aligned} \right)$$
-#### error term of object transform
+### 2) Couple object velocities with object poses and 3D points
 :PROPERTIES:
 :heading: true
 :END:
-##### couple object velocity with object poses and corresponding 3D points
-######
+#### $i$ 和 $i+1$时刻，$k$物体上的第$j$个物体点$\bar{\mathbf{x}}_O^{j,k}$在两个时刻世界坐标下的3D位置差
+####
 $$\mathbf{e}_{\rm{vcte,\bf{XYZ}}}^{i,k,k}=\left( \mathbf{T}_{\rm{WO}}^{k,i+1} - \mathbf{T}_{\rm{WO}}^{k,i} \Delta \mathbf{T}_{\rm{O_k}}^{i,i+1} \right) \bar{\mathbf{x}}_{\rm{O}}^{j,k}$$
-###### where $\Delta \mathbf{T}_{\rm{O_k}}^{i,i+1}$ is the pose transformation in the time inverval $\Delta t_{i,i+1}$ that object $k$ undergoes.
-######
+##### where $\Delta \mathbf{T}_{\rm{O_k}}^{i,i+1}$ is the pose transformation in the time inverval $\Delta t_{i,i+1}$ that object $k$ undergoes.
+#####
 $$\Delta \mathbf{T}_{\rm{O_k}}^{i,i+1}=\left( \begin{aligned} \exp(\mathbf{w}_i^k \Delta t_{i,i+1}) && \mathbf{v}_i^k\Delta t_{i,i+1}  \\ \mathbf{0}_{1\times 3} && 1 \end{aligned} \right)$$
-### Joint optimization in the local window $\mathcal{C}$ with each camera $i$ observing a set of map points $\mathcal{MP}_i$ and an object set $\mathcal{O}_i$ containing each object $k$ the set of object points $\mathcal{OP}_k$
+### 3) Joint optimization in the local window $\mathcal{C}$ with each camera $i$ observing a set of map points $\mathcal{MP}_i$ and an object set $\mathcal{O}_i$ containing each object $k$ the set of object points $\mathcal{OP}_k$
 ####
 $$\begin{array}{l}
 \min\limits _{\theta} \sum\limits_{i \in \mathcal{C}}\left(\sum\limits_{l \in \mathcal{M} \mathcal{P}_{i}} \rho\left(\left\|\mathbf{e}_{\text {repr }}^{i, l}\right\|_{\Sigma_{i}^{l}}^{2}\right)+\sum\limits_{k \in \mathcal{O}_{i}}\left(\rho\left(\left\|\mathbf{e}_{\text {vete }}^{i, k}\right\|_{\Sigma_{\Delta t}}^{2}\right)\right.\right. \\
 \left.\left.+\sum\limits_{j \in \mathcal{O} \mathcal{P}_{k}}\left(\rho\left(\left\|\mathbf{e}_{\text {repr }}^{i, j, k}\right\|_{\Sigma_{i}^{j}}^{2}\right)+\rho\left(\left\|\mathbf{e}_{\text {vcte }, \mathbf{X Y Z}}^{i, j, k}\right\|_{\Sigma_{\Delta t}}^{2}\right)\right)\right)\right)
 \end{array}$$
-##### for reprojection error $\Sigma$ is covariance matrix (scale of key point observation)
-##### for velocity error, $\Sigma$ is associated to time interval.
+##### for reprojection error $\Sigma$ is covariance matrix **scale of key point observation**
+##### for velocity error, $\Sigma$ is associated to **time interval**.
 #### The parameters to be optimized
 #####
 $$
 \theta=\left\{\mathbf{T}_{\mathrm{CW}}^{i}, \mathbf{T}_{\mathrm{W} 0}^{k, i}, \mathbf{X}_{\mathrm{W}}^{l}, \mathbf{X}_{0}^{j, k}, \mathbf{v}_{i}^{k}, \mathbf{w}_{i}^{k}\right\}
 $$
+### [[Heassian matrix]] $\mathbf{H}$ of the problem
+#### ![image.png](/assets/pages_dynaslam_1611136460786_0.png)
+#### Hessian built from the [[Jacobian matrix]] associated to each edge in the [[factor graph]].
+#### Notice the sparse pattern of map points and object points
+##### Size of the Hessian matrix is dominated by the number of map points $N_{mp}$ and object points
+###### Orders of magnitude larger than number of cameras and objects
+##### Applying [[Schur complement]] trick to solve
+###### run-time complexity of $\mathcal{O}(N_c^3+N_c^2 N_{mp}+N_c N_o N_{op})$
+###### the 2nd or 3rd term will dominate the cost
 ## Bounding Boxes
+:PROPERTIES:
+:heading: true
+:END:
 ### for [[VDO_SLAM]] and [[ClusterSLAM]]
 #### for every dynamic object we estimate by the centroid of map points when **first observed**, like point cloud
 ### we need to find a ^^common spatial reference^^ for objects of the same semantic class
 #### not only dimensions and space occupancy
-### Decouple estimation of trajectory and bounding boxes
+### **Decouple estimation of trajectory and bounding boxes**
 #### 只考虑每个动态物体上的一个点的6DOF轨迹
 #### 这个点是center of mass when first observed
 #### 这样两个问题就分解开了,互不干扰
 ##### dynamic object tracking
 ##### camera-object view point (point tracking and optimization)
 ###### 这个点就是那个第一次观测到的点
+### Initialize an object bounding box by searching two perpendicular planes
+#### that fit roughly the majority of object points.
+#### 假设objects大概可以构成3D bounding box
+##### [[RANSAC]] scheme
+###### choose the computed 3D bounding box that has the largest [[IoU]] of image projection with CNN 2D bounding box
+### Refine the bounding box dimensions and pose
+#### pose relative to the object tracking reference
+#### image-based [[Optimization]] is performed within a temporal window
+##### minimize the distance between 3D image projection and CNN 2D bounding box prediction.
+##### Must be at least 3 observing key frames of an object
+##### soft prior about the object dimension (object class)
+##### another prior of the initial box pose to constraint optimization solution remains close
+###

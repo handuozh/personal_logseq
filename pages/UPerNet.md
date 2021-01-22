@@ -56,8 +56,7 @@ public: true
 :END:
 ### **UPerNet**: Unified Perceptual Parsing Network, based on [[FPN]]. Apply a [[Pyramid Pooling Module (PPM)]] from [[PSPNet]] on the last layer of the backbone network before feeding to the top-down branch in [[FPN]]. ^^The aim is to unify parsing of visual attributes at multiple levels.^^
 ### **FPN:** A generic feature extractor which exploits multi-level feature representations in an inherent and pyramidal hierarchy. It uses a top-down architecture with lateral connections to fuse high-level semantic information into middle and low levels with marginal extra cost.
-#### Issue: empirical [[Recpetive Field]] of CNN is small.  
-
+#### Issue: empirical [[receptive field]] of CNN is small.
 ### **FCN**: Fully convolutional networks. To enable high-resolution predictions, [[Dilated Net]] is adopted.
 ### **Dilated Net**: Removes the stride of convolutional layers and adds holes between each location of convolution filters. To ease the side effect of down-sampling while maintaining the expansion rate for receptive fields. It is a de facto paradigm for semantic segmentation.
 #### Issues:
