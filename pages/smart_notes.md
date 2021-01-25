@@ -19,7 +19,7 @@ title: smart notes
 ####### https://app.getpocket.com/read/3237441796
 ####### Fill a page with [[writing prompt]]
 ####### Maintain [[journal prompt]] as backup, can be reviewed randomly, regularly
-#######
+######## Ce
 ### Literature note
 #### Should be brief. Be extremely selective.
 #### Has to be in my own words. **NO Quoting**
