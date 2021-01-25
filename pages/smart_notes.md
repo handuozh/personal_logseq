@@ -18,7 +18,7 @@ title: smart notes
 ###### Journal Prompts
 ####### https://app.getpocket.com/read/3237441796
 ####### Fill a page with [[writing prompt]]
-####### Maintain [[journal prompt]] as backup, can be reviewed randomly, regularly
+####### Maintain [[journal prompt]] as backup
 ######## Create a random journal prompt template
 #########
 ### Literature note
