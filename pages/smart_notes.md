@@ -20,7 +20,11 @@ title: smart notes
 ####### Fill a page with [[writing prompt]]
 ####### Maintain [[journal prompt]] as backup
 ######## Create a random journal prompt template
-#########
+######## LATER
+:PROPERTIES:
+:later: 1611539616630
+:END:
+########
 ### Literature note
 #### Should be brief. Be extremely selective.
 #### Has to be in my own words. **NO Quoting**
