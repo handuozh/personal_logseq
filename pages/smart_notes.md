@@ -13,7 +13,7 @@ title: smart notes
 #### 用来记录你会遗忘的东西,这样解放你的大脑只是用来思考
 ### Fleeting note
 #### Fleeting notes are only useful if you review them within a day or so and turn them into proper notes you can use later.
-####
+#### 保持写journal的习惯 great habit to cultivate
 ### Literature note
 #### Should be brief. Be extremely selective.
 #### Has to be in my own words. **NO Quoting**
