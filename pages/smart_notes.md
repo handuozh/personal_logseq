@@ -20,9 +20,10 @@ title: smart notes
 ####### Fill a page with [[writing prompt]]
 ####### Maintain [[journal prompt]] as backup
 ######## Create a random journal prompt template
-######## LATER
+######## TODO 
 :PROPERTIES:
 :later: 1611539616630
+:todo: 1611539623443
 :END:
 ########
 ### Literature note
