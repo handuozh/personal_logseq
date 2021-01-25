@@ -1,8 +1,9 @@
 ---
 title: video instance segmentation tracking with VAE
+tags: [[VAE]] [[segmentation]] tracking
 ---
 
-## #topic  [[tracking]], [[segmentation]], [[VAE]]
+##
 ## TODO  To read!
 :PROPERTIES:
 :todo: 1608191817524

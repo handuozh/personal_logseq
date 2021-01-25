@@ -1,7 +1,7 @@
 ---
 title: 3D multi-object tracking by Weng Xinshuo
+tags: paper, [[mot]], [[3d track]]
 ---
-
 ## Meta Data
 :PROPERTIES:
 :heading: true
@@ -52,8 +52,13 @@ $$x_{est}=x+v_x, /; /; y_{est}=y+v_y, /; /; z_{est}=z+v_z$$
 ###### by computing 3D [[intersection over union]] or ^^negative center distance^^([[?]]) between every pair of the trajectory $T_{est}^i$ and
 ### (D) the state of each matched trajectory in $T_{match}$ is updated by the 3D [[Kalman Filter]]
 #### based on the corresponding matched detection in $D_{match}$ to obtain the final trajectories $T_t$
+<<<<<<< HEAD
 ### (E) Birth and death memory
 #### (1) Consider all unmatched detections $D_{\rm{unmatch}}$ as potential new objects entering the scene.
 ##### Might be false positive, do not create new trajectory $T_{new}^P$ until $D_{\rm{unmatch}}$ has been **continually** matched in the next $\rm{Bir_{min}}$ frames
 ######
 ##
+=======
+### (E)
+##
+>>>>>>> a32cca242b8cb3ca6655f1d2ef896cb7211d9000
