@@ -1,6 +1,6 @@
 ---
 title: 3D multi-object tracking by Weng Xinshuo
-tags: paper
+tags: paper, [[MOTS]], [[3d track]]
 ---
 
 ## Meta Data
