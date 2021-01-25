@@ -1,7 +1,7 @@
 ---
 title: MOTS
 public: true
-tags: paper [[MOT]]
+tags: paper [[MOT]] [[segmentation]]
 ---
 
 ### Abstract
