@@ -28,11 +28,32 @@ Multi-object tracking (MOT) and trajectory forecasting are two critical componen
 :PROPERTIES:
 :heading: true
 :END:
-### ![image.png](/assets/pages_3d_multi-object_tracking_by_weng_xinshuo_1611217315255_0.png){:height 207, :width 641}
+### ![image.png](/assets/pages_3d_multi-object_tracking_by_weng_xinshuo_1611217315255_0.png){:height 194, :width 718}
 ### (A) [[LiDAR]] point cloud -> 3D detections $D_t$
+#### $D_t=\{D_t^1,D_t^2,\cdots,D_t^{n_t}\}$ ($n_t$ is detection numbers)
+#### Each detection $D_t^j$ where $j\in{\{1,2,\cdots, n_t\}}$ is represented as
+##### a tuple $(x,y,z,\theta,l,w,h,s)$
+###### location of object center in 3D space $(x,y,z)$
+###### object 3D size $(l,w,h)$
+###### heading angle $\theta$
+###### confidence score $s$
 ### (B) 3D [[Kalman Filter]] predicts the state of trajectories $T_{t-1}$ to current frame $t$ as $T_{est}$
-### (C) the detections $D_t$ and predicted trajectories $T_{est}$ are associated using the [[Hungarian]] algorithm
+#### 假设object inter-frame displacement using **constant velocity model**
+##### independent of camera ego-motion
+#### state of an object trajectory as a 11-dimensional vector $T=(x,y,z,\theta,l,w,h,s,v_x,v_y,v_z)$
+##### No angular velocity $v_{\theta}$ in the state space for simplicity
+###### 从经验来看,物体的角速度没有什么影响
+#### 基于constant velocity model, state of associated trajectories $\mathbf{T}_{t-1}=\{T_{t-1}^1, \cdots, T_{t-1}^{m_t}\}$ propogated to frame $t$ as $T_{est}$
+#####
+$$x_{est}=x+v_x, /; /; y_{est}=y+v_y, /; /; z_{est}=z+v_z$$
+### (C) Data Association
+#### the detections $D_t$ and predicted trajectories $T_{est}$ are associated using the [[Hungarian]] algorithm
+##### Construct affinity matrix $m_{t-1}\times n_t$
+###### by computing 3D [[intersection over union]] or ^^negative center distance^^([[?]]) between every pair of the trajectory $T_{est}^i$ and
 ### (D) the state of each matched trajectory in $T_{match}$ is updated by the 3D [[Kalman Filter]]
 #### based on the corresponding matched detection in $D_{match}$ to obtain the final trajectories $T_t$
-### (E)
+### (E) Birth and death memory
+#### (1) Consider all unmatched detections $D_{\rm{unmatch}}$ as potential new objects entering the scene.
+##### Might be false positive, do not create new trajectory $T_{new}^P$ until $D_{\rm{unmatch}}$ has been **continually** matched in the next $\rm{Bir_{min}}$ frames
+######
 ##
