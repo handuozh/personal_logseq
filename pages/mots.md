@@ -1,6 +1,7 @@
 ---
 title: MOTS
 public: true
+tags: paper [[MOT]]
 ---
 
 ### Abstract
