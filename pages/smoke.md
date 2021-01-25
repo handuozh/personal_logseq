@@ -1,5 +1,6 @@
 ---
 title: smoke
+tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]]
 ---
 
 ## Keywords
@@ -17,7 +18,6 @@ title: smoke
 
 #### [http://arxiv.org/abs/2002.10111](http://arxiv.org/abs/2002.10111)
 #### * Cite key: liuSMOKESingleStageMonocular2020
-#### * Topics: [[3D Detection]], [[monocular]]
 #### * Tags: #CVPR #monocular #centernet #keypoint #zotero #literature-notes #reference
 #### PDF Attachments
 	- [Liu et al_2020_SMOKE.pdf](zotero://open-pdf/library/items/K5KHB798)

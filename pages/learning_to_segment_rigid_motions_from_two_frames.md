@@ -1,8 +1,7 @@
 ---
 title: Learning to Segment Rigid Motions from Two Frames
+tags: paper, [[motion segmentation]]
 ---
-
-## Topic
 
 ## Abstract
 :PROPERTIES:

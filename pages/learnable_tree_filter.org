@@ -1,6 +1,6 @@
 #+TITLE: Learnable Tree Filter
+#+TAGS: paper, Markov Random Field,  segmentation
 
-** #topic [[segmentation]], [[Markov Random Field]]
 ** #paper
 *** Learnable Tree Filter for Structure-preserving Feature Transform, ICCV2019
 *** Rethinking Learnable Tree Filter for Generic Feature Transform, 2020

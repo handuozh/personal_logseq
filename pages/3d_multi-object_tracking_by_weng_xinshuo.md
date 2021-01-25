@@ -6,8 +6,7 @@ tags: paper, [[mot]], [[3d track]]
 :PROPERTIES:
 :heading: true
 :END:
-### ## Parallelized 3D Tracking and Forecasting with Graph Neural Networks and Diversity Sampling #toread
-
+### Parallelized 3D Tracking and Forecasting with Graph Neural Networks and Diversity Sampling #readdone
 ### Zotero Metadata
 
 #### * Item Type: [[Article]]
@@ -49,16 +48,23 @@ $$x_{est}=x+v_x, /; /; y_{est}=y+v_y, /; /; z_{est}=z+v_z$$
 ### (C) Data Association
 #### the detections $D_t$ and predicted trajectories $T_{est}$ are associated using the [[Hungarian]] algorithm
 ##### Construct affinity matrix $m_{t-1}\times n_t$
-###### by computing 3D [[intersection over union]] or ^^negative center distance^^([[?]]) between every pair of the trajectory $T_{est}^i$ and
+###### by computing 3D [[intersection over union]] or ^^negative center distance^^([[?]]) between every pair of the trajectory $T_{est}^i$ and detection $D_t^j$
+###### [[bipartite graph matching]] problem solved by [[Hungarian]]
+####### reject low 3D [[IoU]] less than a threshold
+####### output $T_{match}, D_{match}$.
+####### $T_{unmatch}$ , $D_{unmatch}$ are complementary set
 ### (D) the state of each matched trajectory in $T_{match}$ is updated by the 3D [[Kalman Filter]]
 #### based on the corresponding matched detection in $D_{match}$ to obtain the final trajectories $T_t$
-<<<<<<< HEAD
+#### Following [[Bayes Rule]], the updated state of each trajectory is the weighted average between the state of $T_{match}^k$ and $D_{match}^k$.
+##### Weights are determined by the state uncertainty
+##### orientation $\theta$ might have ambiguity -> ^^orientation correction^^
+###### make sure $D_{match}^k$ and $T_{match}^k$ are roughly consistent in orientation
 ### (E) Birth and death memory
 #### (1) Consider all unmatched detections $D_{\rm{unmatch}}$ as potential new objects entering the scene.
 ##### Might be false positive, do not create new trajectory $T_{new}^P$ until $D_{\rm{unmatch}}$ has been **continually** matched in the next $\rm{Bir_{min}}$ frames
-######
+###### $p\in{\{1,2,\cdots,n_t - w_t\}}$
+#### (2) Consider all unmatched trajectories $T_{unmatch}$ as potential objects leaving the scene.
+##### Might delete true positive ones, keep tracking each $T_{unmatch}^q$ for $\rm{Age_{max}}$ frames before mark it as $T_{lost}^q$
+###### $q\in{\{1,2, \cdots, m_{t-1}-w_t\}}$
 ##
-=======
-### (E)
 ##
->>>>>>> a32cca242b8cb3ca6655f1d2ef896cb7211d9000
