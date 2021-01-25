@@ -17,7 +17,8 @@ title: smart notes
 ##### 怎么解决不知道写什么的问题
 ###### Journal Prompts
 ####### https://app.getpocket.com/read/3237441796
-####### Fill a page with journal/writing prompts
+####### Fill a page with [[journal prompt]]
+#######
 ### Literature note
 #### Should be brief. Be extremely selective.
 #### Has to be in my own words. **NO Quoting**
