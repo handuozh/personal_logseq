@@ -19,11 +19,9 @@ title: smart notes
 ####### https://app.getpocket.com/read/3237441796
 ####### Fill a page with [[writing prompt]]
 ####### Maintain [[journal prompt]] as backup
-######## Create a random journal prompt template
-######## TODO
+######## TODO Create a random journal prompt template 
 :PROPERTIES:
-:todo: 1611539623443
-:later: 1611539616630
+:todo: 1611539644159
 :END:
 ########
 ### Literature note
