@@ -1,4 +1,5 @@
 #+TITLE: GMPHD
+#+TAGS: mot segmentation
 
 ** Online Multi-Object Tracking and Segmentation with *GMPHD* Filter and Simple Affinity Fusion
 ** GMPHD: Gaussian mixture probability hypothesis density
