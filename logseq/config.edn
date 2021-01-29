@@ -1,5 +1,4 @@
-
-  {:journal-basis "daily" 
+{:journal-basis "daily" 
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
@@ -83,6 +82,15 @@
                 [(contains? #{"3.5💗️" "4💗️" "4.5💗️" "5💗️"} ?name)]]
         :result-transform (fn [blocks]
                         (take 5 (shuffle (take 100 blocks))))}
+   
+   		{:title "❔ Questions"
+         :query [:find (pull ?b [*])
+                 :where
+                 [?p :page/name ?name]
+                 [?b :block/ref-pages ?p]
+                 [(contains? #{"?"} ?name)]] }       
+                  
+                  
 
         {:title "📚 To Read"
         :query [:find (pull ?b [*])

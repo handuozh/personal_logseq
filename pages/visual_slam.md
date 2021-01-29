@@ -4,6 +4,15 @@ public: true
 ---
 
 ## [[Camera Model]]
-## [[FIrst-Estimate Jacobian]] Estimators
-## [[Measurement Update]]
 ##
+## Motion Estimation
+### [[FIrst-Estimate Jacobian]] Estimators
+### [[Measurement Update]]
+### [[Hybrid Rotation Averaging]]
+:PROPERTIES:
+:type: paper
+:END:
+## [[Optimization]]
+### [[sliding window]] based optimization
+#### [[double window optimization]]
+####

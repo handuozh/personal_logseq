@@ -9,6 +9,9 @@ alias: 标准化
 ### 过大像素值分量(RGB)主导权值更新的问题 转为 RGB分量都具有相同的*数值分布*
 #### 一定程度上消除gradient更新的收敛慢,无序的问题
 ## 分类
+:PROPERTIES:
+:heading: true
+:END:
 ### [[min-max normalization]]
 ### [[z-score normalization]]
 ###

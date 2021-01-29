@@ -55,7 +55,7 @@ where $$ \mathcal{N}(i,j) $$ is the set of 9 neighbours of pixel $$ (i,j) $$.
 #### Together we maximize the product of both scores across all feature maps $$ k $$ to obtain single score map:
 ##### (6)            $$ \gamma_{ij}=\max\limits_k (\alpha_{ij}^k \beta_{ij}^k $$)
 
-#### Image-level normalization:
+#### Image-level [[normalization]] :
 ##### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
 
 ### 2.3 Multiscale Detection

@@ -34,3 +34,4 @@ title: smart notes
 ## 3. The Emergent Approach
 ### Embracing the knowledge
 ##
+##
