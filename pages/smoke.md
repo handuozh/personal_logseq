@@ -22,10 +22,17 @@ tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]]
 #### PDF Attachments
 	- [Liu et al_2020_SMOKE.pdf](zotero://open-pdf/library/items/K5KHB798)
 
-#### [[abstract]]: 
-Estimating 3D orientation and translation of objects is essential for infrastructure-less autonomous navigation and driving. In case of monocular vision, successful methods have been mainly based on two ingredients: (i) a network generating 2D region proposals, (ii) a R-CNN structure predicting 3D object pose by utilizing the acquired regions of interest. We argue that the 2D detection network is redundant and introduces non-negligible noise for 3D detection. Hence, we propose a novel 3D object detection method, named SMOKE, in this paper that predicts a 3D bounding box for each detected object by combining a single keypoint estimate with regressed 3D variables. As a second contribution, we propose a multi-step disentangling approach for constructing the 3D bounding box, which significantly improves both training convergence and detection accuracy. In contrast to previous 3D detection techniques, our method does not require complicated pre/post-processing, extra data, and a refinement stage. Despite of its structural simplicity, our proposed SMOKE network outperforms all existing monocular 3D detection methods on the KITTI dataset, giving the best state-of-the-art result on both 3D object detection and Bird's eye view evaluation. The code will be made publicly available.
-
-
+#### [[abstract]]
+##### 3D object detection系统分为两部分
+###### (1) 2D region proposal 生成网络
+###### (2) R-CNN 结构通过获得的regions of interest来预测3D object pose
+##### 本篇文章认为2D object network是冗余的,会带来巨大的error
+###### 这一点跟 [[RTM3D]]的想法类似
+####### ((60193c1d-a8b3-4cc1-8ee7-80577c19e580))
+##### SMOKE combine a single keypoint estimate with regressed 3D vars
+###### to predict a 3D bounding box
+##### Multi-step disentangling method
+######
 #### zotero items: [Local library](zotero://select/items/1_WVIMTSKH)
 
 #### ## Highlights and Annotations
@@ -129,11 +136,19 @@ $$L_{\mathrm{cls}}=-\frac{1}{N} \sum_{i, j=1}^{h, w}\left(1-\breve{y}_{i, j}\rig
 :PROPERTIES:
 :heading: true
 :END:
+#### 8D tuple $\tau$ for 3D bounding box
+##### add [[channel-wise]] activation to the regressed parameters of **dimension and orientation** at each [[feature map]] location to preserve consistency.
 #### Based on lifting transformation, we define [[l1 distance]]
 #### between predicted transform $\hat{B}$ and ground truth $B$
 #####
 $$L_{reg}=\frac{\lambda}{N}||\hat{B}-B||_1$$
 ##### where $\lambda$ is a scaling factor (for balancing)
+###### 防止classification, regression哪一方过度dominate
+#### [[Disentangling transformation]] of loss
+##### 一种effective dynamic method to optimize 3D regression loss function
+##### -> multi-step form
+##### The 8 corners representation of the 3D bounding box is isolated into 3 different groups
+###### orientation, dimension, location
 ### Final loss
 :PROPERTIES:
 :heading: true
@@ -143,4 +158,4 @@ $$L=L_{cls}+\sum\limits_{i=1}^3 L_{reg}(\hat{B_i})$$
 ##### where $i$ is the number of groups in 3D regression branch
 #### The multi-step [[disentangling transformation]] divides the contribution of** each parameter group** to the final loss.
 ##### 3 groups: orientation, dimension, location
-####
+###

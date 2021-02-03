@@ -1,9 +1,8 @@
 ---
 title: sliding window
 alias: active window
-tags: [[Optimizatioin]]
+tags: [[Optimization]]
 ---
-
 ## In order to achieve constant-time operation in visual SLAM, we can dynamically define a sub-set $M_{\mathcal{A}}$ of all $M$ keyframes as the active window $\mathcal{A}$  over which to apply optimization
 
 ## Usually most recently captured frames

@@ -3,7 +3,7 @@ title: Academic
 public: true
 ---
 
-## [[Keypoint]] 
+## [[Keypoint]]
 ## [[Image retrieval]]
 ## [[Segmentation]]
 ## [[CNN]]

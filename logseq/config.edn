@@ -124,5 +124,5 @@
  ;; input "{{{poem(red,blue)}}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}
+ :macros { "file" "[[/assets/$1][$1]]" }
    :ui/show-brackets? false}

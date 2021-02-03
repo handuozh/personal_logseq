@@ -44,7 +44,7 @@ The assumption of scene rigidity is common in visual SLAM algorithms. However, i
 #### pose $\mathbf{T}^{k,i}_{\rm{WO}} \in {\mathbb{SE}(3)}$
 #### linear, angular velocity $\mathbf{v}_i^k,\mathbf{w}_i^k\in{\mathbb{R}^3}$
 #### Each observed object $k$ contains dynamic objects points $\mathbf{x}_{\rm{O}}^{j,k}\in{\mathbb{R}^3}$
-### [Notation](https://i.imgur.com/0EKVpFo.png){:height 439, :width 480}
+### [Notation](https://i.imgur.com/0EKVpFo.png){:height 448, :width 480}
 ## Object Association
 :PROPERTIES:
 :background_color: #497d46
@@ -106,7 +106,7 @@ boxes and 3D points are optimized over a sliding window with [[marginalization]]
 :PROPERTIES:
 :heading: true
 :END:
-#### [BA factor graph representation with objects](https://i.imgur.com/MxHR7DR.png)
+#### [BA factor graph representation with objects](https://i.imgur.com/MxHR7DR.png){:height 578, :width 728}
 ### Key frame insertion condition:
 :PROPERTIES:
 :heading: true
@@ -164,7 +164,7 @@ $$
 \theta=\left\{\mathbf{T}_{\mathrm{CW}}^{i}, \mathbf{T}_{\mathrm{W} 0}^{k, i}, \mathbf{X}_{\mathrm{W}}^{l}, \mathbf{X}_{0}^{j, k}, \mathbf{v}_{i}^{k}, \mathbf{w}_{i}^{k}\right\}
 $$
 ### [[Heassian matrix]] $\mathbf{H}$ of the problem
-#### ![image.png](/assets/pages_dynaslam_1611136460786_0.png)
+#### ![image.png](/assets/pages_dynaslam_1611136460786_0.png){:height 305, :width 344}
 #### Hessian built from the [[Jacobian matrix]] associated to each edge in the [[factor graph]].
 #### Notice the sparse pattern of map points and object points
 ##### Size of the Hessian matrix is dominated by the number of map points $N_{mp}$ and object points
