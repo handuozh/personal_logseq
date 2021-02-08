@@ -9,7 +9,6 @@ tags: monocular, keypoint, #zotero #literature-notes #reference, [[literature-no
 ---
 ## Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training #toread
 ### Zotero Metadata
-
 #### [http://arxiv.org/abs/2009.00764](http://arxiv.org/abs/2009.00764)
 #### Cite key: liMonocular3DDetection2020
 #### PDF Attachments
@@ -17,18 +16,22 @@ tags: monocular, keypoint, #zotero #literature-notes #reference, [[literature-no
 
 #### zotero items: [Local library](zotero://select/items/1_NJDIR2WJ)
 #### [[abstract]]:
-##### In short:  **KM3D**-Net.
+##### In short:  **KM3D**-Net, based on [[RTM3D]].
 ##### 简介
 ###### A fully convolutional model to predict object keypoints, dimension, and orientation, and then combine these estimations with ^^perspective geometry^^ constraints to compute position attribute.
 ###### Further, reformulate the geometric constraints as a _differentiable_ version and embed it into the network to reduce running time while maintaining the consistency of model outputs in an _end-to-end fashion_.
 ###### Our model only requires RGB images without synthetic data, instance segmentation, CAD model, or depth generator.
+####### 不需要depth prediction
 ##### 网络结构
 ###### Benefiting from this simple structure, propose an effective [[semi-supervised]] training strategy for the setting where labeled training data is scarce.
+####### Geometry Reasoning Module
 ###### In this strategy, we enforce a **consensus prediction** of two _shared-weights_ KM3D-Net for the same unlabeled image, but different:
 ######## Data augmentation
 ######### we unify the coordinate-dependent augmentations as the affine transformation for the differential recovering position of objects
 ######## Network regularization
 ######### propose a **keypoints-dropout** module for the network regularization.
+########## 用2个keypoints就可以recover 3D bbox.
+########## 用4个Keypoints没有明显改进
 ##### 结果
 ###### extensive experiments on the popular KITTI 3D detection dataset indicate that the KM3D-Net surpasses all previous state-of-the-art methods in both efficiency and accuracy by a large margin.
 ###### And also, to the best of our knowledge, this is the first time that semi-supervised learning is applied in monocular 3D objects detection.
@@ -55,10 +58,11 @@ tags: monocular, keypoint, #zotero #literature-notes #reference, [[literature-no
 ###### global orientation followed [[Multi-Bin]] method
 ### 5. 3D confidence
 #### predict the 3D bounding box confidence $P_{3D}\in R^{\frac{h}{4}\times \frac{w}{4}\times 1}$
-##### by [[IoU]] between estimation and gt
+##### by 3D [[IoU]] between estimation and gt
 ##### also related to confidence of the main center
 #### Combine them in the [[Bayes Rule]] $Pro=Pro^m_{2D} * Pro_{3D}$ to obtain the final 3D confidence.
 ##### $Pro_{2D}^m$ are extracted by the heatmap after the [[Sigmoid]] function.
+##### $m$ is maincenter [[?]]
 ### Multi-task loss
 ####
 $$L_{sup}=\omega_m L_m + \omega_{kc} L_{kc} + \omega_D L_D + \omega_O L_O + \omega_T L_T + \omega_{conf} L_{conf}$$
@@ -86,4 +90,6 @@ $$kp^{\prime}(T,\widehat{D},\widehat{O})=K \begin{bmatrix} R(\widehat{)})^{3\tim
 :END:
 ### labeled training data is scarce -> semi-supervised training
 #### labeled and unlabeled data in a batch to optimize the model jointly
-###
+### ![image.png](../assets/pages_rtm3d++_1612771860640_0.png){:height 348, :width 852}
+#### Leverage [[affine transform]] to unify input augmentation and devise keypoints [[dropout]] for [[regulariztion]].
+####

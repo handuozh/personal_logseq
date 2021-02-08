@@ -1,5 +1,11 @@
 ---
 title: disentangling transformation
+tags: [[literature-notes]], paper, monocular, zotero, [[3D Object Detection]], mono3D, reference
+public: true
+type: [[Conference paper]]
+citekey: simonelliDisentanglingMonocular3D2019
+publication date: [[10/2019]]
+authors: [[Andrea Simonelli]], [[Samuel Rota Bulo]], [[Lorenzo Porzi]], [[Manuel Lopez-Antequera]], [[Peter Kontschieder]]
 ---
 
 ## #mono3D
@@ -8,16 +14,9 @@ title: disentangling transformation
 
 ### Zotero Metadata
 
-#### * Item Type: [[Conference paper]]
-#### * Authors: [[Andrea Simonelli]], [[Samuel Rota Bulo]], [[Lorenzo Porzi]], [[Manuel Lopez-Antequera]], [[Peter Kontschieder]]
-#### * Proceedings Title: [[2019 IEEE/CVF International Conference on Computer Vision (ICCV)]]
-#### * Date: [[10/2019]]
+#### Proceedings Title: [[2019 IEEE/CVF International Conference on Computer Vision (ICCV)]]
 #### [https://ieeexplore.ieee.org/document/9010618/](https://ieeexplore.ieee.org/document/9010618/)
 #### * DOI: [10.1109/ICCV.2019.00208](https://doi.org/10.1109/ICCV.2019.00208) 
-#### * Cite key: simonelliDisentanglingMonocular3D2019
-#### * Topics: [[monocular]]
-#### 
-####  #zotero #literature-notes #reference
 
 #### PDF Attachments
 	- [Simonelli et al. - 2019 - Disentangling Monocular 3D Object Detection.pdf](zotero://open-pdf/library/items/YJ67ZYLI)

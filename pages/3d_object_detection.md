@@ -32,16 +32,23 @@ $$R^*, T^*, D^* = \argmax\limits_{\{R,T,D\}} \sum\limits_{R_i,T_i,D_i}\big\| e_{
 $$\Sigma_i=\rm{diag} \left(\rm{softmax} \left(V(\widehat{kp}_i^{1:8}),M(\widehat{kp}_i^9)\right)\right)$$
 ##
 ## Lidar based
+:PROPERTIES:
+:heading: true
+:END:
 ### [[voxel R-CNN]]
 ## Monocular based
-## [[smoke]]
-## Keypoint based monocular 3D object detection
-### [[RTM3D]]
-### [[RTM3D++]]
-## [[3d detection with pseudo lidar]]
+:PROPERTIES:
+:heading: true
+:END:
+### [[disentangling transformation]]
+### [[smoke]]
+### Keypoint based monocular 3D object detection
+#### predict 2D bbox center and offset from projected 3D bbox center.
+#### [[RTM3D]]
+#### [[RTM3D++]]
+## Pseudo Lidar (depth prediction)
+:PROPERTIES:
+:heading: true
+:END:
+### [[3d detection with pseudo lidar]]
 ##
-##
-((6017c91d-042b-481a-9607-d6f466b7399f))
-((6017c91d-042b-481a-9607-d6f466b7399f))
-##
-((6017c91d-042b-481a-9607-d6f466b7399f))
