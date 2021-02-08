@@ -111,9 +111,6 @@ $$S_{score}=\sum\limits_f \hat{f} \odot \rm{softmax}(\hat{f})$$
 :heading: true
 :END:
 #### 1. Keypoint training
-:PROPERTIES:
-:background_color: #787f97
-:END:
 ##### The all heatmaps of keypoint training follows [[centernet]] and [[cornernet]]
 ##### TODO 这里增加centernet的工作流
 :PROPERTIES:
