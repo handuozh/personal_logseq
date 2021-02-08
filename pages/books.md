@@ -11,7 +11,7 @@ title: Books
 ## [[C++ Primer]]
 :PROPERTIES:
 :type: [[book]]
-:category: [[C++]] 
+:category: [[C++]]
 :END:
 ## [[Effective C++]], [[More Effective C++]], [[Effective STL]]
 ##

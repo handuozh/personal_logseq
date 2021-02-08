@@ -1,22 +1,22 @@
 ---
 title: RTM3D
-tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]]
+type: [[Article]]
+citekey: liRTM3DRealtimeMonocular2020a
+public: true
+authors: [[Peixuan Li]], [[Huaici Zhao]], [[Pengfei Liu]], [[Feidao Cao]]
+publication date: [[2020-01-10]]
+tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]],#keypoint, #monocular, #zotero, #literature-notes, #reference
 ---
 
 ## Meta Data
 :PROPERTIES:
 :heading: true
 :END:
-### Title: RTM3D: Real-time Monocular 3D Detection from Object Keypoints for Autonomous Driving #toread, #精读
+### Title: RTM3D: Real-time Monocular 3D Detection from Object Keypoints for Autonomous Driving #readdone, #精读
 ### Zotero Metadata
 
-#### * Item Type: [[Article]]
-#### * Authors: [[Peixuan Li]], [[Huaici Zhao]], [[Pengfei Liu]], [[Feidao Cao]]
-#### * Date: [[2020-01-10]]
 #### source [http://arxiv.org/abs/2001.03343](http://arxiv.org/abs/2001.03343)
 #### #code https://github.com/Banconxuan/RTM3D
-#### Cite key: liRTM3DRealtimeMonocular2020a
-#### Tags: #keypoint, #monocular, #single-shot #zotero #literature-notes #reference
 #### PDF Attachments
 	- [Li et al_2020_RTM3D.pdf](zotero://open-pdf/library/items/NCHMGMTE)
 
@@ -42,7 +42,7 @@ tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]]
 :PROPERTIES:
 :heading: true
 :END:
-### ![Keypoint detection architecture](/assets/pages_rtm3d_1611822344140_0.png){:height 521, :width 657}
+### ![pages_rtm3d_1611822344140_0.png](../assets/pages_rtm3d_1612493901522_0.png){:height 579, :width 751}
 ### output main center heatmap, vertexes heatmap, and vertexes coordinate
 ## Keypoint Detectioin Network
 :PROPERTIES:
@@ -66,9 +66,9 @@ tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]]
 :PROPERTIES:
 :heading: true
 :END:
-##### ![image.png](/assets/pages_rtm3d_1611892704096_0.png){:height 347, :width 602}
+##### ![pages_rtm3d_1611892704096_0.png](../assets/pages_rtm3d_1612493934466_0.png){:height 387, :width 703}
 ##### detect scale-invariant keypoints in the **point-wise space**
-##### $F$ scale feature maps, resize each scale $f$ [[?]]
+##### $F$ scale feature maps, resize each scale $f$
 ###### $1 < f <F$ back to the size of maximal scale
 ###### yield feature map $\hat{f}_{1<f<F}$
 ##### 生成soft weight by a [[softmax]] 为每个scale分配重要性
@@ -88,10 +88,16 @@ $$S_{score}=\sum\limits_f \hat{f} \odot \rm{softmax}(\hat{f})$$
 ##### Since the 3D projection point may exceed image boundary
 ###### 我们选择2D box center point
 ##### [[heatmap]] defined as $M\in{[0,1]^{\frac{H}{S}\times\frac{W}{S}\times C}}$
+:PROPERTIES:
+:id: 601bc1fd-63f7-4414-9ba1-46d0bc745a5e
+:END:
 ###### $C$ is the number of object categories
 #### 2. Another [[heatmap]] $V\in{[0,1]^{\frac{H}{S}\times\frac{W}{S}\times 9}}$
 ##### 9 perspective points projected by vertexes and center of 3D bounding box
 #### 3. For keypoints association of one object, regress an local offset $V_c\in{R^{\frac{H}{S}\times\frac{W}{S}\times 18}}$
+:PROPERTIES:
+:id: 601bc1fd-5096-4749-b664-129aca28bc13
+:END:
 ##### from the main-center as an indication.
 ##### Keypoints of $V$ closest to the coordinates from $V_c$ 被认为一个object上
 ##### $9\times 2$ offset用来约束9个vertexes点的位置
@@ -163,6 +169,7 @@ $$P_{3D}^i = \rm{diag} (D_i) \rm{Cor}$$
 ####
 :PROPERTIES:
 :later: 1612240416554
+:id: 601e644d-d5ac-473f-b30b-b4eb7fea9ad5
 :END:
 $$
 \text { Cor }=\left[\begin{array}{ccccccccc}

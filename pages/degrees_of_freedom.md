@@ -1,6 +1,6 @@
 ---
 title: degrees of freedom
-alias: DOF
+alias: DOF,自由度
 tags: [[epipolar geometry]], [[motion degeneration]] 
 ---
 ## Read the book [[multi-view geometry]]

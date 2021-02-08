@@ -23,22 +23,35 @@ title: logseq
 ```
 ## Query commands
 ### 1 想要查询某指定日期范围内(比如从2021-01-01到2021-02-01)的todo
-####
-#+BEGIN_SRC clojure
+#####+BEGIN_SRC clojure
 #+BEGIN_QUERY
 {:title " scheduled在二月的"
 :query [:find (pull ?b [*])
-:where
-[?b :block/scheduled ?d]
-[?b :block/marker ?marker]
-[(>= ?d "20210201")]
-[(<= ?d "20210228")]
-[(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
+        :where
+        [?b :block/scheduled ?d]
+        [?b :block/marker ?marker]
+        [(>= ?d "20210201")]
+        [(<= ?d "20210228")]
+        [(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
 :collapsed? false}
 #+END_QUERY
 _QUERY
+RC
+### 2 查询已经scheduled的所有todo项目
+####
+#+BEGIN_SRC 
+#+BEGIN_QUERY
+{:title " 已scheduled"
+:query [:find (pull ?b [*])
+:where
+[?b :block/scheduled ?d]
+[?b :block/marker ?marker2]
+[(not= ?d nil)]
+[(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker2)]]
+:collapsed? false}
+#+END_QUERY
 #+END_SRC
-### 2 All the tags specified in the front matter (tags: tag1, tag2)
+### 3 All the tags specified in the front matter (tags: tag1, tag2)
 ####
 #+BEGIN_SRC clojure
 #+BEGIN_QUERY
@@ -59,4 +72,6 @@ _QUERY
 ### 自动把所有日期,md/org格式转换成设置里面的格式
 ### IFFFT快捷工作流,整合其他软件
 ### 日历Calendar,提醒等
-###
+##
+##
+##
