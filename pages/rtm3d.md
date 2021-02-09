@@ -112,7 +112,7 @@ $$S_{score}=\sum\limits_f \hat{f} \odot \rm{softmax}(\hat{f})$$
 :END:
 #### 1. Keypoint training
 :PROPERTIES:
-:background_color: #787f97
+:heading: true
 :END:
 ##### The all heatmaps of keypoint training follows [[centernet]] and [[cornernet]]
 ##### TODO 这里增加centernet的工作流
@@ -132,6 +132,9 @@ $$L_{kp}^{K}=-\frac{1}{N} \sum\limits_{k=1}^K \sum\limits_{x=1}^{H/S} \sum\limit
 ####### For $\sigma$, find the max area $A_{max}$ and min area $A_{min}$ of 2D box in training data and set 2 hyper-params $\sigma_{max}$ and $\sigma_{min}$
 ######## $\sigma=A(\frac{\sigma_{max}-\sigma_{min}}{A_{max}-A_{min}})$ for object with size $A$.
 #### 2. Define residual terms (to regress **dimension and distance**)
+:PROPERTIES:
+:heading: true
+:END:
 #####
 $$L_D=\frac{1}{3N}\sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \mathbb{1}^{obj}_{xy} \left( D_{xy}-\Delta \tilde{D}_{xy}\right)^2$$
 ###### where $\Delta \tilde{D}_{xy}=\log{\frac{\tilde{D}_{xy}-\bar{D}}{D_{\sigma}}}$
