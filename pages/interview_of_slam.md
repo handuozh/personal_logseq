@@ -8,7 +8,7 @@ tags: project
 ### [[概率论]]
 ## Visual representations
 ## [[Kalman Filter]]
-arameterization
+Parameterization
 ## [[Visual SLAM]]
 ## [[Visual Inertial SLAM]]
 ##
