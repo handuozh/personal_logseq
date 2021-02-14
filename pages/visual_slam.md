@@ -10,7 +10,7 @@ public: true
 ### [[Measurement Update]]
 ### [[Hybrid Rotation Averaging]]
 :PROPERTIES:
-:type: paper
+:type: [[Article]]
 :END:
 ## [[Optimization]]
 ### [[sliding window]] based optimization
