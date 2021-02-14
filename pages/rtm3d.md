@@ -42,7 +42,7 @@ tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]],#keypoint, #mo
 :PROPERTIES:
 :heading: true
 :END:
-### ![pages_rtm3d_1611822344140_0.png](../assets/pages_rtm3d_1612493901522_0.png){:height 579, :width 751}
+### ![pages_rtm3d_1611822344140_0.png](assets/pages_rtm3d_1612493901522_0.png){:height 579, :width 751}
 ### output main center heatmap, vertexes heatmap, and vertexes coordinate
 ## Keypoint Detectioin Network
 :PROPERTIES:
