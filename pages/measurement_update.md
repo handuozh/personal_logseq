@@ -35,4 +35,5 @@ $$\mathbf{z}_{n,k} = \mathbf h_p  ({}^{C_k}\mathbf{p}_f) =
 ## #flashcardtag
 ### What is a [[PDF]]?
 #### probability density function
-####
+#### 概率密度函数
+### What is a
