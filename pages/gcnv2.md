@@ -64,8 +64,7 @@ where $m$ is the distance margin for truncation, $d(\cdot,\cdot)$ is the squared
 where $$\mathbf{\pi}$$ unproject a pixel from image plane to 3D place using the given 2D coordinates $$\mathbf{x}_i^{cur}$$ and depth $$z_i$$.
 
 ##### $$(\mathbf{x}_i^{cur},\mathbf{x}_{i,-}^{tar})$$ is a non-matching pair retrieved by exhaustive [[Negative Sample]] mining described below:
-###### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FBXSudpZ01W.png?alt=media&token=383880ad-c38d-4f93-97c3-3cce06fc9e7e)
-
+###### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FBXSudpZ01W.png?alt=media&token=383880ad-c38d-4f93-97c3-3cce06fc9e7e){:height 438, :width 679}
 ###### The exhaustive search will further penalize the already matched features with [[relaxed criteria]]. 
 ####### Relaxed criteria:: Increase the tolerance to potentially noisy data.
 
