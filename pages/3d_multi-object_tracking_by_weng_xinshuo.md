@@ -16,7 +16,7 @@ citekey: weng3DMultiObjectTracking
 ### [[abstract]]:
 #### 近年3d [[MOT]] focuses on accuracy
 ##### less attention to 计算量和system complexity
-#### Based on the detection of [[Point-RCNN]] which is lidar based
+#### Based on the detection of [[Point-RCNN]] which is lidar basedtr
 #### Online [[MOT]] system, data association
 ##### 结合3D [[Kalman Filter]] for state estimation
 ##### [[Hungarian]] algorithm for data association
@@ -35,26 +35,36 @@ citekey: weng3DMultiObjectTracking
 ###### object 3D size $(l,w,h)$
 ###### heading angle $\theta$
 ###### confidence score $s$
-##### 这种方式没有考虑3D object detection的
-### (B) 3D [[Kalman Filter]] predicts the state of trajectories $T_{t-1}$ to current frame $t$ as $T_{est}$
+##### 这种方式没有考虑3D object detection的8+1 vertex keypoints位置
+### (B) 3D [[Kalman Filter]]: State Prediction
+#### predicts the state of trajectories $T_{t-1}$ to current frame $t$ as $T_{est}$
 #### 假设object inter-frame displacement using **constant velocity model**
 ##### independent of camera ego-motion
 #### state of an object trajectory as a 11-dimensional vector $T=(x,y,z,\theta,l,w,h,s,v_x,v_y,v_z)$
 ##### No angular velocity $v_{\theta}$ in the state space for simplicity
 ###### 从经验来看,物体的角速度没有什么影响
+###### 节省资源
 #### 基于constant velocity model, state of associated trajectories $\mathbf{T}_{t-1}=\{T_{t-1}^1, \cdots, T_{t-1}^{m_t}\}$ propogated to frame $t$ as $T_{est}$
 #####
-$$x_{est}=x+v_x, /; /; y_{est}=y+v_y, /; /; z_{est}=z+v_z$$
+$$x_{est}=x+v_x, \; \; y_{est}=y+v_y, \; \; z_{est}=z+v_z$$
 ### (C) Data Association
 #### the detections $D_t$ and predicted trajectories $T_{est}$ are associated using the [[Hungarian]] algorithm
-##### Construct affinity matrix $m_{t-1}\times n_t$
+:PROPERTIES:
+:id: 6029fa64-6cc9-44f0-acfc-9dcaf2b99b54
+:END:
+##### Construct **affinity matrix** $m_{t-1}\times n_t$
+:PROPERTIES:
+:id: 6029fa64-d023-47c5-a420-85c67862492a
+:END:
+###### $m_{t-1}$是前$t-1$ frames数量,$n_t$是$t$时刻detection的数量
 ###### by computing 3D [[intersection over union]] or ^^negative center distance^^([[?]]) between every pair of the trajectory $T_{est}^i$ and detection $D_t^j$
 ###### [[bipartite graph matching]] problem solved by [[Hungarian]]
 ####### reject low 3D [[IoU]] less than a threshold
 ####### output $T_{match}, D_{match}$.
 ####### $T_{unmatch}$ , $D_{unmatch}$ are complementary set
-### (D) the state of each matched trajectory in $T_{match}$ is updated by the 3D [[Kalman Filter]]
-#### based on the corresponding matched detection in $D_{match}$ to obtain the final trajectories $T_t$
+### (D)  3D Kalman Filter: State Update
+#### the state of each matched trajectory in $T_{match}$ is updated by the 3D [[Kalman Filter]]
+##### based on the corresponding matched detection in $D_{match}$ to obtain the final trajectories $T_t$
 #### Following [[Bayes Rule]], the updated state of each trajectory is the weighted average between the state of $T_{match}^k$ and $D_{match}^k$.
 ##### Weights are determined by the state uncertainty
 ##### orientation $\theta$ might have ambiguity -> ^^orientation correction^^
