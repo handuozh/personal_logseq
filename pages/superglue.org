@@ -1,11 +1,22 @@
 #+TITLE: SuperGlue
+#+tags: [[graph network]], [[Descriptor Matching]], #attention, #transformer, #GNN, #zotero, #literature-notes, #reference
+#+authors: [[Paul-Edouard Sarlin]], [[Daniel DeTone]], [[Tomasz Malisiewicz]], [[Andrew Rabinovich]]
+#+type: [[Article]]
+#+citekey: sarlinSuperGlueLearningFeature2020
+#+publication date: [[2020-03-28]]
 
-** Learning Feature Matching with Graph Neural Networks
-** #topic [[graph network]] [[Descriptor Matching]] #attention #transformer
+** SuperGlue: Learning Feature Matching with Graph Neural Networks #reading
+*** Zotero Metadata
+
+**** [http://arxiv.org/abs/1911.11763](http://arxiv.org/abs/1911.11763)
+**** 
+**** PDF Attachments
+	- [[Sarlin et al. - 2020 - SuperGlue Learning Feature Matching with Graph Ne.pdf][zotero://open-pdf/library/items/27S4XGIZ]]
+**** [[abstract]]:
+This paper introduces SuperGlue, a neural network that matches two sets of local features by jointly ﬁnding correspondences and rejecting non-matchable points.
+**** Assignments are estimated by solving a differentiable optimal transport problem, whose costs are predicted by a graph neural network. We introduce a ﬂexible context aggregation mechanism based on attention, enabling SuperGlue to reason about the underlying 3D scene and feature assignments jointly. Compared to traditional, hand-designed heuristics, our technique learns priors over geometric transformations and regularities of the 3D world through end-to-end training from image pairs. SuperGlue outperforms other learned approaches and achieves state-of-the-art results on the task of pose estimation in challenging real-world indoor and outdoor environments. The proposed method performs matching in real-time on a modern GPU and can be readily integrated into modern SfM or SLAM systems. The code and trained weights are publicly available at github.com/magicleap/SuperGluePretrainedNetwork.
+**** zotero items: [Local library](zotero://select/items/1_YITE6WWJ)
 ** Abstract
-:PROPERTIES:
-:heading: true
-:END:
 *** 能够同时进行特征匹配以及滤除外点的网络
 *** matches two sets of local features by jointly finding correspondences and rejecting non-matchable points
 *** 特征匹配是通过求解可微分最优化转移问题（ optimal transport problem）来解决
