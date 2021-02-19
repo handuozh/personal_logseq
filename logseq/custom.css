@@ -303,3 +303,41 @@ mark {
 
 /* ==== fix spacing - TWEAK VALUES ! ===*/
 .ls-block { margin:-2px 0px -2px -1px !important; padding: 4px 1px !important;}
+
+/* calendar */
+
+#contents span.opacity-50 {
+  opacity: 0;
+}
+
+#contents .logseq-tools-calendar h2 {
+  margin-top: -25px;
+}
+
+.logseq-tools-calendar tr {
+  background: none !important;
+}
+
+.logseq-tools-calendar th,
+.logseq-tools-calendar td,
+.logseq-tools-calendar tr {
+  border: none;
+}
+
+.logseq-tools-calendar th,
+.logseq-tools-calendar td {
+  text-align: center;
+}
+
+.logseq-tools-calendar .outofmonth {
+  opacity: .3;
+}
+
+.logseq-tools-calendar .today {
+  font-weight: 900;
+  color: var(--ls-link-text-color);
+}
+
+.logseq-tools-calendar .page-exists {
+  border-bottom: 1px solid var(--ls-link-ref-text-color);
+}

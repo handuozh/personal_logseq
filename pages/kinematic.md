@@ -25,7 +25,7 @@ title: Kinematic
 :heading: true
 :background_color: rgb(73, 125, 70)
 :END:
-### Cross product / skew
+### Cross product / skew symmetric
 :PROPERTIES:
 :heading: true
 :END:

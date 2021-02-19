@@ -1,8 +1,24 @@
 ---
 title: Learning to Segment Rigid Motions from Two Frames
-tags: paper, [[motion segmentation]]
+tags: Article, [[motion segmentation]], #zotero, #literature-notes, #reference
+type: Article
+publication date: [[2021-01-10]]
+citekey: yangLearningSegmentRigid2021
+authors: [[Gengshan Yang]], [[Deva Ramanan]]
 ---
+## Learning to Segment Rigid Motions from Two Frames #reading
+### Zotero Metadata
 
+#### * Date: 
+#### [http://arxiv.org/abs/2101.03694](http://arxiv.org/abs/2101.03694)
+####  
+#### PDF Attachments
+	- [Yang_Ramanan_2021_Learning to Segment Rigid Motions from Two Frames.pdf](zotero://open-pdf/library/items/JZPT2ZF7)
+
+#### [[abstract]]:
+Appearance-based detectors achieve remarkable performance on common scenes, but tend to fail for scenarios lack of training data. Geometric motion segmentation algorithms, however, generalize to novel scenes, but have yet to achieve comparable performance to appearance-based ones, due to noisy motion estimations and degenerate motion configurations. To combine the best of both worlds, we propose a modular network, whose architecture is motivated by a geometric analysis of what independent object motions can be recovered from an egomotion field. It takes two consecutive frames as input and predicts segmentation masks for the background and multiple rigidly moving objects, which are then parameterized by 3D rigid transformations. Our method achieves state-of-the-art performance for rigid motion segmentation on KITTI and Sintel. The inferred rigid motions lead to a significant improvement for depth and scene flow estimation. At the time of submission, our method ranked 1st on KITTI scene flow leaderboard, out-performing the best published method (scene flow error: 4.89% vs 6.31%).
+
+#### zotero items: [Local library](zotero://select/items/1_TZCQLLB2)
 ## Abstract
 :PROPERTIES:
 :heading: true
@@ -12,6 +28,9 @@ tags: paper, [[motion segmentation]]
 ### model deformable objects as rigid body over short time
 #### Or decouple into rigidly-moving parts
 ### 传统 rigid [[motion segmentation]] challenges
+:PROPERTIES:
+:id: 602cf422-e94b-4cb7-801e-7f18a44e20ed
+:END:
 #### 1. [[epipolar geometry]] constraints fail when camera motion is close to zero
 #### 2. Points moving along [[epipolar line]] cannot be distinguished from rigid background
 #### 3. geometric criteria are often not robust enough to noises

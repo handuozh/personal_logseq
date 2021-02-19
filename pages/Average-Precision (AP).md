@@ -1,15 +1,14 @@
 ---
 title: Average-precision (AP)
 public: true
+tags: #Keypoint, #[[Descriptor-Matching]],  #Ranking, #metric-learning, #[[nearest-neighbour]]
 ---
 ### A standard ranking metric in paper _Local descriptors optimized for average precision. In CVPR, 2018. The paper focuses on [Descriptor Matching](Descriptor-Matching.md) stage.
-### #topic #Keypoint #[[Descriptor-Matching]]  #Ranking #metric-learning #[[nearest-neighbour]] 
-
-## metric-learning::
+## metric-learning
 ### ((5fbf5a26-4912-470d-b02b-594f29bcf4f7))
 ## Formulate descriptor extraction as [[nearest-neighbour]] retrieval performance metric: Average Precision.  
 
-## **Estimating fudamental matrix from matching images**
+## Estimating fudamental matrix from matching images
 :PROPERTIES:
 :heading: true
 :END:
@@ -27,8 +26,8 @@ public: true
 ### 4) Robust Estimation
 ## [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap.png?Expires=4759976180&Signature=Vlk86f11suQTus8Hzbe1r84KbQtm4oegdQTL1mvcaB30ZxRLetg~W9PikLxP34LIYJfUdDaSWzOpaaRxrXptr5anqjOuMfQI~kciXVri39~K7Qc3SWn79uNQa7fGeK93q1gfVkoH3Cmh5j1Tt8xkae1bmDOY~3PwFzXczySOy6f4ies9xcM8wLykZpbSWLw0h840wEG6H9utNIGLD0ilBvbmw1A5qWs-lnSEf0OdCo9l63e6bo9p4ZLxeeQO08~kboiPzgrt~pW67mmSgTqPbo2KRlrwhLlh7xC3Zib9KJJWx1OXJR38MOD8gsmq07GgRAhV90OJ-xLN8cyRMxCJjg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap.png]]
 ## In this paper the ^^contribution^^ is to assess [[nearest-neighbour]] matching performance by adopting Average Precision ([[AP]]) as the evaluation metric, based on:
-### Binary relevance assumption:: retrievals are either "relevant" or "irrelevant" to the query.
-
+### Binary relevance assumption
+#### retrievals are either "relevant" or "irrelevant" to the query.
 ### So given a reference feature, features in a target image are either **true match** or **false match**.
 
 ## 1. **Optimizing Average Precision**

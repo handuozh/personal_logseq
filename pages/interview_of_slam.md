@@ -6,6 +6,11 @@ tags: project
 ## Basic [[maths]]
 ### [[Matrix]]
 ### [[概率论]]
+## Geometry
+### [[Kinematic]]
+### [[epipolar geometry]]
+### [[Triangulation]]
+### [[PnP]]
 ## Visual representations
 ## [[Kalman Filter]]
 ## Parameterization

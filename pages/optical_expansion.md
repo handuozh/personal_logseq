@@ -1,14 +1,12 @@
 ---
 title: optical expansion
 public: true
+type: Article
+publication date: 2020
+publication press: [[CVPR]]
+tags: [[Optical Flow]] 
 ---
-
 ## Upgrading optical flow to 3d scene flow through optical expansion
-:PROPERTIES:
-:type: paper
-:publication press: [[CVPR]]
-:publication date: 2020
-:END:
 ## Optical Expansion vs [[Optical Flow]]
 ### ![image.png](/assets/pages_optical_expansion_1610542666164_0.png)
 ### [[Optical expansion]]:: 对于一个区域,在前后两帧之间,面积发生变化的比例

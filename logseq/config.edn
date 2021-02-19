@@ -16,7 +16,7 @@
  ;; :preferred-format ""
 
  ;; Git settings
- :git-pull-secs 60
+ :git-pull-secs 300
  :git-push-secs 200
  :git-auto-push true
 
