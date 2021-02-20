@@ -4,7 +4,7 @@ title: transformer
 
 ## [[sequence-to-sequence]] model by using [[self-attention]]
 
-### The original paper: Attention is All You Need, NIPS, 2017.
+### The original paper: [[Attention is all you need]] , NIPS, 2017.
 ### Purely based [[attention]] and dense layers
 ### Higher accuracy than [[RNN]]s on large datasets
 ## Attention Layer in [[attention]] without [[RNN]]
@@ -48,6 +48,7 @@ title: transformer
 ## Multi-Head [[self-attention]]
 :PROPERTIES:
 :heading: true
+:id: 602f1494-1008-4ce6-8660-be856c3cfecd
 :END:
 ### Using $l$ single-head self-attentions (^^Do not share parameters^^)
 #### A single-head self-attention has 3 paramter matrices: $\mathbf{W}_Q, \mathbf{W}_K, \mathbf{W}_V$.
@@ -59,4 +60,10 @@ title: transformer
 :PROPERTIES:
 :heading: true
 :END:
-###
+## The [[Pointwise]] [[fully connected layer]] is called ^^feed-forward network^^.
+:PROPERTIES:
+:id: 602f1494-f1af-496b-88e8-0890899d2c25
+:END:
+### linear transformers
+### non-linear [[activation function]]s
+##
