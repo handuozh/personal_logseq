@@ -49,4 +49,29 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 ##### **object queries**
 #### pass the output embedding of decoder to a ^^shared^^ [[feed forward network]] (FFN)
 ##### to predict either a detection or "no object" class
+### 1.1 Backbone
+#### $\mathbf{x}_{img}\in{\mathbb{R}^{3\times H_0 \times W_0}}$ -> feature map $f\in \mathbb{R}^{C\times H \times W}$
+##### $C=2048$
+##### $H, W=\frac{H_0}{32}, \frac{W_0}{32}$
+### 1.2 encoder
+:PROPERTIES:
+:heading: true
+:END:
+#### a $1\times 1$ convolution reduces the channel dim of the high-level activation map $f$
+##### $C$ to a smaller dimension $d$
+##### new feature map $z_0\in \mathbb{R}^{d\times H \times W}$
+##### -> $d\times HW$ feature map
+#### each encoder layer has a **multi-head self-attention** module and a [[FFN]]
+#### 因为transformer encoder结构是permutation-invariant的
+##### 每一个attention layer的输入加上fixed [[positional encoding]]s
+### 1.3 Decoder
+:PROPERTIES:
+:heading: true
+:END:
+#### 跟标准transformer区别在于
+##### the model decodes the $N$ objects in parallel at each decoder layer
+#### 因为transformer decoder结构是permutation-invariant的
+##### $N$个input embeddings must be different to produce different results
+###### 被成为^^object queries^^
+###### 被decoder转换成output embeddings
 ###

@@ -261,6 +261,16 @@ mark {
   background: transparent;
 }
 
+/* a.tag[data-ref="test"] {
+  background: #e40017;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+      border-radius: 3px;
+  color: white;
+} */
+
 /* === 外部链接加图标 ====*/ 
     a.external-link {border-bottom: 0px;}
     a.external-link:after {

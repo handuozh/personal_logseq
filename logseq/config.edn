@@ -74,6 +74,29 @@
         :inputs [:today :7d-after]
         :collapsed? false}
 
+        {:title "📅 临近DeadLine"
+        :query [:find (pull ?b [*])
+                :in $ ?start ?next
+                :where
+                [?b :block/deadline ?d]
+                [?b :block/marker ?marker]
+                [(> ?d ?start)]
+                [(< ?d ?next)]
+                [(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
+        :inputs [:today :7d-after]
+        :collapsed? false}
+
+        {:title "⚠️ 过期DeadLine"
+        :query [:find (pull ?b [*])
+                :in $ ?start
+                :where
+                [?b :block/deadline ?d]
+                [?b :block/marker ?marker]
+                [(< ?d ?start)]
+                [(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
+        :inputs [:today]
+        :collapsed? false}
+
         {:title "🏄 Document wandering"
         :query [:find (pull ?b [*])
                 :where
@@ -83,7 +106,7 @@
         :result-transform (fn [blocks]
                         (take 5 (shuffle (take 100 blocks))))}
    
-   		{:title "❔ Questions"
+   	{:title "❔ Questions"
          :query [:find (pull ?b [*])
                  :where
                  [?p :page/name ?name]
@@ -99,17 +122,7 @@
                 [?b :block/ref-pages ?p]]
         :collapsed? true}
 
-        {:title "📅 临近DeadLine"
-        :query [:find (pull ?b [*])
-        :in $ ?start ?next
-        :where
-        [?b :block/deadline ?d]
-        [?b :block/marker ?marker]
-        [(> ?d ?start)]
-        [(< ?d ?next)]
-        [(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
-        :inputs [:today :7d-after]
-        :collapsed? false}
+
     ]}
 
  ;; Add your own commands to speedup.
