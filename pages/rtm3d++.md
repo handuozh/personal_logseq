@@ -10,7 +10,6 @@ tags: monocular, keypoint, #zotero #literature-notes #reference, [[literature-no
 ## Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training #toread
 ### Zotero Metadata
 #### [http://arxiv.org/abs/2009.00764](http://arxiv.org/abs/2009.00764)
-#### Cite key: liMonocular3DDetection2020
 #### PDF Attachments
 	- [Li_2020_Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised.pdf](zotero://open-pdf/library/items/V4WX3BIL)
 
@@ -36,7 +35,7 @@ tags: monocular, keypoint, #zotero #literature-notes #reference, [[literature-no
 ###### extensive experiments on the popular KITTI 3D detection dataset indicate that the KM3D-Net surpasses all previous state-of-the-art methods in both efficiency and accuracy by a large margin.
 ###### And also, to the best of our knowledge, this is the first time that semi-supervised learning is applied in monocular 3D objects detection.
 ###### We even surpass most of the previous fully supervised methods with only 13% labeled data on KITTI.
-## ![image.png](/assets/pages_rtm3d++_1612340941295_0.png){:height 547, :width 775}
+## ![image.png](../assets/pages_rtm3d++_1612340941295_0.png){:height 547, :width 775}
 ## Structure of detection heads
 :PROPERTIES:
 :heading: true

@@ -13,6 +13,9 @@ title: attention
 ### [[decoder]] knows where to _focus_
 ### But downside is much more computation
 ### Simple RNN + attention
+:PROPERTIES:
+:id: 603070b8-5a03-4cf9-a04b-6defdb8f56e7
+:END:
 #### 计算权重的方法 #related [[transformer]]
 #### **weight** $\alpha_i=align(\mathbf{h}_i, \mathbf{s}_0)$
 ##### $\mathbf{s}_0$与每一个$\mathbf{h}_i$的相关性

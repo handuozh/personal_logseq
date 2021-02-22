@@ -1,8 +1,9 @@
 ---
 title: sequence-to-sequence
 alias: Seq2Seq
+related: [[attention]] 
+area: [[NLP]] 
 ---
-
 ## Input and output are both vector sequences
 ## [[Encoder-decoder]] strucuture
 ### [seq2seq model](https://i.imgur.com/0v6b9d8.png)

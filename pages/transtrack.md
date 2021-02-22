@@ -56,6 +56,9 @@ tags: [[MOT]], #zotero, #literature-notes, #reference, [[transformer]], [[query-
 #### ((602f1494-f1af-496b-88e8-0890899d2c25))
 #### Encoder generates keys and decoder takes as input task-specific queries
 ### The encoder takes the composed feature maps of 2 consecutive frames as input
+:PROPERTIES:
+:id: 603070b4-7f4c-40cc-bc24-59e0d20ea247
+:END:
 #### catch useful _correlations_
 ## 2. Training
 :PROPERTIES:
