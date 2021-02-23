@@ -23,6 +23,7 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 ####### anchor generation
 ##### The main ingredients of the new framework, called DEtection TRansformer or DETR, are a ^^set-based global loss^^ that forces unique predictions via [[bipartite graph matching]], and a _transformer encoder-decoder architecture_.
 ###### Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the **global image context** to directly output the final set of predictions in parallel.
+####### infer固定数量(100)的预测
 ###### The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors.
 ##### DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized [[Faster R-CNN]] baseline on the challenging [[COCO]] object detection dataset.
 ###### Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner.
@@ -59,11 +60,14 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 :END:
 #### a $1\times 1$ convolution reduces the channel dim of the high-level activation map $f$
 ##### $C$ to a smaller dimension $d$
-##### new feature map $z_0\in \mathbb{R}^{d\times H \times W}$
-##### -> $d\times HW$ feature map
+###### 维度压缩
+###### new feature map $z_0\in \mathbb{R}^{d\times H \times W}$
+##### reshape -> $d\times HW$ feature map
+###### 序列化数据
 #### each encoder layer has a **multi-head self-attention** module and a [[FFN]]
-#### 因为transformer encoder结构是permutation-invariant的
+#### 因为transformer encoder结构是permutation-invariant的 (顺序无关的)
 ##### 每一个attention layer的输入加上fixed [[positional encoding]]s
+###### 反映位置信息
 ### 1.3 Decoder
 :PROPERTIES:
 :heading: true
@@ -74,4 +78,44 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 ##### $N$个input embeddings must be different to produce different results
 ###### 被成为^^object queries^^
 ###### 被decoder转换成output embeddings
+#### Using self and encoder-decoder attention over these embeddings, the model globally reasons about all objects together using [[Pairwise]] relations between them
+##### while able to use the whole image as context
+### 1.4 [[FFN]]
+### 1.5 Auxiliary decoding losses
+:PROPERTIES:
+:heading: true
+:END:
+#### add prediction FFNs and [[Hungarian]] loss after each decoder layer
+#### All FFNs share the parameters
+#### Use additional shared **layer-norm** to normalize input to the prediction FFNs from different decoder layers
+### ![image.png](../assets/pages_detr_1613987449992_0.png)
+## 2. Loss
+:PROPERTIES:
+:heading: true
+:END:
+### 2.1 Object detection set prediction loss to force **unique** matching
+:PROPERTIES:
+:heading: true
+:END:
+#### ground truth boxes的个数(即图中object的个数)为$m$，由于$m$是一个事先设定好的远远大于image objects个数的整数，所以$N>>m$即生成的prediction boxes的数量会远远大于ground truth boxes 数量
+##### 为了解决上述问题,认为构造一个新的物体类别 $\phi$ 表示没有物体
+##### 多出来的$N-m$个prediction embedding就会和 $\phi$类别配对
+#### 定义好每对prediction box和image object 匹配的cost
+#### 用 [[Hungarian]] 找到cost最小的 bipartite matching方案
+##### search for a permutation of $N$ elements $\sigma \in \mathcal{G}_N$ with the lowest cost
+######
+$$
+\hat{\sigma}=\underset{\sigma \in \mathfrak{S}_{N}}{\arg \min } \sum_{i}^{N} \mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)
+$$
+###### $\mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)$ [[Pairwise]] matching cost between gt $y_i$ and prediction with index $\sigma(i)$
+##### 这个matching cost 考虑class prediction 和 similarity
+######
+$$
+-\mathbb{1}_{\left\{c_{i} \neq \varnothing\right\}} \hat{p}_{\sigma(i)}\left(c_{i}\right)+\mathbb{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\mathrm{box}}\left(b_{i}, \hat{b}_{\sigma(i)}\right)
+$$
+######
+###
+$$
+\mathcal{L}_{\text {Hungarian }}(y, \hat{y})=\sum_{i=1}^{N}\left[-\log \hat{p}_{\hat{\sigma}(i)}\left(c_{i}\right)+\mathbb{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\text {box }}\left(b_{i}, \hat{b}_{\hat{\sigma}}(i)\right)\right]
+$$
 ###

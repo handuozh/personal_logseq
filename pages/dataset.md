@@ -2,7 +2,7 @@
 title: dataset
 ---
 
-## 2D Image (object recognition, [[object detection]] , [[segmentation]] )
+## 2D Image (object recognition, [[object detection]] , [[segmentation]] ) #kanban
 ### ImageNet
 ### VOC
 ### [[COCO]]
@@ -13,3 +13,4 @@ title: dataset
 ### [[nuScenes]]
 ## Keypoint
 ### [[HPatches Dataset]]
+##

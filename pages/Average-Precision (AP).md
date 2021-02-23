@@ -155,8 +155,7 @@ class APLoss (nn.Module):
 ### Triplet loss:: Long history in [[metric-learning]]
 #### Long history in [[metric-learning]], better suited for ranking tasks than pair-based losses used in [[Siamese Network]].
 
-#### [[Triplets]] define local [[Pariwise]] ranking losses.
-
+#### [[Triplets]] define local [[Pairwise]] ranking losses.
 #### ^^Cons:^^ Despite simplicity, they are challenging to optimize. For$$ N $$ training samples, the set of [[Triplets]] is of size $$ O(N^3) $$. But most of them get classified well early during learning.
 
 #### To maintain stable progress, carefully tuned heuristics such as [[Hard Negative Mining]], [[Anchor Swap]], [[Distance-weighted Sampling]] are crucial.  
