@@ -32,4 +32,5 @@
 ## [[Projects]]
 ### [[Working projects]]
 #### [[interview of SLAM]]
+#### [[3D Object Detection]]
 ### [[Archived projects]]

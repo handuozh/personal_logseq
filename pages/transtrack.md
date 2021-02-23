@@ -6,7 +6,7 @@ publication date: [[2020-12-31]]
 authors: [[Peize Sun]], [[Yi Jiang]], [[Rufeng Zhang]], [[Enze Xie]], [[Jinkun Cao]], [[Xinting Hu]], [[Tao Kong]], [[Zehuan Yuan]], [[Changhu Wang]], [[Ping Luo]]
 tags: [[MOT]], #zotero, #literature-notes, #reference, [[transformer]], [[query-key]]
 ---
-## TransTrack: Multiple-Object Tracking with Transformer #toread
+## TransTrack: Multiple-Object Tracking with Transformer #reading
 ### Zotero Metadata
 #### #code  https://github.com/PeizeSun/TransTrack
 #### apper: [http://arxiv.org/abs/2012.15460](http://arxiv.org/abs/2012.15460)
@@ -59,7 +59,7 @@ tags: [[MOT]], #zotero, #literature-notes, #reference, [[transformer]], [[query-
 :PROPERTIES:
 :id: 603070b4-7f4c-40cc-bc24-59e0d20ea247
 :END:
-#### catch useful _correlations_
+#### catch useful ^^correlations^^
 ## 2. Training
 :PROPERTIES:
 :heading: true
