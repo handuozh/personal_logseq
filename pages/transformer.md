@@ -5,11 +5,11 @@ related: [[seqence-to-sequence]], [[attention]]
 ---
 ## [[sequence-to-sequence]] model by using [[self-attention]]
 
-### The original paper: [[Attention is all you need]] , NIPS, 2017.
+### The original paper: [[Attention is all you need]] , NIPS, 2017. #related
 ### Purely based [[attention]] and dense layers ( [[fully connected layer]] )
 ### 整个结构就是用 [[attention]]层和 [[self-attention]]层组成的
 ### Higher accuracy than [[RNN]]s on large datasets
-## 资料
+## 相关资料
 ### tutorial
 #### {{youtube https://www.youtube.com/watch?v=aButdUV0dxI&t=30s}}
 ####
@@ -85,6 +85,9 @@ related: [[seqence-to-sequence]], [[attention]]
 ##### Thus $\mathbf{c}_{:j}$ is a function of $\mathbf{x}_j^{\prime}$ and $[\mathbf{x}_1, \cdots, \mathbf{x}_m]$.
 ##### $\mathbf{c}_{:j}$依赖于decoder一个输入$\mathbf{x}_j^{\prime}$以及decoder全部的输入
 ### 生成过程
+:PROPERTIES:
+:heading: true
+:END:
 #### ![image.png](../assets/pages_transformer_1613894923064_0.png){:height 285, :width 239}
 #### 例如上图,生成的$\mathbf{c}_{:2}$作为特征向量输入 [[softmax]] 分类其得到概率分布$\mathbf{p}_2$
 #### 通过$\mathbf{p}_2$进行抽样得到第三个单词,编码成$\mathbf{x}_3^{\prime}$作为下一轮输入
@@ -115,7 +118,10 @@ RNN使用状态$\mathbf{h}$作为特征向量
 #+BEGIN_NOTE
 $\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
 #+END_NOTE
-### 步骤
+### **步骤**
+:PROPERTIES:
+:heading: true
+:END:
 #### 1. 三种变换
 ##### ![image.png](../assets/pages_transformer_1613895733828_0.png)
 ##### 每个$\mathbf{x}_j$向量都会被映射成三个向量
@@ -137,6 +143,12 @@ $\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
 :id: 602f1494-1008-4ce6-8660-be856c3cfecd
 :background_color: #497d46
 :END:
+### 多头的好处 advantages of multi-head #pros
+#### 扩展了模型专注于不同位置的能力
+#### 给出了[[attention]] layer的多个"表示子空间"
+##### 多个query/key/value的权重矩阵set
+##### 比如一般使用8个attention head,因此每个encoder/decoder 有8个矩阵集合
+##### 这些最后再concatenate起来
 ### Using $l$ single-head self-attentions (^^Do not share parameters^^)
 #### A single-head self-attention has 3 paramter matrices: $\mathbf{W}_Q, \mathbf{W}_K, \mathbf{W}_V$.
 #### Totally $3l$ parameters matrices.
@@ -165,22 +177,25 @@ $\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
 :END:
 ### ![image.png](../assets/pages_transformer_1613910927125_0.png){:height 321, :width 583}
 ### $u_{:j}$会收到所有输入向量的影响,不过影响最大的还是$\mathbf{x}_j$
-## Transformer's Encoder
+### Transformer's Encoder
 :PROPERTIES:
 :heading: true
 :END:
-### One block of encoder
-#### ![image.png](../assets/pages_transformer_1613911278318_0.png){:height 225, :width 273}
-### Encoder 结构
-#### ![image.png](../assets/pages_transformer_1613911365517_0.png){:height 319, :width 219}
-#### 一般有6个blocks
-##### 每个block有2层
-##### 每个block有自己的参数,互相独立
+#### One block of encoder
+##### ![image.png](../assets/pages_transformer_1613911278318_0.png){:height 225, :width 273}
+#### Encoder 结构
+##### ![image.png](../assets/pages_transformer_1613911365517_0.png){:height 319, :width 219}
+##### 一般有6个blocks
+###### 每个block有2层
+###### 每个block有自己的参数,互相独立
 ## Stacked Attention Layers
 :PROPERTIES:
 :heading: true
 :END:
 ### Transformer decoder的一个block
+:PROPERTIES:
+:heading: true
+:END:
 #### 第一层是multi-head self-attention
 ##### ![image.png](../assets/pages_transformer_1613912924192_0.png){:height 172, :width 324}
 ##### 输入输出全都是$512\times t$向量
@@ -198,11 +213,21 @@ $\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
 :END:
 ### ![image.png](../assets/pages_transformer_1613913985342_0.png){:height 303, :width 517}
 ###
-##
-### The [[Pointwise]] [[fully connected layer]] is called ^^feed-forward network^^.
+### 最后输入到[[FFN]]
+#### The [[Pointwise]] [[fully connected layer]] is called [[feed forward network]]
 :PROPERTIES:
 :id: 602f1494-f1af-496b-88e8-0890899d2c25
 :END:
-#### linear transformers
-#### non-linear [[activation function]]s
-##
+##### linear transformers
+##### non-linear [[activation function]]s
+## Vision based Transformer
+:PROPERTIES:
+:heading: true
+:END:
+### Input
+#### transformer输入需要sequence
+##### 对一幅图像切分为path -> sequence
+##### 降维
+#### ![image.png](../assets/pages_transformer_1614234369994_0.png)
+#### 如上图,在9个块的基础上追加一个0和
+#####

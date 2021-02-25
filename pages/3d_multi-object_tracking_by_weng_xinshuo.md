@@ -1,6 +1,6 @@
 ---
 title: 3D multi-object tracking by Weng Xinshuo
-tags: #zotero #literature-notes #reference, paper, [[mot]], [[3d track]], [[Kalman Filter]]
+tags: #zotero, #literature-notes, #reference, paper, [[mot]], [[3d track]], [[Kalman Filter]]
 public: true
 type: Article
 authors: [[Xinshuo Weng]], [[Jianren Wang]], [[David Held]], [[Kris Kitani]]

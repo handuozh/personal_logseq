@@ -4,11 +4,9 @@ pulic: true
 type: Article
 authors: [[Xinshuo Weng]], [[Ye Yuan]], [[Kris Kitani]]
 citekey: wengParallelized3DTracking
-#GNN #zotero #literature-notes #reference, paper, [[mot]], [[3d track]]
+tags: #GNN, #zotero, #literature-notes, #reference, paper, [[mot]], [[3d track]]
 ---
-
-##
-## Parallelized 3D Tracking and Forecasting with Graph Neural Networks and Diversity Sampling #reading
+## Parallelized 3D Tracking and Forecasting with Graph Neural Networks and Diversity Sampling #toread
 ### Zotero Metadata
 
 #### PDF Attachments

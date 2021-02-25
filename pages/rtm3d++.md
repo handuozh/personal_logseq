@@ -5,9 +5,9 @@ citekey: liMonocular3DDetection2020
 public: true
 authors: [[Peixuan Li]]
 publication date: [[2020-09-01]]
-tags: monocular, keypoint, #zotero #literature-notes #reference, [[literature-notes]]
+tags: monocular, keypoint, #zotero, #reference, [[literature-notes]]
 ---
-## Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training #toread
+## Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training #readdone
 ### Zotero Metadata
 #### [http://arxiv.org/abs/2009.00764](http://arxiv.org/abs/2009.00764)
 #### PDF Attachments

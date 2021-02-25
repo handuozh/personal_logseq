@@ -21,9 +21,11 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 ###### 取代现在模型需要手工设计的工作
 ####### [[NMS]]
 ####### anchor generation
+####### 不需要设置先验anchor,几乎没有超参数,也不需要NMS(因为输出的无需集合没有重复情况)
 ##### The main ingredients of the new framework, called DEtection TRansformer or DETR, are a ^^set-based global loss^^ that forces unique predictions via [[bipartite graph matching]], and a _transformer encoder-decoder architecture_.
 ###### Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the **global image context** to directly output the final set of predictions in parallel.
 ####### infer固定数量(100)的预测 #practical
+####### 图中物体不够$N$个就用 $\phi$ (no object) 填充padding
 ###### The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors.
 ##### DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized [[Faster R-CNN]] baseline on the challenging [[COCO]] object detection dataset.
 ###### Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner.
@@ -51,6 +53,9 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 #### pass the output embedding of decoder to a ^^shared^^ [[feed forward network]] (FFN)
 ##### to predict either a detection or "no object" class
 ### 1.1 Backbone
+:PROPERTIES:
+:heading: true
+:END:
 #### $\mathbf{x}_{img}\in{\mathbb{R}^{3\times H_0 \times W_0}}$ -> feature map $f\in \mathbb{R}^{C\times H \times W}$
 ##### $C=2048$
 ##### $H, W=\frac{H_0}{32}, \frac{W_0}{32}$
@@ -68,16 +73,30 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 #### 因为transformer encoder结构是permutation-invariant的 (顺序无关的)
 ##### 每一个attention layer的输入加上fixed [[positional encoding]]s
 ###### 反映位置信息
+###### 考虑2D空间,即xy方向
+###### 每个方向128维
+####
+#+BEGIN_NOTE
+位置编码向量仅加到Q和K中,$V$没有加入位置信息
+和原始做法不同
+#+END_NOTE
+####
+#+BEGIN_NOTE
+位置编码向量加入到每个编码器(6个)中
+原始做法只有第一个编码器输入位置编码向量
+#+END_NOTE
 ### 1.3 Decoder
 :PROPERTIES:
 :heading: true
 :END:
 #### 跟标准transformer区别在于
-##### the model decodes the $N$ objects in parallel at each decoder layer
+##### the model decodes the $N$ objects **in parallel** at each decoder layer
 #### 因为transformer decoder结构是permutation-invariant的
 ##### $N$个input embeddings must be different to produce different results
+###### shape $(100, 256)$
 ###### 被成为^^object queries^^
 ###### 被decoder转换成output embeddings
+####### 在学习过程中提供target和context image 之间的关系,相当与全局注意力
 #### Using self and encoder-decoder attention over these embeddings, the model globally reasons about all objects together using [[Pairwise]] relations between them
 ##### while able to use the whole image as context
 ### 1.4 [[FFN]]

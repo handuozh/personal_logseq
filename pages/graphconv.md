@@ -4,7 +4,7 @@ type: [[Article]]
 citekey: morrisWeisfeilerLemanGo2019
 publication date: [[2019-07-17]]
 authors: [[Christopher Morris]], [[Martin Ritzert]], [[Matthias Fey]], [[William L. Hamilton]], [[Jan Eric Lenssen]], [[Gaurav Rattan]], [[Martin Grohe]]
-tags: [[GNN]], [[graph network]], #zotero #literature-notes #reference
+tags: [[GNN]], [[graph network]], #zotero, #literature-notes, #reference
 ---
 ## Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks #toread
 ### Zotero Metadata

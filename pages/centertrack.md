@@ -4,7 +4,7 @@ type: Article
 citekey: zhouTrackingObjectsPoints2020
 publication date: [[2020]]
 authors: [[Xingyi Zhou]], [[Vladlen Koltun]], [[Philipp Krähenbühl]]
-tags: #centernet #zotero #literature-notes #reference #MOT
+tags: #centernet, #zotero, #literature-notes, #reference #MOT
 ---
 ## Tracking Objects as Points #toread
 ### Zotero Metadata
