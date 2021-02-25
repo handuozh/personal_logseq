@@ -28,7 +28,9 @@ public: true
 :END:
 ### **Notation**
 #### Input image $$I\in{\mathbb{R}^{3\times H \times W}}$$
-
+:PROPERTIES:
+:id: 60361390-93a2-4b9e-b2e6-d932868d45b5
+:END:
 #### Define $$K:I\rightarrow {\{\mathbf{p,f,s}\}}$$
 ##### keypoint $$\mathbf{p}=\{ [u,v]\}\in {\mathbb{R}^{2\times N}}$$
 
@@ -61,8 +63,7 @@ public: true
 ## 1. [[KeyPointNet]]::
 ### a keypoint-network architecture that is optimized in an end-to-end differentiable manner by imposing explicit loss on each of the 3 target outputs (score, location and descriptor).
 
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FTOQXLiMVDX.png?alt=media&token=738ec2fc-32a6-4d09-9758-56440c18df9b)
-
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FTOQXLiMVDX.png?alt=media&token=738ec2fc-32a6-4d09-9758-56440c18df9b){:height 344, :width 801}
 ### **  Detector Learning**
 #### Same points as [[Unsuperpoint]] ((5fbf7cce-e8c2-4f6f-b73f-4f00fa094e09))
 ##### Define distance $$ d_k $$ as

@@ -5,7 +5,7 @@ public: true
 
 ## [[Camera Model]]
 ##
-## Motion Estimation
+## Motion Estimation #kanban
 ### [[FIrst-Estimate Jacobian]] Estimators
 ### [[Measurement Update]]
 ### [[Hybrid Rotation Averaging]]

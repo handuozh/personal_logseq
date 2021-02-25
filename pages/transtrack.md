@@ -22,7 +22,7 @@ tags: [[MOT]], #zotero, #literature-notes, #reference, [[transformer]], [[query-
 ##### In this work, we propose **TransTrack**, a baseline for MOT with Transformer.
 ###### It takes advantage of ^^query-key^^ mechanism and introduces a set of learned object queries into the pipeline to enable detecting new-coming objects.
 ##### **TransTrack** has 3 main advantages:
-###### (1) It is an online joint-detection-and-tracking pipeline based on _query-key_ mechanism. Complex and multi-step components in the previous methods are **simplified**.
+###### (1) It is an online joint-detection-and-tracking pipeline based on **query-key** mechanism. Complex and multi-step components in the previous methods are **simplified**.
 ###### (2) It is a brand new architecture based on _Transformer_. The learned object query detects objects in the current frame. The object feature query from the previous frame associates those current objects with the previous ones.
 ###### (3) For the first time, we demonstrate a much simple and effective method based on query-key mechanism and Transformer architecture could achieve competitive 65.8\% MOTA on the MOT17 challenge dataset.
 #### zotero items: [Local library](zotero://select/items/1_H36YUSUS)

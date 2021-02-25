@@ -1,8 +1,11 @@
 ---
 title: smoke
-tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]]
+type: Article
+citekey: liuSMOKESingleStageMonocular2020
+authors: [[Zechen Liu]], [[Zizhang Wu]], [[Roland Tóth]]
+publication date: [[2020-02-24]]
+tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]], #keypoint, #zotero, #literature-notes, #reference
 ---
-
 ## Keywords
 :PROPERTIES:
 :heading: true
@@ -11,14 +14,7 @@ tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]]
 ### 评分 [[3.5💗️]]
 ## SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation #readdone
 ### Metadata
-
-#### * Item Type: [[Article]]
-#### * Authors: [[Zechen Liu]], [[Zizhang Wu]], [[Roland Tóth]]
-#### * Date: [[2020-02-24]]
-
 #### [http://arxiv.org/abs/2002.10111](http://arxiv.org/abs/2002.10111)
-#### * Cite key: liuSMOKESingleStageMonocular2020
-#### * Tags: #CVPR #monocular #centernet #keypoint #zotero #literature-notes #reference
 #### PDF Attachments
 	- [Liu et al_2020_SMOKE.pdf](zotero://open-pdf/library/items/K5KHB798)
 
@@ -78,7 +74,7 @@ tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]]
 #### For each ground truth keypoint, the corresponding downsampled location on the [[feature map]] is computed and distributed using
 ##### [[Gaussian Kernel]]
 ##### Standard deviation based on ground truth 3D bounding boxes projection on image plane
-#### 3D box is represented by 8 2D points
+#### 3D box is represented by 8个 2D points
 ##### standard deviation by the smallest 2D box with $\{x_b^{min},y_b^{min},x_b^{max},y_b^{max}\}$ to encircle 3D box
 ## 3. Regression Branch
 :PROPERTIES:

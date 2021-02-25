@@ -6,7 +6,6 @@ publication date: [[2020]]
 authors: [[Xingyi Zhou]], [[Vladlen Koltun]], [[Philipp Krähenbühl]]
 tags: #centernet #zotero #literature-notes #reference #MOT
 ---
-
 ## Tracking Objects as Points #toread
 ### Zotero Metadata
 
@@ -20,7 +19,7 @@ tags: #centernet #zotero #literature-notes #reference #MOT
 ###### Nowadays, tracking is dominated by pipelines that perform object detection followed by temporal association, also known as [[tracking-by-detection]].
 ###### We present a simultaneous detection and tracking algorithm that is simpler, faster, and more accurate than the state of the art.
 ##### Our tracker, **CenterTrack**, applies a detection model to a pair of images and detections from the prior frame.
-###### Given this minimal input, CenterTrack localizes objects and predicts their associations with the previous frame. That’s it.
+###### Given this minimal input, **CenterTrack** localizes objects and predicts their associations with the previous frame.
 ####### CenterTrack is simple, online (no peeking into the future), and real-time.
 ##### It achieves 67.8% MOTA on the **MOT17** challenge at 22 FPS and 89.4% MOTA on the [[KITTI]] tracking benchmark at 15 FPS, setting a new state of the art on both datasets.
 ##### CenterTrack is easily extended to monocular 3D tracking by regressing additional 3D attributes. Using monocular video input, it achieves 28.3% AMOTA@0.2 on the newly released [[nuScenes]] 3D tracking benchmark, substantially outperforming the monocular baseline on this benchmark while running at 28 FPS.
