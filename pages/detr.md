@@ -24,11 +24,17 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 ####### 不需要设置先验anchor,几乎没有超参数,也不需要NMS(因为输出的无需集合没有重复情况)
 ##### The main ingredients of the new framework, called DEtection TRansformer or DETR, are a ^^set-based global loss^^ that forces unique predictions via [[bipartite graph matching]], and a _transformer encoder-decoder architecture_.
 ###### Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the **global image context** to directly output the final set of predictions in parallel.
-####### infer固定数量(100)的预测 #practical
+####### infer固定数量(100)的预测集合 #practical
+######## 每个集合包括类别和坐标信息
+######### $y_i=(c_i;b_i)$
+######### $c$ 是92(91+1)个类别响亮
+######### $b$ 是长度为4的bbox坐标向量
+######## 输出的时候就会有两个分支: bbox分支(b,100,4)和分类分支(b,100,92)
 ####### 图中物体不够$N$个就用 $\phi$ (no object) 填充padding
+######## 计算loss的时候bbox分支仅计算有物体位置,背景集合忽略
 ###### The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors.
 ##### DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized [[Faster R-CNN]] baseline on the challenging [[COCO]] object detection dataset.
-###### Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner.
+###### Moreover, DETR can be easily generalized to produce [[panoptic segmentation]] in a unified manner.
 ###### We show that it significantly outperforms competitive baselines.
 #### zotero items: [Local library](zotero://select/items/1_RJB6MLHT)
 ## Overview
@@ -145,7 +151,10 @@ self.query_embed = nn.Embedding(num_queries, hidden_dim)
 :PROPERTIES:
 :heading: true
 :END:
-#### ground truth boxes的个数(即图中object的个数)为$m$，由于$m$是一个事先设定好的远远大于image objects个数的整数，所以$N>>m$即生成的prediction boxes的数量会远远大于ground truth boxes 数量
+#### 为什么要匹配?
+##### 因为输出的$b\times 100$个检测集合是无序的,如何和**gt** bbox计算loss呢?
+##### 需要 [[bipartite graph matching]] 双边匹配得到匹配索引 index
+#### ground truth boxes的个数(即图中object的个数)为$m$，由于$N$是一个事先设定好的远远大于image objects个数的整数，所以$N>>m$即生成的prediction boxes的数量会远远大于ground truth boxes 数量
 ##### 为了解决上述问题,认为构造一个新的物体类别 $\phi$ 表示没有物体
 ##### 多出来的$N-m$个prediction embedding就会和 $\phi$类别配对
 #### (1) 用 [[Hungarian]] 找到cost最小的 bipartite matching方案
