@@ -6,7 +6,7 @@ related: [[seqence-to-sequence]], [[attention]]
 ## [[sequence-to-sequence]] model by using [[self-attention]]
 
 ### The original paper: [[Attention is all you need]] , NIPS, 2017. #related
-### Purely based [[attention]] and dense layers ( [[fully connected layer]] )
+### Purely based [[attention]] and dense layers ( [[fully connected layer]] )tt
 ### 整个结构就是用 [[attention]]层和 [[self-attention]]层组成的
 ### Higher accuracy than [[RNN]]s on large datasets
 ## 相关资料
@@ -27,7 +27,7 @@ related: [[seqence-to-sequence]], [[attention]]
 #### **Query**用来匹配Key值,在decoder中生成第$j$个状态向量时使用
 #### **Key**用来被Query匹配,相当于数据库,是encoder中已经学习到的
 #### $m$个$k_i$向量组成大$\mathbf{K}$矩阵
-##### ![image.png](../assets/pages_transformer_1613881863023_0.png)
+##### ![image.png](../assets/pages_transformer_1613881863023_0.png){:height 200, :width 705}
 ### 2. 计算weights: $\mathbf{\alpha}_{:j}=\rm{Softmax}\left(\mathbf{K}^{\top} \mathbf{q}_{:j}\right)\in{\mathbb{R}^m}$
 :PROPERTIES:
 :id: 603216e2-71c1-4006-9977-3f2577cd5c65

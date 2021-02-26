@@ -96,7 +96,17 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 ###### shape $(100, 256)$
 ###### 被成为^^object queries^^
 ###### 被decoder转换成output embeddings
-####### 在学习过程中提供target和context image 之间的关系,相当与全局注意力
+####### 在学习过程中提供target和context image 之间的关系,相当于全局注意力
+######## 通俗理解: object queries矩阵内部通过学习建模了100个物体之间的全局关系，例如房间里面的桌子旁边(A类)一般是放椅子(B类)，而不会是放一头大象(C类)
+######## 训练过程中每个格子(共N个)的向量都会包括整个训练集相关的位置和类别信息
+######### 例如第0个格子里存储某个空间位置的大象类别的嵌入向量
+########
+#+BEGIN_SRC python
+# num_queries=100,hidden_dim=256
+self.query_embed = nn.Embedding(num_queries, hidden_dim)
+#+END_SRC
+######## 作用有点类似anchor in [[Faster R-CNN]],但是是可学习的,不是提前设置好的
+#######
 #### Using self and encoder-decoder attention over these embeddings, the model globally reasons about all objects together using [[Pairwise]] relations between them
 ##### while able to use the whole image as context
 ### 1.4 [[FFN]]
