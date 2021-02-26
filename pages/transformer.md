@@ -128,7 +128,7 @@ $\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
 ##### ![image.png](../assets/pages_transformer_1613895755025_0.png){:height 145, :width 703}
 #### 2. 计算**weights** 权重向量
 ##### ((603216e2-71c1-4006-9977-3f2577cd5c65))
-##### ![image.png](../assets/pages_transformer_1613896011017_0.png){:height 225, :width 492}
+##### ![image.png](../assets/pages_transformer_1613896011017_0.png){:height 223, :width 492}
 #### 3. 计算**context vector**
 ##### $\mathbf{c}_{:j}=\alpha_{1j}\mathbf{v}_{:1}+\cdots+\alpha_{mj}\mathbf{v}_{:m}=\mathbf{V\alpha}_{:j}$
 ##### ![image.png](../assets/pages_transformer_1613896181992_0.png){:height 233, :width 496}
@@ -185,9 +185,9 @@ $\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
 ##### ![image.png](../assets/pages_transformer_1613911278318_0.png){:height 225, :width 273}
 #### Encoder 结构
 ##### ![image.png](../assets/pages_transformer_1613911365517_0.png){:height 319, :width 219}
-##### 一般有6个blocks
-###### 每个block有2层
-###### 每个block有自己的参数,互相独立
+###### 一般有6个blocks
+####### 每个block有2层
+####### 每个block有自己的参数,互相独立
 ## Stacked Attention Layers
 :PROPERTIES:
 :heading: true

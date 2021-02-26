@@ -25,7 +25,7 @@ tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]],#keypoint, #mo
 ##### 传统方法
 ###### **projection constraint** from the 3D bounding box to the 2D box
 ####### 4 edges of a 2D box -> 4 constraints
-####### the performance **deteriorates dramatically** with the small error of the 2D detector. 2D的微小误差会导致3D严重恶化 #related [[smoke]] 
+####### the performance **deteriorates dramatically** with the small error of the 2D detector. 2D的微小误差会导致3D严重恶化 #related [[smoke]]
 :PROPERTIES:
 :id: 60193c1d-a8b3-4cc1-8ee7-80577c19e580
 :END:
