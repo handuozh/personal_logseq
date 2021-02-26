@@ -29,7 +29,10 @@ class PositionwiseFeedForward(nn.Module):
         return x
 ```
 ###
-## [[DETR]]
+## use case in [[DETR]]
+:PROPERTIES:
+:id: 60389635-8602-43a5-9b4d-dc077719605a
+:END:
 ### 3-layer perceptron with [[ReLU]] activation and a **hidden dimension** $d$, and a linear projection layer
 ### Predict the normalized center coordinate, height, width of box
 #### linear projection layer predicts the class label using [[softmax]] function

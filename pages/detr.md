@@ -37,9 +37,10 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 :END:
 ### 两个关键点
 #### [[transformer]]的 [[Encoder-decoder]]架构一次性生成$N$个(100)box prediction
+##### 有几处针对目标检测对原始 [[transformer]] 进行的网络结构改进
 #### 设计 [[bipartite graph matching]] loss
 ##### 基于predicted boxes和gt boxes进行bipartite二分图匹配计算loss
-### ![image.png](../assets/pages_detr_1613963899263_0.png)
+### ![image.png](../assets/pages_detr_1613963899263_0.png){:height 143, :width 749}
 ## 1. DETR Architecture
 :PROPERTIES:
 :heading: true
@@ -94,27 +95,45 @@ tags: #attention, #detection, #transformer, #zotero, #literature-notes, #referen
 #### 因为transformer decoder结构是permutation-invariant的
 ##### $N$个input embeddings must be different to produce different results
 ###### shape $(100, 256)$
-###### 被成为^^object queries^^
-###### 被decoder转换成output embeddings
+###### 被称为^^object queries^^
 ####### 在学习过程中提供target和context image 之间的关系,相当于全局注意力
 ######## 通俗理解: object queries矩阵内部通过学习建模了100个物体之间的全局关系，例如房间里面的桌子旁边(A类)一般是放椅子(B类)，而不会是放一头大象(C类)
 ######## 训练过程中每个格子(共N个)的向量都会包括整个训练集相关的位置和类别信息
 ######### 例如第0个格子里存储某个空间位置的大象类别的嵌入向量
+######### 但是这个大象类别embedding vector和某一张图片的大象特征无关,而是通过训练考虑了所有图片里的某个位置附近的大象编码特征
+######### 属于和位置有关的全局大象统计信息
 ########
 #+BEGIN_SRC python
 # num_queries=100,hidden_dim=256
 self.query_embed = nn.Embedding(num_queries, hidden_dim)
 #+END_SRC
+######## 训练过程
+######### 图片输入到encoder中进行特征编码,输出的编码向量就是$K$和$V$
+######### **object queries**是$Q$
+######### 计算QQ和KK,加权VV得到编码器的输出
+########## 第0个格子的$q_0$会和KK中所有向量计算
+########## 目的是查找某个位置附近有没有大象
+########## 如果有会加权输出
+######### 整个过程计算后就可有把编码vector提取出来,特征已经对齐了
 ######## 作用有点类似anchor in [[Faster R-CNN]],但是是可学习的,不是提前设置好的
-#######
+########
+###### 被decoder转换成output embeddings
 #### Using self and encoder-decoder attention over these embeddings, the model globally reasons about all objects together using [[Pairwise]] relations between them
 ##### while able to use the whole image as context
-### 1.4 [[FFN]]
+#### 一次解码输出全部unordered set
+##### 因为任务是无序集合，做成顺序推理有序输出没有必要
+##### 只需要初始化时候输入一个全0的查询向量A，类似于BOS_WORD作用
+###### 然后第一个解码器接受该输入A，解码输出向量作为下一个解码器输入，不断推理即可.
+###### 不需要在第二个解码器输入时候考虑BOS_WORD和第一个解码器输出.
+### 1.4 **Feed Forward Network**
+{{embed ((60389635-8602-43a5-9b4d-dc077719605a)) }}
 ### 1.5 Auxiliary decoding losses
 :PROPERTIES:
 :heading: true
 :END:
 #### add prediction FFNs and [[Hungarian]] loss after each decoder layer
+##### 作者实验发现，如果对解码器的每个输出都加入辅助的分类和回归loss，可以提升性能
+##### 作者除了对最后一个编码层的输出进行Loss监督外，还对其余5个编码器采用了**同样的loss监督**，只不过权重设置低一点而已
 #### All FFNs share the parameters
 #### Use additional shared **layer-norm** to normalize input to the prediction FFNs from different decoder layers
 ### ![image.png](../assets/pages_detr_1613987449992_0.png)
