@@ -151,7 +151,7 @@ self.query_embed = nn.Embedding(num_queries, hidden_dim)
 :PROPERTIES:
 :heading: true
 :END:
-#### 为什么要匹配?
+#### 为什么要匹配? #motivation
 ##### 因为输出的$b\times 100$个检测集合是无序的,如何和**gt** bbox计算loss呢?
 ##### 需要 [[bipartite graph matching]] 双边匹配得到匹配索引 index
 #### ground truth boxes的个数(即图中object的个数)为$m$，由于$N$是一个事先设定好的远远大于image objects个数的整数，所以$N>>m$即生成的prediction boxes的数量会远远大于ground truth boxes 数量
@@ -159,6 +159,7 @@ self.query_embed = nn.Embedding(num_queries, hidden_dim)
 ##### 多出来的$N-m$个prediction embedding就会和 $\phi$类别配对
 #### (1) 用 [[Hungarian]] 找到cost最小的 bipartite matching方案
 ##### search for a permutation of $N$ elements $\sigma \in \mathcal{G}_N$ with the lowest cost
+###### $\hat{\sigma}(i)$表示无序gt bbox集合的哪个元素和输出预测集合中的第$i$个匹配
 ######
 $$
 \hat{\sigma}=\underset{\sigma \in \mathfrak{S}_{N}}{\arg \min } \sum_{i}^{N} \mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)
@@ -182,14 +183,15 @@ $$
 ###### linear combination of a negative log-likelihood
 ####### class prediction
 ####### box loss
-######
+###### 提供输入的$N$个输出集合和$M$个gt bbox之间的**关联程度**
+#######
 $$
 \mathcal{L}_{\text {Hungarian }}(y, \hat{y})=\sum_{i=1}^{N}\left[-\log \hat{p}_{\hat{\sigma}(i)}\left(c_{i}\right)+\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\text {box }}\left(b_{i}, \hat{b}_{\hat{\sigma}}(i)\right)\right]
 $$
-###### $\hat{\sigma}$ optimal assignment in step (1)
-###### down-weight the log-probability term when $c_i=\phi$ by factor 10 #practical
-####### 解决 class imbalance
-####### #related [[Faster R-CNN]] training procedure balances positive/negative by ^^subsampling^^
+####### $\hat{\sigma}$ optimal assignment in step (1)
+####### down-weight the log-probability term when $c_i=\phi$ by factor 10 #practical
+######## 解决 class imbalance
+######## #related [[Faster R-CNN]] training procedure balances positive/negative by ^^subsampling^^
 ###### The matching cost between object and $\phi$ does not depend on prediction
 ####### in this case the cost is constant
 ##### Bounding box loss

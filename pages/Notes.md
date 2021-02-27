@@ -7,10 +7,11 @@ title: Notes
 Consider how hard it is to change yourself and you'll understand what little chance you have in trying changing others.  ~Jacob M. Braude
 #+END_QUOTE
 ## [[Academic]]
+### [[Keypoint]]
+#### {{query (page-tags (and Keypoint Siamese Network) )}}
+###
 ### [[dataset]]
-### {{query (page-property type Article)}}
 ## [[Books]]
-### {{query (property type book)}}
 ## [[Coding]]
 ## [[Utility]]
 ##
