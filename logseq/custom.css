@@ -736,6 +736,11 @@ h1.title {
   margin: 0.8em 0 0.25rem 0;
 }
 
+.ls-block h4 {
+  font-size: 1em;
+  margin: 0.4em 0 0em 0;
+}
+
 /*==================================================*/
 /* == folding titles : bigger arrow == */
 /*==================================================*/
@@ -1373,8 +1378,7 @@ left: -1px;
 border-left-width: 2px;
 }
 
-.ls-block > .block-children:hover {
+/* .ls-block > .block-children:hover {
   left: -1px;
   border-left-width: 2px;
- }
-
+ } */

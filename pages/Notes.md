@@ -9,7 +9,6 @@ Consider how hard it is to change yourself and you'll understand what little cha
 ## [[Academic]]
 ### [[Keypoint]]
 #### {{query (page-tags (and Keypoint Siamese Network) )}}
-###
 ### [[dataset]]
 ## [[Books]]
 ## [[Coding]]
