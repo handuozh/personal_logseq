@@ -1,0 +1,8 @@
+- convert and copy a file
+	- `if`
+		- Specify the input pathname
+		- the default is standard input
+	- `of`
+		- Specify  the  output  pathname
+		- the default is standard output
+	-

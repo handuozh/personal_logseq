@@ -1,0 +1,18 @@
+- Future read
+	- [[Data-Free Knowledge Distillation for Object Detection]]
+		- https://openaccess.thecvf.com/content/WACV2021/papers/Chawla_Data-Free_Knowledge_Distillation_for_Object_Detection_WACV_2021_paper.pdf
+	- [[Localization Distillation for Object Detection]]
+- Basics
+	- Teacher-Student Model
+		- 1) Train teacher model (Net-T)
+			- 参数量没有限制
+			- 模型相对复杂
+				- 可以由多个分别训练的模型集成而成
+		- 2) Train student model (Net-S)
+			- 参数量小，模型结构相对简单的单模型
+		- **机器学习最根本的目的**在于训练出在某个问题上泛化能力强的模型
+			- Generalization 泛化能力强: 在某问题的所有数据上都能很好地反应输入和输出之间的关系，无论是训练数据，还是测试数据，还是任何属于该问题的未知数据
+			- 现实中，由于我们不可能收集到某问题的所有数据来作为训练数据，并且新数据总是在源源不断的产生，因此我们只能退而求其次，训练目标变成在已有的训练数据集上建模输入和输出之间的关系
+			- 由于训练数据集是对真实数据分布情况的采样，训练数据集上的最优解往往会多少偏离真正的最优解
+			- 直接让Net-S去学习Net-T的泛化能力
+		-

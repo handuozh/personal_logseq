@@ -1,0 +1,46 @@
+---
+title: aws
+---
+
+- 0. 基础知识
+    - Node.js, Python, Go, Java
+    - 网络知识
+        - [[TCP/IP]]
+        - [[HTTP]]
+    - [[Docker]]
+        - [[K8S]]
+    - Database
+        - [[RDB]]
+        - [[SQL]]
+        - [[NoSQL]]
+    - CloudWatch
+        - 监控成本
+        -
+- 1. 组建规划网络
+    - [[VPC]]
+    - SubNet
+    - ACL
+    - SecurityGroup
+    - RouteTable
+- 2. 设计网络应用
+    - [[EC2]]
+    - ELB 负载均衡
+    - Database
+    - Auto Scaling
+    - MultiAZ
+    - MultiRegion 全球部署
+- 3. AWS服务
+    - [[VPC]]
+    - [[EC2]]
+    - [[S3]]
+    - [[IAM]] 用户权限
+    - [[Lambda]] 无服务器应用
+    - API Gateway
+    - Route 53
+    - CloudTrail
+    - CloudWatch
+    - Elastic Beanstalk
+    - SQS
+    - ECR
+    - ECS
+-

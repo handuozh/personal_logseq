@@ -1,10 +1,9 @@
 #+TITLE: SuperGlue
-#+tags: [[graph network]], [[Descriptor Matching]], #attention, #transformer, #GNN, #zotero, #literature-notes, #reference
+#+tags: [[graph network]], [[Descriptor-Matching]], #attention, #transformer, #GNN, #zotero, #literature-notes, #reference
 #+authors: [[Paul-Edouard Sarlin]], [[Daniel DeTone]], [[Tomasz Malisiewicz]], [[Andrew Rabinovich]]
 #+type: [[Article]]
 #+citekey: sarlinSuperGlueLearningFeature2020
 #+publication date: [[2020-03-28]]
-
 ** SuperGlue: Learning Feature Matching with Graph Neural Networks #reading
 *** Zotero Metadata
 

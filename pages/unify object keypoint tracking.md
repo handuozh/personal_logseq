@@ -1,0 +1,33 @@
+---
+title: unify object keypoint tracking
+---
+
+- #related [[Working projects]]
+- Background
+    - Modern visual SLAM methods for dynamic environment
+        - indirect ways
+        - [[Dynamic Object Tracking in SLAM]]  #related
+            - Feature tracking -> camera tracking
+            - mask + camera tracking -> object tracking
+            - Is object in motion -> output
+        - Object detection
+            - surrogate regression and classification on large set of
+                - proposals [[Faster R-CNN]], [[cascade R-CNN]]
+                - anchors [[focal loss]], [[YOLO]]
+                - window centers [[Objects as points]]
+            - Need postprocessing steps (NMS)
+            -
+- Ideas
+    - Set prediction formulation (finite predictions)
+    - No geometric priors (NMS, anchors, ...)
+    - Fully differentiable
+    - Competitive performance
+- Novelty
+    - [[query-key]]  schema for both [[MOT]]  and [[Descriptor-Matching]] of [[Keypoint]]s
+    -
+- Technical Description
+    - Network Architecture
+    - Training
+    - Inference
+- Experiment Results
+    -

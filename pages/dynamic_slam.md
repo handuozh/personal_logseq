@@ -2,6 +2,8 @@
 title: Dynamic SLAM
 ---
 
-## [[Semantic Aware SLAM]]
-## [[segmentation and MOT]]
-##
+- [[object-aware dynamic SLAM]]
+    - [[Semantic Aware SLAM]]
+- [[slam+tracking]]
+    - [[segmentation and MOT]]
+-

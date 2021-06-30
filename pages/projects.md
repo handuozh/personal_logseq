@@ -2,6 +2,5 @@
 title: Projects
 ---
 
-## [[Working projects]]
-
-## [[Archived projects]]
+- [[Working projects]]
+- [[Archived projects]]

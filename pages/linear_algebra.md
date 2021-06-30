@@ -2,4 +2,4 @@
 title: linear algebra
 ---
 
-## 
+-

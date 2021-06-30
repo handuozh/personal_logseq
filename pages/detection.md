@@ -1,0 +1,4 @@
+- CenterX
+	- https://github.com/JDAI-CV/centerX.git
+	- [[knowledge distillation]]
+	-

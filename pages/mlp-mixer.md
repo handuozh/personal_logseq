@@ -1,0 +1,6 @@
+- #transformer
+- All-MLP Architecture for Vision
+    -
+    - Architecture
+        - ![image.png](assets/image_1620713276695_0.png)
+        -

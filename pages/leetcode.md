@@ -2,6 +2,6 @@
 title: Leetcode
 ---
 
-## [[DP]]
-### [[LCS]]
-### [[LIS]]
+- [[DP]]
+	- [[LCS]]
+	- [[LIS]]

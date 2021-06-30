@@ -1,0 +1,2 @@
+- The optimization stage of [[SLAM]] and [[SFM]]
+-

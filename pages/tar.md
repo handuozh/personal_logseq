@@ -1,0 +1,25 @@
+- GNU `tar` saves many files together into a single tape or disk archive
+- Examples
+	- 压缩
+		- `tar -cf archive.tar foo bar`
+			- create archive.tar from foo and bar.
+		- `tar -xf archive.tar`
+			- extract all files from archive.tar.
+		- `tar -tvf archive.tar`
+			- List all files in archive.tar verbosely.
+- Params
+	- `-c`, `--create`
+		- create a new archive
+	- `-f`, `--file=ARCHIVE`
+		- use archive file or device ARCHIVE
+	- `-t`, `--list`
+		- **list** the contents of an archive
+	- `-z`, `--gzip`
+		- filter the archive through ^^gzip^^
+	- `-j`, `--bzip2`
+		- filter the archive through ^^bzip2^^
+	- `-x`, `--extract, --get`
+		- extract files from an archive
+		- 解压
+	- `-r`, `--append`
+		- 追加

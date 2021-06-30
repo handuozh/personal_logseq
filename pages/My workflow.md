@@ -1,0 +1,22 @@
+- Note taking
+	- logseq
+	- Obsidian
+- Collaboration on documentation
+	- js.wiki
+		- https://github.com/Requarks/wiki
+	- outline
+		- https://github.com/outline/outline
+		- https://www.getoutline.com/
+	- lark
+- Collaboration on development
+	- [[gitea]]
+		- https://gitea.io/en-us/
+- Coding regulations
+	- Indention
+	- IDE and tools
+		- pycharm
+		- vs code
+	-
+- Other tools
+	- VIM
+	- tmux

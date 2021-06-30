@@ -1,0 +1,7 @@
+- #related [[attention]]
+- Convolutional Block Attention Module
+- Strucuture
+	- ![image.png](../assets/image_1624603409561_0.png){:height 271, :width 606}
+	- Each attention module
+		- ![image.png](../assets/image_1624603540723_0.png){:height 381, :width 581}
+		-

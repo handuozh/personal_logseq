@@ -3,8 +3,8 @@ title: VO
 public: true
 ---
 
-##
----
-alias: [[visual odometry]]
----
-##
+-
+  ---
+  alias: [[visual odometry]]
+  ---
+-

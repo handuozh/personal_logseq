@@ -1,9 +1,10 @@
 ---
 title: Coding
+public: true
 ---
 
-## [[Algorithm Basics]]
-## [[Leetcode]]
-## [[Library]]
-## [[Utility]]
-##
+- [[Algorithm Basics]]
+- [[Leetcode]]
+- [[Library]]
+- [[Utility]]
+-

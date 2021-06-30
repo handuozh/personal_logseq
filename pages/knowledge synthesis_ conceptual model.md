@@ -1,0 +1,25 @@
+---
+title: knowledge synthesis: conceptual model
+---
+
+- #[[My workflow]]
+- Motivation
+	- Knowledge synthesis
+		- aka real literature review
+	- synthesize the literature and have a set of promising angles of attack on my research problem
+	- What is **synthesis**
+		- your understanding, advanced knowledge
+		- create something new
+			- construction of a new point of view from a set of observations
+- Challenges
+	- Too much detail
+		- Missing forest for trees
+		- lack of higher-level synthesis
+	- Too little detail
+		- Missing the devil/diamonds in the details
+		- Over-generalization of claims
+		- Gloss over critical inconsistencies or contradictions
+	- Insufficient context
+		- Connections to other claims
+	- Information silos
+	- Information overload

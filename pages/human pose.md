@@ -1,0 +1,6 @@
+---
+title: human pose
+---
+
+- [[Transpose]]
+-

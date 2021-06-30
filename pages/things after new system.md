@@ -1,0 +1,41 @@
+- upgrade and stable sources
+- drivers
+	- nvidia drivers
+- Configuations
+	- `ulimit -n 5000`
+	- ssh
+		- `ssh-keygen -t ed25519 -C "email"`
+		- `ssh-copy-id -i .ssh/key_pub server_port`
+	- ufw
+		- `sudo ufw enable`
+		- `sudo ufw start`
+		- `sudo ufw allow xxx`
+		-
+- necessary libraries
+	- build-essentials, cmake
+	- [[git]]
+	- curl, aria2
+	- htop
+	- python3-pip, python3
+	- openssh
+		- change default port from 22 to other uncommon ports
+			- in `/etc/ssh/sshd_config`
+	- CUDA and CUDNN
+- optional libraries
+	- fonts
+		- powerfonts
+		- nerd fonts
+	- [[CLI tools]]
+		- search tools
+		  collapsed:: true
+			- fzf
+			- fd
+			- ripgrep
+	- guake
+	- zsh, antibody
+	  collapsed:: true
+		- autosuggestion
+		- histdb
+		- zoxide
+	- miniconda
+	-

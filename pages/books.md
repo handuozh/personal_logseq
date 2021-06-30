@@ -1,17 +1,14 @@
 ---
 title: Books
+public: true
 ---
 
-## [[14 Lectures on Visual SLAM]]
-:PROPERTIES:
-:type: [[book]]
-:author: Gaoxiang
-:category: [[robotics]], [[algorithm]], [[cv]]
-:END:
-## [[C++ Primer]]
-:PROPERTIES:
-:type: [[book]]
-:category: [[C++]]
-:END:
-## [[Effective C++]], [[More Effective C++]], [[Effective STL]]
-##
+- [[14 Lectures on Visual SLAM]]
+  type:: [[book]]
+  author:: Gaoxiang
+  category:: [[robotics]], [[algorithm]], [[cv]]
+- [[C++ Primer]]
+  type:: [[book]]
+  category:: [[C++]]
+- [[Effective C++]], [[More Effective C++]], [[Effective STL]]
+-

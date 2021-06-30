@@ -2,4 +2,4 @@
 title: journal prompt
 ---
 
-## 
+-

@@ -1,0 +1,4 @@
+- In machine learning and deep learning
+	- gradient descent
+- ![optimizer gif.gif](../assets/optimizer_gif_1622767354521_0.gif)
+-

@@ -1,0 +1,6 @@
+- Average Precision
+	- 一般用于 [[object detection]] 的evaluation
+- #related [[MaP]] (平均精确度均值)
+- Prerequisites
+	- Precision
+		-

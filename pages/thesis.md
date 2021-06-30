@@ -1,0 +1,57 @@
+---
+title: thesis
+---
+
+- **Title:** Visual Localization and Obstacle Mapping for Mobile Robot Navigation
+- 1. Introduction
+    - 1.1 Research Scope
+        - Introduction
+            - robot navigation and localization
+            - object detection + obstacle detection -> mapping and modelling
+        - Keypoint Extraction and Description
+            - Invariant Representation
+        - Keypoint Matching
+        - Visual Odometry and SfM
+        - 3D Object Detection
+            - From stereo information
+            - CNN based
+    - 1.2 Motivations
+    - 1.3 Major Contributions
+    - 1.4 Outline
+- 2. Feature Anticipation in SLAM
+    - 2.1 Literature Review of Related Methods for Feature based Visual SLAM
+        - Keypoint extraction and description
+        - Data Association of Visual Odometry
+            - KNN
+            - optical flow
+        - Feature based Visual SLAM methods
+    - 2.2 State-of-the-Art Visual SLAM: ORB-SLAM2
+    - 2.3 Temporal
+        - Good features to track
+    - 2.4 Spatial
+        - Attention and anticipation in fast visual -inertial
+        - Multiple Hypothesis semantic mapping
+- 3. [[GMC]]
+    - 3.1 Literature Review of Motion Segmentation
+    - 3.2 GMS
+    - 3.3 Motion Pattern
+    - 3.4 Motion Segmentation by Consensus
+- 4. Object Aware SLAM
+    - 4.1 Literature Review of Object Aware SLAM
+        - {{query (page-tags [[3D Object Detection]] )}}
+    - 4.2 [[3D Object Detection]]
+    - 4.3 [[3d track]]
+    - 4.4 Dynamic SLAM
+- 5. Semantic Mapping of Mobile Robot
+    - 5.1 Literature Review of Object Modelling and Representation
+    - 5.2 Semantic Mapping of 3D Obstacles from Stereo Vision
+    - 5.3 Map Merging and Update
+- 6. Keypoint detection and Description in a unified manner
+    - 6.1 Literature Review of CNN-based Keypoint Extraction
+    - 6.2 Literature Review of CNN-based Image Retrieval
+        - Loop Closure in SLAM
+        - Bag of Words
+        - VLAD
+        - CNN based
+        - 3D Feature Fusion
+    -

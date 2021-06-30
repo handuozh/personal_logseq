@@ -2,6 +2,8 @@
 title: activation function
 ---
 
-## [[ReLU]]
-## [[Leaky ReLU]]
-##
+- [[ReLU]]
+- [[Leaky ReLU]]
+- [[softmax]]
+- [[softplus]]
+- [[Sigmoid]]

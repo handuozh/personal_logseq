@@ -1,0 +1,35 @@
+---
+title: interview
+---
+
+- [[deep learning]]
+	- 常用[[activation function]]及作用
+	- 过拟合
+	- 池化层作用
+	- resnet
+		- 网络退化
+		- 反向传播过程中要不断地传播梯度，而当网络层数加深时，梯度在逐层传播过程中会逐渐衰减，导致无法对前面网络层的权重进行有效的调整
+		- 残差网络中， 加入了short connections 为梯度带来了一个直接向前面层的传播通道，缓解了梯度的减小问题
+	- bn
+	- 梯度消失/梯度爆炸
+	- [[cnn]]
+		- 局部连接
+		- 权值共享
+	- loss
+		- [[cross entropy]]
+		- KL divergence
+	-
+	- [[object detection]]
+		- focal loss
+		- one-stage vs two-stage
+		- ssd, faster rcnn
+		- yolo
+	- [[point cloud]]
+		- farthest point sampling
+	- [[Segmentation]]
+	- [[3D Object Detection]]
+- Maths
+	- 度量距离 metric distance
+		- cosine distance
+		- hamming distance
+	-

@@ -3,5 +3,5 @@ title: Robotics
 public: true
 ---
 
-## [[Kinematic]]
-##
+- [[Kinematic]]
+-
